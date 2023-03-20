@@ -1,176 +1,530 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="ace ace-card-on ace-tab-nav-on ace-main-nav-on ace-sidebar-on" data-theme-color="#c0e3e7">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Minghao's Homepage</title>
-    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-    <!--<link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <!-- Bulma Version 0.7.5-->
-    <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.5/css/bulma.min.css" />
-    <link href='css/style.css' rel='stylesheet' type='text/css'>
-    <script defer src="font-awesome-5.9.0/js/brands.min.js"></script>
-    <script defer src="font-awesome-5.9.0/js/fontawesome.min.js"></script>
-    <script src="js/menuspy.js"></script>
+
+    <title>Mingrui's Homepage</title>
+
+    <!-- Icon Fonts -->
+    <link href="./styles/fonts/icomoon/style.css" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="./styles/js/plugins/highlight/solarized-light.css" rel="stylesheet">
+    <link href="./styles/css/style.css" rel="stylesheet">
+
+    <!-- Modernizer -->
+    <script type="text/javascript" src="./styles/js/vendor/modernizr-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="./styles/css/main.css">
 </head>
+
 <body>
-    <section class="section">
-        <div class="container">
-          <div class="columns">
-            <div class="column is-2">
-              <div class="sticky">
-                <figure class="image is-128x128">
-                  <img class="is-rounded" src="images/chenminghao.jpg">
-                </figure>
-                <div class="content">
-                  <h3>Minghao Chen</h3>
-                  <h6>Ph.D.</h6>
-                </div>
-                <!-- details -->
-                <div class="details">
-                  <h3>EMAIL</h3>
-                  <p><a href="mailto:chenminghaoscu@163.com">chenminghaoscu<br>[at]163[dot]com</a></p>
-                </div>
-                <!-- social network icons -->
-                <div class="social">
-                  <a href="https://github.com/HMCCMH" target="_blank">
-                    <span class="fab fa-github fa-2x" style="display:inline; text-decoration: none"></span>
-                  </a>
-                  <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=_i_Ys-gAAAAJ&gmla=AJsN-F6MXdDTiev3D7voZH92X1rCP2gWDUQYJoHKTkDuyBY85VAUJFmIIGCPkZbjcBYY48KO30vBjuvD6KJI3MRjjj3OtbTgw8G2i_d4-Ken-8p_4FOlSDurB6ihnS9jCf1R_UrOfGkZ" target="_blank">
-                    <span class="fab fa-google fa-2x" style="display:inline; text-decoration: none"></span>
-                  </a>
-                </div>
-    
-    
-                <div id="sidebar" class="menu sticky is-hidden-mobile">
-                  <p class="menu-label"><b>Quick Links</b></p>
-                  <ul class="menu-list">
-                    <li><a href="#Introduction">Introduction</a></li>
-                    <li><a href="#Publication">Publication</a></li>
-                    <li><a href="#Project">Project</a></li>
-                  </ul>
-                </div>
-              </div>
-    
-    
-    
+    <div class="ace-wrapper">
+
+        <header id="ace-header" class="ace-container-shift ace-logo-in ace-head-boxed ace-nav-right">
+            <div class="ace-head-inner">
             </div>
-            <div class="column">
-              <div class="content">
-                <!--News-->
-                <!-- <h3 id="news">
-                  News
-                </h3>
-                <ul>
-                  <li><span>July, 2021 - Two paper get accepted to ICCV2021.</span></li>
-                  <li><span>Apr, 2021 - Our ICCV2021 Workshop Call-for-paper: <a href="https://geometry.stanford.edu/struco3d/" target="_blank">StruCo3D2021: Structural and Compositional Learning on 3D Data.</a> </span></li>
-                  <li><span>Feb, 2021 - One paper gets accepted to TVCG.</span></li>
-                  <li><span>Apr, 2020 - One paper gets accepted to TPAMI.</span></li>
-                  <li><span>July, 2019 - One paper gets accepted to ICCV2019 (oral).</span></li>
-                  <li><span>Jun, 2019 - Has successfully defended my Ph.D. thesis!</span></li>
-                </ul> -->
-    
-                <!--Intro-->
-                <h3 id="Introduction">Introduction</h3>
-                <p>I am a fourth-year Doctor student majoring in Control Theory and Control Engineering, advised by Prof.
-                  <a href="https://people.ucas.ac.cn/~lien" target="_blank" style="text-decoration: underline;">En Li</a> and Prof. Zize Liang. 
-                  Before that, I received my B.S. degree in College of Electrical Engineering from Sichuan University in 2019. <br/><br/>
-  
-                  My research interest includes computer vision and robot control, especially in object detection
-                  manipulator control. My work covers pose estimation, establishment of robot system, and weakly supervised object detection. 
-                </p>
-                [<a href = "files/chenminghao_resume.pdf">Resume</a>].<br/><br/>
-    
-    
-                <!--Research-->
-                <h3 id="Publication">Publication</h3>
-                <h4>2023</h4>
-    
-                <article class="columns">
-                  <div class="column is-3">
-                    <figure class="image">
-                      <img src="images/1.jpg">
-                    </figure>
-                  </div>
-                  <div class="column">
-                    <div class="content">
-                      <p>
-                        <i>A Passive Compliance Obstacle-Crossing Robot for Power Line Inspection and Maintenance</i><br>
-                        <b>Minghao Chen</b>, Yinghua Cao, Yunong Tian, En Li, Zize Liang, Min Tan.<br>
-                        IEEE Robotics and Automation Letters (<b>RA-L</b>), Accepted, 2023.<br>
-                        <!-- <a href="https://shuquanye.com/PNAL_website/" target="_blank">[<u>project (code)</u>]</a> -->
-                        <!-- <a href="https://arxiv.org/abs/2107.14230" target="_blank">[<u>paper</u>]</a> -->
-                        <!-- <a href="https://github.com/pleaseconnectwifi/PNAL" target="_blank">[<u>code</u>]</a> -->
-                      </p>
-                    </div>
-                  </div>
-                </article>
-    
-                <article class="columns">
-                  <div class="column is-3">
-                    <figure class="image">
-                      <img src="images/damper.png">
-                    </figure>
-                  </div>
-                  <div class="column">
-                    <div class="content">
-                      <p>
-                        <i>Online Progressive Instance-Balanced Sampling for Weakly Supervised Vibration Damper Detection</i><br>
-                        <b>Minghao Chen</b>, Yunong Tian, Zhishuo Li, En Li, Zize Liang.<br>
-                        IEEE Transactions on Instrumentation and Measurement (<b>TIM</b>), Minor Revision, 2023.<br>
-    <!--                    <a href="https://shuquanye.com/PNAL_website/" target="_blank">[<u>project (code)</u>]</a>-->
-                        <!-- <a href="https://arxiv.org/abs/2108.05126" target="_blank">[<u>paper</u>]</a> -->
-                        <!-- <a href="https://github.com/fyviezhao/m3d-vton" target="_blank">[<u>code</u>]</a> -->
-                      </p>
-                    </div>
-                  </div>
-                </article>
-    
-                <h4>2021</h4>
-                <article class="columns">
-                  <div class="column is-3">
-                    <figure class="image">
-                      <img src="images/inspect.jpg">
-                    </figure>
-                  </div>
-                  <div class="column">
-                    <div class="content">
-                      <p>
-                        <i>Environment Perception Technologies for Power Transmission Line Inspection Robots</i><br>
-                        <b>Minghao Chen</b>, Yunong Tian, Shiyu Xing, Zhishuo Li, En Li, Zize Liang, Rui Guo.<br>
-                        Journal of Sensors, 2021.<br>
-                        <a href="https://www.hindawi.com/journals/js/2021/5559231/" target="_blank">[<u>paper</u>]</a><br>
-                      </p>
-                    </div>
-                  </div>
-                </article>
+        </header>
 
-
-
-                <h3 id="Project">Project</h3>
-                <h4>Power Transmission Line Robot for Inspection and Maintenance</h4>
-                <p>2019.07-2022.08<br/>
-                  <li>Responsible for the hardware and software system construction of the robot, including the hardware
-                    circuit design and assembly of the robot control unit and control framework based on ROS.</li>
-                  <li>Responsible for the communication code of remote control.</li>
-                  <li>Responsible for the control of the manipulator in the robot, realizing the repeatable positioning 
-                    accuracy of the self-developed manipulator is less than 1mm.</li>
-                  <li>Propose an online progeressive instance-balanced sampling algorithm for weakly supervised vibration damper
-                     detection, alleviating the part domination problem caused by the imbalance of positive and negative instances
-                     in weakly supervised vibration damper detection. </li><br/>
-
-                    2023.02-2023.03<br/><br/>
-                   <li>Using moveit to control the manipulator, which is prepared for visual servoing in the furture.</li>
-                </p>
-
-                 
-                
-              </div>
+        <article id="ace-card" class="ace-card bg-primary">
+            <div class="ace-card-inner text-center">
+                <img class="avatar avatar-195" src="./styles/img/personal.jpg" width="195" height="195" alt="">
+                <h1>Mingrui Luo</h1>
+                <h4 class="text-muted">Ph.D.</h4>
+                <hr />
+                <p class="text-muted">Robotics&<br>Intelligent Control</p>
+                <hr />
+                <ul class="ace-social clear-list">
+                    <li><a href="https://github.com/" title="https://github.com/" target="_blank"><span
+                                class="ace-icon ace-icon-github"></span></a></li>
+                    <li><a href="mailto: hi_lmr@163.com" title="hi_lmr@163.com"><span
+                                class="ace-icon ace-icon-contact"></span></a></li>
+                </ul>
             </div>
-          </div>
-        </div>
-      </section>    
+            <footer class="ace-card-footer">
+                <a class="btn btn-lg btn-block btn-thin btn-upper" href="javascript:void(0)"
+                    onclick="window.print()">Download Resume</a>
+            </footer>
+        </article>
+
+        <div id="ace-content" class="ace-container-shift">
+            <div class="ace-container">
+                <div id="ace-nav-wrap" class="hidden-sm hidden-xs">
+                    <div class="ace-nav-cont">
+                        <div id="ace-nav-scroll">
+                            <nav id="ace-nav" class="ace-nav">
+                                <ul class="clear-list">
+                                    <li>
+                                        <a href="#education" data-tooltip="EDUCATION"><span
+                                                class="ace-icon ace-icon-pencil"></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#profetional" data-tooltip="SKILLS & PROFICIENCY"><span
+                                                class="ace-icon ace-icon-trophy"></span></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#publication" data-tooltip="PUBLICATION"><span
+                                                class="ace-icon ace-icon-book"></span></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#experience" data-tooltip="EXPERIENCE"><span
+                                                class="ace-icon ace-icon-flag"></span></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div id="ace-nav-tools" class="hidden">
+                            <span class="ace-icon ace-icon-dots-three-horizontal"></span>
+
+                            <button id="ace-nav-arrow" class="clear-btn">
+                                <span class="ace-icon ace-icon-chevron-thin-down"></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- <div class="ace-nav-btm"></div> -->
+                </div><!-- .ace-nav-wrap -->
+
+                <div class="ace-paper-stock">
+                    <main class="ace-paper clearfix">
+                        <div class="ace-paper-cont clear-mrg">
+                            <!-- START: PAGE CONTENT -->
+                            <div class="padd-box clear-mrg">
+
+                                <section class="section brd-btm" id="education">
+                                    <div class="row">
+                                        <div class="col-sm-12 clear-mrg">
+                                            <h2 class="title-thin text-muted">EDUCATION</h2>
+
+                                            <div class="ref-box hreview">
+                                                <div class="ref-avatar">
+                                                    <img alt="" src="./styles/img/school2.png"
+                                                        class="avatar avatar-54 photo" height="54" width="54">
+                                                </div>
+
+                                                <div class="ref-info">
+                                                    <div class="ref-author">
+                                                        <strong>University of Chinese Academy of Sciences</strong>
+                                                        <span>2020 - Now | Control Theory and Control Engineering |
+                                                            <b>Ph.D.</b> Degree | GPA:<b>3.85</b>/4.0</span>
+                                                    </div>
+
+                                                    <blockquote class="ref-cont clear-mrg">
+                                                        <!-- <p> 我师从导师李恩、谭民研究员，连续获得两届三好学生称号，曾任职于学生会学术部</p> -->
+                                                        <p>I am under the guidance of Prof. En Li and Prof. Min Tan. I
+                                                            have been awarded the title of "Three Good Students" for two
+                                                            consecutive sessions, and have served in the Academic
+                                                            Department of the Student Union.</p>
+                                                    </blockquote>
+                                                </div>
+                                            </div><!-- .ref-box -->
+
+                                            <div class="ref-box hreview">
+                                                <div class="ref-avatar">
+                                                    <img alt="" src="./styles/img/school.jpg"
+                                                        class="avatar avatar-54 photo" height="54" width="54">
+                                                </div>
+
+                                                <div class="ref-info">
+                                                    <div class="ref-author">
+                                                        <strong>Beijing University of Technology</strong>
+                                                        <span>2016 - 2020 | Mechanical Engineering (Major) Robot
+                                                            Engineering (Minor) | <b>B.E.</b> Degree |
+                                                            GPA:<b>3.93</b>/4.0</span>
+                                                    </div>
+
+                                                    <blockquote class="ref-cont clear-mrg">
+                                                        <p>获得校级、市级以及国家级的多个奖学金，并获得多个比赛的一等奖。
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div><!-- .ref-box -->
+
+
+                                        </div><!-- .col-sm-6 -->
+                                    </div><!-- .row -->
+                                </section><!-- .section -->
+
+                                <section class="section brd-btm" id="profetional">
+                                    <h2 class="title-thin text-muted">SKILLS & PROFICIENCY</h2>
+                                    <div class="row">
+                                        <div class="clear-mrg">
+                                            <div class="col-sm-4 clear-mrg">
+
+                                                <div class="progress-bullets crt-animate" role="progressbar"
+                                                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">
+                                                    <strong class="progress-title">Java</strong>
+                                                    <span class="progress-bar">
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                    </span>
+                                                </div>
+
+                                                <div class="progress-bullets crt-animate" role="progressbar"
+                                                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">
+                                                    <strong class="progress-title">HTML</strong>
+                                                    <span class="progress-bar">
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet"></span>
+                                                        <span class="bullet"></span>
+                                                    </span>
+                                                </div>
+                                                <div class="progress-bullets crt-animate" role="progressbar"
+                                                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">
+                                                    <strong class="progress-title">CSS</strong>
+                                                    <span class="progress-bar">
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet"></span>
+                                                        <span class="bullet"></span>
+                                                    </span>
+                                                </div>
+
+                                                <div class="progress-bullets crt-animate" role="progressbar"
+                                                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">
+                                                    <strong class="progress-title">Javascript</strong>
+                                                    <span class="progress-bar">
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet"></span>
+                                                        <span class="bullet"></span>
+                                                        <span class="bullet"></span>
+                                                        <span class="bullet"></span>
+                                                        <span class="bullet"></span>
+                                                    </span>
+                                                </div>
+
+                                            </div>
+
+
+                                            <div class="col-sm-4 clear-mrg">
+
+                                                <div class="progress-bullets crt-animate" role="progressbar"
+                                                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">
+                                                    <strong class="progress-title">Java</strong>
+                                                    <span class="progress-bar">
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                    </span>
+                                                </div>
+
+                                                <div class="progress-bullets crt-animate" role="progressbar"
+                                                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">
+                                                    <strong class="progress-title">HTML</strong>
+                                                    <span class="progress-bar">
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet"></span>
+                                                        <span class="bullet"></span>
+                                                    </span>
+                                                </div>
+
+                                                <div class="progress-bullets crt-animate" role="progressbar"
+                                                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">
+                                                    <strong class="progress-title">CSS</strong>
+                                                    <span class="progress-bar">
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet"></span>
+                                                        <span class="bullet"></span>
+                                                    </span>
+                                                </div>
+
+                                                <div class="progress-bullets crt-animate" role="progressbar"
+                                                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">
+                                                    <strong class="progress-title">Javascript</strong>
+                                                    <span class="progress-bar">
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet"></span>
+                                                        <span class="bullet"></span>
+                                                        <span class="bullet"></span>
+                                                        <span class="bullet"></span>
+                                                        <span class="bullet"></span>
+                                                    </span>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-sm-4 clear-mrg">
+
+                                                <div class="progress-bullets crt-animate" role="progressbar"
+                                                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">
+                                                    <strong class="progress-title">Maven</strong>
+                                                    <span class="progress-bar">
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                    </span>
+                                                </div>
+
+                                                <div class="progress-bullets crt-animate" role="progressbar"
+                                                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">
+                                                    <strong class="progress-title">Spark</strong>
+                                                    <span class="progress-bar">
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet"></span>
+                                                        <span class="bullet"></span>
+                                                        <span class="bullet"></span>
+                                                        <span class="bullet"></span>
+                                                    </span>
+                                                </div>
+
+                                                <div class="progress-bullets crt-animate" role="progressbar"
+                                                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">
+                                                    <strong class="progress-title">Storm</strong>
+                                                    <span class="progress-bar">
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet"></span>
+                                                        <span class="bullet"></span>
+                                                        <span class="bullet"></span>
+                                                    </span>
+                                                </div>
+
+                                                <div class="progress-bullets crt-animate" role="progressbar"
+                                                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">
+                                                    <strong class="progress-title">Jekyll</strong>
+                                                    <span class="progress-bar">
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                        <span class="bullet fill"></span>
+                                                    </span>
+                                                </div>
+
+                                            </div>
+
+                                        </div><!-- .col-sm-6 -->
+                                    </div><!-- .row -->
+                                </section><!-- .section -->
+
+                                <section class="section brd-btm" id="publication">
+                                    <h2 class="title-thin text-muted">PUBLICATION</h2>
+
+                                    <article class="post">
+                                        <a class="post-thumbnail"
+                                            style="background-image: url(./styles/img/paper_1.jpg)"
+                                            href="https://www.hindawi.com/journals/js/2021/5550850/"></a>
+                                        <div class="post-content">
+                                            <h2 class="post-title"><a
+                                                    href="https://www.hindawi.com/journals/js/2021/5550850/">End-Effector
+                                                    Pose Estimation in Complex Environments Using Complementary
+                                                    Enhancement and Adaptive Fusion of Multisensor</a></h2>
+                                            <span class="post-date"><b>Mingrui Luo</b>; En Li; Rui Guo; Jiaxin Liu; Zize
+                                                Liang&nbsp;&nbsp;|&nbsp;&nbsp;Journal of Sensors
+                                                &nbsp;&nbsp;|&nbsp;&nbsp;2021, Mar 25</span>
+                                            <!-- et al. -->
+                                            <p>The proposed method achieves better performances on estimation error and
+                                                update frequency than the original extended Kalman filter (EKF) and
+                                                unscented Kalman filter (UKF) algorithm, especially in complex
+                                                environments.</p>
+                                            <div class="page-footer">
+                                                <div class="page-tag">
+                                                    <a class="tag">&#35; Multisensor fusion</a>
+                                                    <a class="tag">&#35; Positioning</a>
+                                                </div>
+                                                <div class="page-share">
+                                                    <a href="https://downloads.hindawi.com/journals/js/2021/5550850.pdf"
+                                                        title="Read the paper"><span
+                                                            class="ace-icon ace-icon-file"></span>Paper</a>
+                                                    <a href="" title="Watch the experiment video"><span
+                                                            class="ace-icon ace-icon-film"></span>Video</a>
+                                                    <a href="" title="Download the program code"><span
+                                                            class="ace-icon ace-icon-folder"></span>Code</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                    <article class="post">
+                                        <a class="post-thumbnail"
+                                            style="background-image: url(./styles/img/paper_2.jpg)"
+                                            href="https://ieeexplore.ieee.org/document/9326629"></a>
+                                        <div class="post-content">
+                                            <h2 class="post-title"><a
+                                                    href="https://ieeexplore.ieee.org/document/9326629">An Active and
+                                                    Adaptive Image Enhancement Method for Applications in Low-Light and
+                                                    Narrow Environment</a></h2>
+                                            <span class="post-date"><b>Mingrui Luo</b>; En Li; Rui Guo; Shengchuan Li;
+                                                Cunfeng Kang&nbsp;&nbsp;|&nbsp;&nbsp;CAC 2020
+                                                &nbsp;&nbsp;|&nbsp;&nbsp;2020, Nov 6</span>
+                                            <!-- et al. -->
+                                            <p>This paper proposes an active and adaptive image enhancement method,
+                                                including the distributed light source model, the difference in
+                                                brightness between frames, contrast limited adaptive histogram
+                                                equalization, bilateral filter, and fuzzy inference parameter
+                                                self-adjustment method.</p>
+                                            <div class="page-footer">
+                                                <div class="page-tag">
+                                                    <a class="tag">&#35; Image enhancement</a>
+                                                </div>
+                                                <div class="page-share">
+                                                    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9326629&tag=1"
+                                                        title="Read the paper"><span
+                                                            class="ace-icon ace-icon-file"></span>Paper</a>
+                                                    <!-- <a href="" title="Watch the experiment video"><span class="ace-icon ace-icon-film"></span>Video</a>
+                                  <a href="" title="Download the program code"><span class="ace-icon ace-icon-folder"></span>Code</a> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </section><!-- .section -->
+
+                                <section class="section brd-btm" id="experience">
+                                    <div class="row">
+                                        <div class="col-sm-12 clear-mrg">
+                                            <h2 class="title-thin text-muted">EXPERIENCE</h2>
+                                            <br />
+                                            <div class="education">
+                                                <div class="education-box">
+                                                    <time class="education-date" datetime="2020-09T2023-03">
+                                                        <span>Sep <strong class="text-upper">2020</strong> - Mar <strong
+                                                                class="text-upper">2023</strong></span>
+                                                    </time>
+                                                    <h3>Research and Application of Robot System for Electric Power
+                                                        Industry</h3>
+                                                    <span class="education-company">National Key R&D Program of
+                                                        China&nbsp;&nbsp;|&nbsp;&nbsp;Key technicians</span>
+                                                    <p>XXX</p>
+                                                </div>
+                                                <!-- .education-box -->
+
+                                                <div class="education-box">
+                                                    <time class="education-date" datetime="2021-09T2022-09">
+                                                        <span>Sep <strong class="text-upper">2021</strong> - Sep
+                                                            <strong>2022</strong></span>
+                                                    </time>
+                                                    <h3>Research on Cable Driven Robot for Aviation Adhesive Coating
+                                                    </h3>
+                                                    <span class="education-company">Enterprise
+                                                        Project&nbsp;&nbsp;|&nbsp;&nbsp;Key technicians</span>
+                                                    <p>XXX</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section><!-- .section -->
+
+                            </div><!-- .padd-box -->
+                            <!-- END: PAGE CONTENT -->
+                        </div><!-- .ace-paper-cont -->
+                    </main><!-- .ace-paper -->
+                </div><!-- .ace-paper-stock -->
+            </div><!-- .ace-container -->
+        </div><!-- #ace-content -->
+
+
+        <footer id="ace-footer" class="ace-container-shift">
+            <div class="ace-container">
+                <div class="ace-footer-cont clear-mrg">
+                    <p class="text-center">Update: 2023.03.20&nbsp;&nbsp;|&nbsp;&nbsp;Modified from <a
+                            href="https://xiaodan_yu.gitee.io/resume.io/">XiaoXiao</a> and <a
+                            href="http://artemsheludko.com/flexible-jekyll/">Artemsheludko</a></p>
+                </div>
+            </div><!-- .ace-container -->
+        </footer><!-- #ace-footer -->
+
+        <!-- Triangle Shapes -->
+        <svg id="ace-bg-shape-1" class="hidden-sm hidden-xs" height="519" width="758">
+            <polygon points="0,455,693,352,173,0,92,0,0,71"
+                style="fill:#d2d2d2;stroke:purple;stroke-width:0; opacity: 0.5">
+        </svg>
+
+        <svg id="ace-bg-shape-2" class="hidden-sm hidden-xs" height="536" width="633">
+            <polygon points="0,0,633,0,633,536" style="fill:#c0e3e7;stroke:purple;stroke-width:0" />
+        </svg>
+
+    </div><!-- .ace-wrapper -->
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="./styles/js/vendor/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="./styles/js/plugins/highlight/highlight.pack.js"></script>
+    <script type="text/javascript" src="./styles/js/plugins/jquery.mCustomScrollbar.min.js"></script>
+    <script type="text/javascript" src="./styles/js/plugins/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="./styles/js/plugins/progressbar.min.js"></script>
+    <script type="text/javascript" src="./styles/js/plugins/slick.min.js"></script>
+
+    <script type="text/javascript" src="./styles/js/options.js"></script>
+    <script type="text/javascript" src="./styles/js/main.js"></script>
+
 </body>
+
 </html>
+
+<!-- https://icomoon.io/#preview-free -->
