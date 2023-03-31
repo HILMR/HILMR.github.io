@@ -15,6 +15,14 @@
     <link href="./styles/js/plugins/highlight/solarized-light.css" rel="stylesheet">
     <link href="./styles/css/style.css" rel="stylesheet">
 
+    <!-- lightbox控件 -->
+    <link rel="stylesheet" href="./styles/css/lightbox.css">
+    <script src="./styles/js/vendor/jquery-1.12.4.min.js"></script>
+	<script src="./styles/js/plugins/lightbox.js"></script>
+
+    <!-- 计算访问量 -->
+    <script async src="./styles/js/plugins/busuanzi.pure.mini.js"></script>
+
     <!-- Modernizer -->
     <script type="text/javascript" src="./styles/js/vendor/modernizr-3.3.1.min.js"></script>
     <link rel="stylesheet" href="./styles/css/main.css">
@@ -197,11 +205,11 @@
                                             class="ace-icon ace-icon-book"></span>&nbsp;&nbsp;研究论文</h3>
 
                                     <article class="post">
-                                        <a class="post-thumbnail"
-                                            style="background-image: url(./styles/img/paper_3.jpg)" href=""
-                                            target="_blank"></a>
+                                        <a class="post-thumbnail" href="./styles/img/paper_3.jpg" data-lightbox="example-2" data-title="End-Effector
+                                        A Bioinspired Coiled Cable-Driven Manipulator: Mechatronic Design
+                                        and Kinematics Planning with Multi-Constraints"><img class="example-image" src="./styles/img/paper_3.jpg" alt="image-1"/></a>
                                         <div class="post-content">
-                                            <h2 class="post-title"><a href="" target="_blank">End-Effector
+                                            <h2 class="post-title"><a href="https://doi.org/10.1109/tmech.2023.3257481" target="_blank">End-Effector
                                                     A Bioinspired Coiled Cable-Driven Manipulator: Mechatronic Design
                                                     and Kinematics Planning with Multi-Constraints</a></h2>
                                             <span class="post-date"><b>罗明睿</b>; 李恩; 章澳顺; 谭民;
@@ -215,14 +223,15 @@
                                                 coiling behavior of snakes is designed, including 12
                                                 fully-constrained rigid bodies, 36 double-screw retractors, and a coiled
                                                 feeding mechanism that
-                                                can coil or uncoil according to task needs.</p>
+                                                can coil or uncoil according to task needs. The kinematic model and planning method we proposed enable the
+                                                bioinspired coiled manipulator to exert excellent dexterity and maneuverability.</p>
                                             <div class="page-footer">
                                                 <div class="page-tag">
                                                     <a class="tag">&#35; 超冗余机械臂</a>
-                                                    <a class="tag">&#35; 逆运动学</a>
+                                                    <a class="tag">&#35; 运动学建模和规划</a>
                                                 </div>
                                                 <div class="page-share">
-                                                    <a href="" target="_blank" title="阅读论文"><span
+                                                    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10089203" target="_blank" title="阅读论文"><span
                                                             class="ace-icon ace-icon-file"></span>论文</a>
                                                     <a href="" title="观看实验视频"><span
                                                             class="ace-icon ace-icon-film"></span>视频</a>
@@ -232,10 +241,9 @@
                                     </article>
 
                                     <article class="post">
-                                        <a class="post-thumbnail"
-                                            style="background-image: url(./styles/img/paper_1.jpg)"
-                                            href="https://www.hindawi.com/journals/js/2021/5550850/"
-                                            target="_blank"></a>
+                                        <a class="post-thumbnail" href="./styles/img/paper_1.jpg" data-lightbox="example-2" data-title="End-Effector
+                                        Pose Estimation in Complex Environments Using Complementary
+                                        Enhancement and Adaptive Fusion of Multisensor"><img class="example-image" src="./styles/img/paper_1.jpg" alt="image-1"/></a>
                                         <div class="post-content">
                                             <h2 class="post-title"><a
                                                     href="https://www.hindawi.com/journals/js/2021/5550850/"
@@ -247,7 +255,8 @@
                                             <span class="highlight1" style="display:block;margin-bottom: 10px;">Journal
                                                 of Sensors&nbsp;&nbsp;|&nbsp;&nbsp;IF: <b>2.336/Q3 SCI</b>检索</span>
                                             <!-- et al. -->
-                                            <p>The proposed method achieves better performances on estimation error and
+                                            <p>In this paper, a pose estimation method is proposed with the fusion of vision sensors, inertial
+                                                sensors, and encoders. The proposed method achieves better performances on estimation error and
                                                 update frequency than the original extended Kalman filter (EKF) and
                                                 unscented Kalman filter (UKF) algorithm, especially in complex
                                                 environments.</p>
@@ -270,9 +279,9 @@
                                     </article>
 
                                     <article class="post">
-                                        <a class="post-thumbnail"
-                                            style="background-image: url(./styles/img/paper_2.jpg)"
-                                            href="https://ieeexplore.ieee.org/document/9326629" target="_blank"></a>
+                                        <a class="post-thumbnail" href="./styles/img/paper_2.jpg" data-lightbox="example-2" data-title="An Active and
+                                        Adaptive Image Enhancement Method for Applications in Low-Light and
+                                        Narrow Environment"><img class="example-image" src="./styles/img/paper_2.jpg" alt="image-1"/></a>
                                         <div class="post-content">
                                             <h2 class="post-title"><a
                                                     href="https://ieeexplore.ieee.org/document/9326629"
@@ -289,7 +298,8 @@
                                                 including the distributed light source model, the difference in
                                                 brightness between frames, contrast limited adaptive histogram
                                                 equalization, bilateral filter, and fuzzy inference parameter
-                                                self-adjustment method.</p>
+                                                self-adjustment method. The method proposed in this paper can effectively
+                                                enhance the images in the low-light and narrow environment.</p>
                                             <div class="page-footer">
                                                 <div class="page-tag">
                                                     <a class="tag">&#35; 图像增强</a>
@@ -308,10 +318,7 @@
 
 
                                     <article class="post">
-                                        <a class="post-thumbnail"
-                                            style="background-image: url(./styles/img/patent_8.jpg)"
-                                            href="https://patents.glgoo.top/patent/CN114618802A/en?oq=CN114618802A"
-                                            target="_blank"></a>
+                                        <a class="post-thumbnail" href="./styles/img/patent_8.jpg" data-lightbox="example-2" data-title="GIS腔体作业装置与GIS腔体作业方法"><img class="example-image" src="./styles/img/patent_8.jpg" alt="image-1"/></a>
                                         <div class="post-content">
                                             <h2 class="post-title"><a
                                                     href="https://patents.glgoo.top/patent/CN114618802A/en?oq=CN114618802A"
@@ -338,10 +345,7 @@
                                     </article>
 
                                     <article class="post">
-                                        <a class="post-thumbnail"
-                                            style="background-image: url(./styles/img/patent_7.jpg)"
-                                            href="https://patents.glgoo.top/patent/CN112200848A/zh?oq=CN+112200848A"
-                                            target="_blank"></a>
+                                        <a class="post-thumbnail" href="./styles/img/patent_7.jpg" data-lightbox="example-2" data-title="低光照弱对比复杂环境下的深度相机视觉增强方法及系统"><img class="example-image" src="./styles/img/patent_7.jpg" alt="image-1"/></a>
                                         <div class="post-content">
                                             <h2 class="post-title"><a
                                                     href="https://patents.glgoo.top/patent/CN112200848A/zh?oq=CN+112200848A"
@@ -368,10 +372,7 @@
                                     </article>
 
                                     <article class="post">
-                                        <a class="post-thumbnail"
-                                            style="background-image: url(./styles/img/patent_6.jpg)"
-                                            href="https://patents.glgoo.top/patent/CN112200874A/zh?oq=CN+112200874A"
-                                            target="_blank"></a>
+                                        <a class="post-thumbnail" href="./styles/img/patent_6.jpg" data-lightbox="example-2" data-title="狭窄空间的多层次场景重建和快速分割方法、系统及装置"><img class="example-image" src="./styles/img/patent_6.jpg" alt="image-1"/></a>
                                         <div class="post-content">
                                             <h2 class="post-title"><a
                                                     href="https://patents.glgoo.top/patent/CN112200874A/zh?oq=CN+112200874A"
@@ -399,10 +400,7 @@
                                     </article>
 
                                     <article class="post">
-                                        <a class="post-thumbnail"
-                                            style="background-image: url(./styles/img/patent_5.jpg)"
-                                            href="https://patents.glgoo.top/patent/CN112388635A/zh?oq=CN+112388635+A"
-                                            target="_blank"></a>
+                                        <a class="post-thumbnail" href="./styles/img/patent_5.jpg" data-lightbox="example-2" data-title="机器人多传感器融合感知与空间定位的方法、系统及装置"><img class="example-image" src="./styles/img/patent_5.jpg" alt="image-1"/></a>
                                         <div class="post-content">
                                             <h2 class="post-title"><a
                                                     href="https://patents.glgoo.top/patent/CN112388635A/zh?oq=CN+112388635+A"
@@ -430,10 +428,7 @@
                                     </article>
 
                                     <article class="post">
-                                        <a class="post-thumbnail"
-                                            style="background-image: url(./styles/img/patent_4.jpg)"
-                                            href="https://patents.glgoo.top/patent/CN111383352A/zh?oq=CN111383352A"
-                                            target="_blank"></a>
+                                        <a class="post-thumbnail" href="./styles/img/patent_4.jpg" data-lightbox="example-2" data-title="一种针对三阶魔方的自动填色及抽象化方法"><img class="example-image" src="./styles/img/patent_4.jpg" alt="image-1"/></a>
                                         <div class="post-content">
                                             <h2 class="post-title"><a
                                                     href="https://patents.glgoo.top/patent/CN111383352A/zh?oq=CN111383352A"
@@ -461,10 +456,7 @@
                                     </article>
 
                                     <article class="post">
-                                        <a class="post-thumbnail"
-                                            style="background-image: url(./styles/img/patent_3.jpg)"
-                                            href="https://patents.glgoo.top/patent/CN110104212A/zh?oq=CN201910391153"
-                                            target="_blank"></a>
+                                        <a class="post-thumbnail" href="./styles/img/patent_3.jpg" data-lightbox="example-2" data-title="一种辅助搭建月球基地及月岩样本采集的月球车"><img class="example-image" src="./styles/img/patent_3.jpg" alt="image-1"/></a>
                                         <div class="post-content">
                                             <h2 class="post-title"><a
                                                     href="https://patents.glgoo.top/patent/CN110104212A/zh?oq=CN201910391153"
@@ -492,10 +484,7 @@
                                     </article>
 
                                     <article class="post">
-                                        <a class="post-thumbnail"
-                                            style="background-image: url(./styles/img/patent_2.jpg)"
-                                            href="https://patents.glgoo.top/patent/CN109061998A/zh?oq=CN201811136164"
-                                            target="_blank"></a>
+                                        <a class="post-thumbnail" href="./styles/img/patent_2.jpg" data-lightbox="example-2" data-title="一种实现大范围延时摄影的自动化装置和控制方法"><img class="example-image" src="./styles/img/patent_2.jpg" alt="image-1"/></a>
                                         <div class="post-content">
                                             <h2 class="post-title"><a
                                                     href="https://patents.glgoo.top/patent/CN109061998A/zh?oq=CN201811136164"
@@ -522,10 +511,7 @@
                                     </article>
 
                                     <article class="post">
-                                        <a class="post-thumbnail"
-                                            style="background-image: url(./styles/img/patent_1.jpg)"
-                                            href="https://patents.glgoo.top/patent/CN108635782A/zh?oq=CN201810457020"
-                                            target="_blank"></a>
+                                        <a class="post-thumbnail" href="./styles/img/patent_1.jpg" data-lightbox="example-2" data-title="水球自动回收机器人"><img class="example-image" src="./styles/img/patent_1.jpg" alt="image-1"/></a>
                                         <div class="post-content">
                                             <h2 class="post-title"><a
                                                     href="https://patents.glgoo.top/patent/CN108635782A/zh?oq=CN201810457020"
@@ -724,9 +710,11 @@
         <footer id="ace-footer" class="ace-container-shift">
             <div class="ace-container">
                 <div class="ace-footer-cont clear-mrg">
-                    <p class="text-center">Update: 2023.03.21 @LMR&nbsp;&nbsp;|&nbsp;&nbsp;Modified from <a
+                    <p class="text-center"><span class="ace-icon ace-icon-leaf"></span>&nbsp;Update: 2023.03.31 @LMR&nbsp;&nbsp;|&nbsp;&nbsp;Modified from <a
                             href="https://xiaodan_yu.gitee.io/resume.io/">XiaoXiao</a> and <a
-                            href="http://artemsheludko.com/flexible-jekyll/">Artemsheludko</a></p>
+                            href="http://artemsheludko.com/flexible-jekyll/">Artemsheludko</a>&nbsp;<span class="ace-icon ace-icon-leaf"></span></p>
+                    <p class="text-center" style="margin-top: -0.5em;"><span class="ace-icon ace-icon-eye"></span>&nbsp;<span id="busuanzi_container_site_pv">View <span id="busuanzi_value_site_pv"></span>times</span>&nbsp;<a
+                        href="http://busuanzi.ibruce.info/">@busuanzi</a></p>
                 </div>
             </div><!-- .ace-container -->
         </footer><!-- #ace-footer -->
