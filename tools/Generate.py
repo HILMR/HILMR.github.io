@@ -269,7 +269,7 @@ if __name__=='__main__':
     import sys,shutil,os
     pg=PageGenerator(sys.argv[1],'tools/Template.html',sys.argv[2])
     pg.generate()
-    if len(sys.argv)==2:
+    if len(sys.argv)==3:
         if os.path.exists('page')==False:
             os.mkdir('page')
         if sys.argv[2]=='ZH':
