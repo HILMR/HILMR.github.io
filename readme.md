@@ -14,7 +14,7 @@
 安装依赖：
 `pip install -r .\requirements.txt`
 运行页面生成器：
-`python Generate.py tools/Input.md ZH`
+`python tools/Generate.py tools/Input.md ZH`
 其中：
 - `tools/Input.md`为页面描述文件的位置
 - `ZH`为中文页面，`EN`为英文页面
