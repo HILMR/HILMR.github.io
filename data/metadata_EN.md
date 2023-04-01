@@ -22,7 +22,7 @@ hi_lmr@163.com
 #### Image
 school2.png
 #### Brief
-2020 - Now | Control Theory and Control Engineering | <b>Ph.D.</b> Degree<a class="highlight1" style="margin-left: 10px;">GPA:<b>3.85</b>/4.0</a>
+2020 - Now | Control Theory and Control Engineering | <b>Ph.D.</b> Degree<a class="highlight" style="margin-left: 10px;">GPA:<b>3.85</b>/4.0</a>
 #### Detail
 I studied under researchers <b>Li En</b> and <b>Tan Min</b>, researching system design, intelligent control, planning and perception of <b>bionic redundant manipulators</b>. I have won the “<b>Three Good Students</b>” award twice in a row and have served as a member of <b>the academic department of the student union</b>.
 
@@ -30,7 +30,7 @@ I studied under researchers <b>Li En</b> and <b>Tan Min</b>, researching system 
 #### Image
 school.jpg
 #### Brief
-2016 - 2020 | Mechanical Engineering (Major) Robot Engineering (Minor) | <b>B.E.</b> Degree<a class="highlight1" style="margin-left: 10px;">GPA:<b>3.93</b>/4.0</a>
+2016 - 2020 | Mechanical Engineering (Major) Robot Engineering (Minor) | <b>B.E.</b> Degree<a class="highlight" style="margin-left: 10px;">GPA:<b>3.93</b>/4.0</a>
 #### Detail
 During my school years, I have won various <b>scholarships</b> at the school, city and national levels, and have won prizes in various <b>competitions</b>. I have hosted or participated in many college student <b>innovation projects</b> and published many <b>patents</b> and <b>software works</b>. I have obtained certificates for <b>CET-4</b>, <b>CET-6</b>, and <b>computer level certification</b>. I have served as <b>the president of the Science and Technology Association</b> and the <b>student in charge of the Innovation Laboratory</b>.
 
@@ -289,63 +289,63 @@ https://patentimages.storage.googleapis.com/7f/82/3f/b8254ca59bebae/CN108635782B
 
 ## Reward
 
-### 中国科学院大学2022年度“<span class="highlight1"><b>三好学生</b></span>”称号
+### 中国科学院大学2022年度“<span class="highlight"><b>三好学生</b></span>”称号
 #### Date
 2022-6
 
-### 中国科学院大学2021年度“<span class="highlight1"><b>三好学生</b></span>”称号
+### 中国科学院大学2021年度“<span class="highlight"><b>三好学生</b></span>”称号
 #### Date
 2021-6
 
-### 北京市<span class="highlight1"><b>优秀毕业生</b></span>、北京工业大学<span class="highlight1"><b>优秀毕业生</b></span>
+### 北京市<span class="highlight"><b>优秀毕业生</b></span>、北京工业大学<span class="highlight"><b>优秀毕业生</b></span>
 #### Date
 2020-6
 
-### 北京工业大学<span class="highlight1"><b>学习优秀奖</b></span>、<span class="highlight1"><b>创新创业奖</b></span>，机电学院<span class="highlight1"><b>三好学生</b></span>
+### 北京工业大学<span class="highlight"><b>学习优秀奖</b></span>、<span class="highlight"><b>创新创业奖</b></span>，机电学院<span class="highlight"><b>三好学生</b></span>
 #### Date
 2019-12
 
-### 第五届北京工业大学“鼎新杯”学生课外学术作品竞赛&nbsp;<span class="highlight1"><b>一等奖</b></span>
+### 第五届北京工业大学“鼎新杯”学生课外学术作品竞赛&nbsp;<span class="highlight"><b>一等奖</b></span>
 #### Date
 2019-11
 
-### 第十届“挑战杯”首都大学生课外学术科技作品竞赛&nbsp;<span class="highlight1"><b>一等奖</b></span>
+### 第十届“挑战杯”首都大学生课外学术科技作品竞赛&nbsp;<span class="highlight"><b>一等奖</b></span>
 #### Date
 2019-6
 
-### 2019年全国大学生机械产品数字化设计大赛&nbsp;<span class="highlight1"><b>一等奖</b></span>
+### 2019年全国大学生机械产品数字化设计大赛&nbsp;<span class="highlight"><b>一等奖</b></span>
 #### Date
 2019-5
 
-### 2019年美国大学生数学建模竞赛&nbsp;<span class="highlight1"><b>Honorable Mention</b></span>
+### 2019年美国大学生数学建模竞赛&nbsp;<span class="highlight"><b>Honorable Mention</b></span>
 #### Date
 2019-2
 
-### 北京工业大学<span class="highlight1"><b>学习优秀奖</b></span>、<span class="highlight1"><b>创新创业奖</b></span>，机电学院<span class="highlight1"><b>三好学生</b></span>、<span class="highlight1"><b>优秀学生干部</b></span>
+### 北京工业大学<span class="highlight"><b>学习优秀奖</b></span>、<span class="highlight"><b>创新创业奖</b></span>，机电学院<span class="highlight"><b>三好学生</b></span>、<span class="highlight"><b>优秀学生干部</b></span>
 #### Date
 2018-12
 
-### <span class="highlight1"><b>国家奖学金</b></span>，<span class="highlight1"><b>杨叔子院士奖学金</b></span>
+### <span class="highlight"><b>国家奖学金</b></span>，<span class="highlight"><b>杨叔子院士奖学金</b></span>
 #### Date
 2018-11
 
-### 2018全国大学生数学建模竞赛（北京赛区）&nbsp;<span class="highlight1"><b>一等奖</b></span>
+### 2018全国大学生数学建模竞赛（北京赛区）&nbsp;<span class="highlight"><b>一等奖</b></span>
 #### Date
 2018-09
 
-### 2018年“创青春”首都大学生创业大赛&nbsp;<span class="highlight1"><b>银奖</b></span>
+### 2018年“创青春”首都大学生创业大赛&nbsp;<span class="highlight"><b>银奖</b></span>
 #### Date
 2018-05
 
-### 北京工业大学<span class="highlight1"><b>学习优秀奖</b></span>、<span class="highlight1"><b>科技创新奖</b></span>、<span class="highlight1"><b>三好学生</b></span>，<span class="highlight1"><b>杨叔子院士奖学金</b></span>
+### 北京工业大学<span class="highlight"><b>学习优秀奖</b></span>、<span class="highlight"><b>科技创新奖</b></span>、<span class="highlight"><b>三好学生</b></span>，<span class="highlight"><b>杨叔子院士奖学金</b></span>
 #### Date
 2017-12
 
-### 第三届北京工业大学“鼎新杯”学生课外学术作品竞赛&nbsp;<span class="highlight1"><b>一等奖</b></span>
+### 第三届北京工业大学“鼎新杯”学生课外学术作品竞赛&nbsp;<span class="highlight"><b>一等奖</b></span>
 #### Date
 2017-11
 
-### 2017年中国机器人大赛&nbsp;<span class="highlight1"><b>一等奖</b></span>
+### 2017年中国机器人大赛&nbsp;<span class="highlight"><b>一等奖</b></span>
 #### Date
 2017-08
 

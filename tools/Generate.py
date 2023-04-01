@@ -168,7 +168,7 @@ class PageGenerator():
                                     <div class="post-content">
                                         <h2 class="post-title"><a href="{2}" target="_blank">{1}</a></h2>
                                         <span class="post-date">{3}&nbsp;&nbsp;|&nbsp;&nbsp;{4}</span>
-                                        <span class="highlight1" style="display:block;margin-bottom: 10px;">{5}&nbsp;&nbsp;|&nbsp;&nbsp;{6}</span>
+                                        <span class="post-highlight">{5}&nbsp;&nbsp;|&nbsp;&nbsp;{6}</span>
                                         <p>{7}</p>
                                         <div class="page-footer">
                                             <div class="page-tag">

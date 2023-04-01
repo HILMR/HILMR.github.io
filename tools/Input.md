@@ -22,14 +22,14 @@ hi_lmr@163.com
 #### Image
 school2.png
 #### Brief
-2020 - 至今 | 控制理论与控制工程 | <b>博士</b> 在读<a class="highlight1" style="margin-left: 10px ">GPA:<b>3.85</b>/4.0</a>
+2020 - 至今 | 控制理论与控制工程 | <b>博士</b> 在读<a class="highlight" style="margin-left: 10px ">GPA:<b>3.85</b>/4.0</a>
 #### Detail
 我师从<b>李恩</b>和<b>谭民</b>研究员，研究有关<b>仿生冗余机械臂</b>的系统设计，智能控制、规划和感知，连续获得两届<b>“三好学生”</b>称号，曾任职于<b>学生会学术部</b>。
 ### 北京工业大学(BJUT)
 #### Image
 school.jpg
 #### Brief
-2016 - 2020 | 机械工程 (主修) 机器人工程 (辅修) | <b>工学</b> 学士<a class="highlight1" style="margin-left: 10px;">GPA:<b>3.93</b>/4.0</a>
+2016 - 2020 | 机械工程 (主修) 机器人工程 (辅修) | <b>工学</b> 学士<a class="highlight" style="margin-left: 10px;">GPA:<b>3.93</b>/4.0</a>
 #### Detail
 在校期间，我多次获得<b>校级、市级以及国家级的各类奖学金</b>，并在<b>多项竞赛中获奖</b>。主持或参与多项大学生创新项目，并<b>发表多篇专利和软件著作</b>。取得了<b>四、六级证书和计算机等级证明</b>。曾任职<b>科技协会主席和创新实验室学生负责人</b>。
 
@@ -84,7 +84,7 @@ https://patentimages.storage.googleapis.com/91/6f/7f/b8fc63903aec86/CN112200874A
 
 ## Reward
 
-### 中国科学院大学“<span class="highlight1"><b>三好学生</b></span>”称号
+### 中国科学院大学“<span class="highlight"><b>三好学生</b></span>”称号
 #### Date
 2022-6
 
