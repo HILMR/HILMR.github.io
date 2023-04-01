@@ -1173,7 +1173,7 @@ footer .copyright {
 a.older-posts, a.newer-posts {
   font-size: 18px;
   display: inline-block;
-  color: #515151;
+  color: #353535;
   -webkit-transition: -webkit-transform .2s;
   transition: -webkit-transform .2s;
   -o-transition: transform .2s;
@@ -1388,6 +1388,10 @@ a.newer-posts:hover {
   .post .post-content .post-title a {
     font-size: 21px;
   }
+
+  .post-content p {
+    font-size: 14px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -1458,7 +1462,7 @@ a.newer-posts:hover {
     padding: 10px;
   }
   .post {
-    width: 98%;
+    width: 100%;
     max-width: 100%;
     margin: 2%;
     -webkit-box-orient: vertical;
@@ -1477,6 +1481,20 @@ a.newer-posts:hover {
     margin: 0 0 5px;
   }
   .post .post-content .post-title a {
-    font-size: 21px;
+    font-size: 14px;
   }
+
+  .post-content p {
+    display:none;
+}
+  /* Phone does not display summary */
+  .page-footer .page-tag a {
+    display:none;
+  }
+
+  .post .post-content .post-date,
+  .post .post-content .post-words {
+    font-size: 10px;
+  }
+  
 }

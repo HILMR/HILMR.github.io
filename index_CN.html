@@ -1,3 +1,8 @@
+<!--  
+    Author:LMR
+    Update:2023/04/01
+    Resume Template V0.2
+-->
 <!DOCTYPE html>
 <html lang="en" class="ace ace-card-on ace-tab-nav-on ace-main-nav-on ace-sidebar-on" data-theme-color="#c0e3e7">
 
@@ -9,47 +14,58 @@
     <title>罗明睿——个人主页</title>
 
     <!-- Icon Fonts -->
+    <!-- SEE https://icomoon.io/#preview-free -->
     <link href="./styles/fonts/icomoon/style.css" rel="stylesheet">
 
     <!-- Styles -->
     <link href="./styles/js/plugins/highlight/solarized-light.css" rel="stylesheet">
     <link href="./styles/css/style.css" rel="stylesheet">
 
-    <!-- lightbox控件 -->
+    <!-- Lightbox -->
     <link rel="stylesheet" href="./styles/css/lightbox.css">
     <script src="./styles/js/vendor/jquery-1.12.4.min.js"></script>
-	<script src="./styles/js/plugins/lightbox.js"></script>
+    <script src="./styles/js/plugins/lightbox.js"></script>
 
-    <!-- 计算访问量 -->
+    <!-- Visits -->
     <script async src="./styles/js/plugins/busuanzi.pure.mini.js"></script>
 
     <!-- Modernizer -->
     <script type="text/javascript" src="./styles/js/vendor/modernizr-3.3.1.min.js"></script>
     <link rel="stylesheet" href="./styles/css/main.css">
 
+    <!-- Scripts -->
+    <script type="text/javascript" src="./styles/js/vendor/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="./styles/js/plugins/highlight/highlight.pack.js"></script>
+    <script type="text/javascript" src="./styles/js/plugins/jquery.mCustomScrollbar.min.js"></script>
+    <script type="text/javascript" src="./styles/js/plugins/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="./styles/js/plugins/progressbar.min.js"></script>
+    <script type="text/javascript" src="./styles/js/plugins/slick.min.js"></script>
+
+    <script type="text/javascript" src="./styles/js/options.js"></script>
+    <script type="text/javascript" src="./styles/js/main.js"></script>
+
     <style>
-        /*用后代选择器给基础代码添加字体样式和文本样式*/
+        /* CSS */
         .highlight1 {
-            /*设置浮动float: left;*/
+            /*float: left;*/
             display: inline-block;
-            /*设置元素的显示属性 block 元素会被显示为块级元素*/
             border-radius: 10px;
-            /*设置圆角边框*/
             background: antiquewhite;
-            /*设置背景颜色*/
             color: rgb(0, 0, 0);
-            /*设置文本颜色*/
             text-align: center;
-            /*设置文本居中*/
-            /*设置文本行高line-height: 50px;*/
             text-decoration: aliceblue;
-            /*设置文本装饰*/
             padding-left: 10px;
             padding-right: 10px;
         }
 
-        .post-content p {
-            font-size: 14px;
+        @media only screen and (max-width: 480px) {
+            .highlight1 {
+                font-size: 8px;
+            }
+
+            .ace-footer-cont {
+                font-size: 10px;
+            }
         }
     </style>
 </head>
@@ -68,23 +84,31 @@
                 <h1>罗明睿</h1>
                 <h4 class="text-muted" style="margin-bottom: -10px;">博士在读</h4>
                 <hr />
+                
                 <p class="text-muted" style="margin-bottom: 5px;text-align:left;"><span
-                        class="ace-icon ace-icon-tag"></span>&nbsp;机器人学/控制、规划和感知</p>
+                                class="ace-icon ace-icon-tag"></span>&nbsp;机器人学/控制、规划和感知</p>
+                
                 <p class="text-muted" style="margin-bottom: 5px;text-align:left;"><span
-                        class="ace-icon ace-icon-tag"></span>&nbsp;线缆驱动超冗余机械臂</p>
+                                class="ace-icon ace-icon-tag"></span>&nbsp;线缆驱动超冗余机械臂</p>
+                
                 <p class="text-muted" style="margin-bottom: 5px;text-align:left;"><span
-                        class="ace-icon ace-icon-tag"></span>&nbsp;智能控制/路径规划/环境感知</p>
+                                class="ace-icon ace-icon-tag"></span>&nbsp;智能控制/路径规划/环境感知</p>
+                
                 <p class="text-muted" style="margin-bottom: 5px;text-align:left;"><span
-                        class="ace-icon ace-icon-tag"></span>&nbsp;强化学习</p>
+                                class="ace-icon ace-icon-tag"></span>&nbsp;强化学习</p>
+                
                 <p class="text-muted" style="margin-bottom: 5px;text-align:left;"><span
-                        class="ace-icon ace-icon-tag"></span>&nbsp;图像增强</p>
-
+                                class="ace-icon ace-icon-tag"></span>&nbsp;图像增强</p>
+                
                 <hr />
                 <ul class="ace-social clear-list">
-                    <li><a href="https://github.com/HILMR" title="https://github.com/HILMR" target="_blank"><span
+                    
+                  <li><a href="https://github.com/HILMR" title="https://github.com/HILMR" target="_blank"><span
                                 class="ace-icon ace-icon-github"></span>&nbsp;HILMR</a></li>
-                    <li><a href="mailto: hi_lmr@163.com" title="hi_lmr@163.com"><span
+                  
+                  <li><a href="mailto: hi_lmr@163.com" title="hi_lmr@163.com"><span
                                 class="ace-icon ace-icon-contact"></span>&nbsp;hi_lmr@163.com</a></li>
+                    
                 </ul>
             </div>
             <footer class="ace-card-footer">
@@ -147,53 +171,45 @@
                                     <div class="row">
                                         <div class="col-sm-12 clear-mrg">
                                             <h2 class="title-thin text-muted"><b>教育背景</b></h2>
-
-                                            <div class="ref-box hreview">
-                                                <div class="ref-avatar">
-                                                    <img alt="" src="./styles/img/school2.png"
-                                                        class="avatar avatar-54 photo" height="54" width="54">
-                                                </div>
-
-                                                <div class="ref-info">
-                                                    <div class="ref-author">
-                                                        <strong>中国科学院大学(UCAS)/中国科学院自动化研究所(CASIA)</strong>
-                                                        <span>2020 - 至今 | 控制理论与控制工程 |
-                                                            <b>博士</b> 在读<a class="highlight1"
-                                                                style="margin-left: 10px;">GPA:<b>3.85</b>/4.0</a></span>
-                                                    </div>
-
-                                                    <blockquote class="ref-cont clear-mrg">
-                                                        <p>我师从<b>李恩</b>和<b>谭民</b>研究员，研究有关<b>仿生冗余机械臂</b>的系统设计，智能控制、规划和感知，连续获得两届<b>“三好学生”</b>称号，曾任职于<b>学生会学术部</b>。
-                                                        </p>
-                                                    </blockquote>
-                                                </div>
-                                            </div><!-- .ref-box -->
-
-                                            <div class="ref-box hreview">
-                                                <div class="ref-avatar">
-                                                    <img alt="" src="./styles/img/school.jpg"
-                                                        class="avatar avatar-54 photo" height="54" width="54">
-                                                </div>
-
-                                                <div class="ref-info">
-                                                    <div class="ref-author">
-                                                        <strong>北京工业大学(BJUT)</strong>
-                                                        <span>2016 - 2020 | 机械工程 (主修) 机器人工程 (辅修) | <b>工学</b> 学士<a
-                                                                class="highlight1"
-                                                                style="margin-left: 10px;">GPA:<b>3.93</b>/4.0</a>
-                                                        </span>
-                                                    </div>
-
-                                                    <blockquote class="ref-cont clear-mrg">
-                                                        <p>在校期间，我多次获得<b>校级、市级以及国家级的各类奖学金</b>，并在<b>多项竞赛中获奖</b>。
-                                                            主持或参与多项大学生创新项目，并<b>发表多篇专利和软件著作</b>。取得了<b>四、六级证书和计算机等级证明</b>。
-                                                            曾任职<b>科技协会主席和创新实验室学生负责人</b>。
-                                                        </p>
-                                                    </blockquote>
-                                                </div>
-                                            </div><!-- .ref-box -->
-
-
+                                            
+            <div class="ref-box hreview">
+                <div class="ref-avatar">
+                    <img alt="" src="./styles/img/school2.png" class="avatar avatar-54 photo" height="54" width="54">
+                </div>
+            
+                <div class="ref-info">
+                    <div class="ref-author">
+                        <strong>中国科学院大学(UCAS)/中国科学院自动化研究所(CASIA)</strong>
+                        <span>2020 - 至今 | 控制理论与控制工程 | <b>博士</b> 在读<a class="highlight1" style="margin-left: 10px ">GPA:<b>3.85</b>/4.0</a></span>
+                    </div>
+            
+                    <blockquote class="ref-cont clear-mrg">
+                        <p>
+                            我师从<b>李恩</b>和<b>谭民</b>研究员，研究有关<b>仿生冗余机械臂</b>的系统设计，智能控制、规划和感知，连续获得两届<b>“三好学生”</b>称号，曾任职于<b>学生会学术部</b>。
+                        </p>
+                    </blockquote>
+                </div>
+            </div><!-- end school -->
+                
+            <div class="ref-box hreview">
+                <div class="ref-avatar">
+                    <img alt="" src="./styles/img/school.jpg" class="avatar avatar-54 photo" height="54" width="54">
+                </div>
+            
+                <div class="ref-info">
+                    <div class="ref-author">
+                        <strong>北京工业大学(BJUT)</strong>
+                        <span>2016 - 2020 | 机械工程 (主修) 机器人工程 (辅修) | <b>工学</b> 学士<a class="highlight1" style="margin-left: 10px;">GPA:<b>3.93</b>/4.0</a></span>
+                    </div>
+            
+                    <blockquote class="ref-cont clear-mrg">
+                        <p>
+                            在校期间，我多次获得<b>校级、市级以及国家级的各类奖学金</b>，并在<b>多项竞赛中获奖</b>。主持或参与多项大学生创新项目，并<b>发表多篇专利和软件著作</b>。取得了<b>四、六级证书和计算机等级证明</b>。曾任职<b>科技协会主席和创新实验室学生负责人</b>。
+                        </p>
+                    </blockquote>
+                </div>
+            </div><!-- end school -->
+                
                                         </div><!-- .col-sm-6 -->
                                     </div><!-- .row -->
                                 </section><!-- .section -->
@@ -204,342 +220,275 @@
                                     <h3 class="title-thin text-muted"><span
                                             class="ace-icon ace-icon-book"></span>&nbsp;&nbsp;研究论文</h3>
 
-                                    <article class="post">
-                                        <a class="post-thumbnail" href="./styles/img/paper_3.jpg" data-lightbox="example-2" data-title="End-Effector
-                                        A Bioinspired Coiled Cable-Driven Manipulator: Mechatronic Design
-                                        and Kinematics Planning with Multi-Constraints"><img class="example-image" src="./styles/img/paper_3.jpg" alt="image-1"/></a>
-                                        <div class="post-content">
-                                            <h2 class="post-title"><a href="https://doi.org/10.1109/tmech.2023.3257481" target="_blank">End-Effector
-                                                    A Bioinspired Coiled Cable-Driven Manipulator: Mechatronic Design
-                                                    and Kinematics Planning with Multi-Constraints</a></h2>
-                                            <span class="post-date"><b>罗明睿</b>; 李恩; 章澳顺; 谭民;
-                                                梁自泽&nbsp;&nbsp;|&nbsp;&nbsp;2023, Mar 7</span>
-                                            <span class="highlight1"
-                                                style="display:block;margin-bottom: 10px;">IEEE/ASME TRANSACTIONS ON
-                                                MECHATRONICS&nbsp;&nbsp;|&nbsp;&nbsp;IF: <b>5.867/Q1(TOP)
-                                                    SCI</b>检索</span>
-                                            <!-- et al. -->
-                                            <p>In this paper, a highly compact coiled CDHRM (C-CDHRM) that mimics the
-                                                coiling behavior of snakes is designed, including 12
-                                                fully-constrained rigid bodies, 36 double-screw retractors, and a coiled
-                                                feeding mechanism that
-                                                can coil or uncoil according to task needs. The kinematic model and planning method we proposed enable the
-                                                bioinspired coiled manipulator to exert excellent dexterity and maneuverability.</p>
-                                            <div class="page-footer">
-                                                <div class="page-tag">
-                                                    <a class="tag">&#35; 超冗余机械臂</a>
-                                                    <a class="tag">&#35; 运动学建模和规划</a>
-                                                </div>
-                                                <div class="page-share">
-                                                    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10089203" target="_blank" title="阅读论文"><span
-                                                            class="ace-icon ace-icon-file"></span>论文</a>
-                                                    <a href="" title="观看实验视频"><span
-                                                            class="ace-icon ace-icon-film"></span>视频</a>
-                                                </div>
+                                    
+                                <article class="post">
+                                    <a class="post-thumbnail" href="./styles/img/paper_3.jpg" data-lightbox="image" data-title="A Bioinspired Coiled Cable-Driven Manipulator: Mechatronic Design and Kinematics Planning with Multi-Constraints"> <img class="example-image" src="./styles/img/paper_3.jpg"
+                                        alt="image" /></a>
+                                    <div class="post-content">
+                                        <h2 class="post-title"><a href="https://doi.org/10.1109/tmech.2023.3257481" target="_blank">A Bioinspired Coiled Cable-Driven Manipulator: Mechatronic Design and Kinematics Planning with Multi-Constraints</a></h2>
+                                        <span class="post-date"><b>罗明睿</b>; 李恩; 章澳顺; 谭民; 梁自泽 &nbsp;&nbsp;|&nbsp;&nbsp;2023, Mar 7</span>
+                                        <span class="highlight1" style="display:block;margin-bottom: 10px;">IEEE/ASME Transactions on Mechatronics&nbsp;&nbsp;|&nbsp;&nbsp;IF: <b>5.867/Q1(TOP) SCI</b>检索</span>
+                                        <p>In this paper, a highly compact coiled CDHRM (C-CDHRM) that mimics the coiling behavior of snakes is designed, including 12 fully-constrained rigid bodies, 36 double-screw retractors, and a coiled feeding mechanism that can coil or uncoil according to task needs. The kinematic model and planning method we proposed enable the bioinspired coiled manipulator to exert excellent dexterity and maneuverability.</p>
+                                        <div class="page-footer">
+                                            <div class="page-tag">
+                                                
+                    <a class="tag">&#35; 超冗余机械臂</a>
+                    
+                    <a class="tag">&#35; 运动学建模和规划</a>
+                    
+                                            </div>
+                                            <div class="page-share">
+                                                
+                        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10089203" target="_blank" title="阅读论文"><span class="ace-icon ace-icon-file"></span>论文</a>
+                    
                                             </div>
                                         </div>
-                                    </article>
-
-                                    <article class="post">
-                                        <a class="post-thumbnail" href="./styles/img/paper_1.jpg" data-lightbox="example-2" data-title="End-Effector
-                                        Pose Estimation in Complex Environments Using Complementary
-                                        Enhancement and Adaptive Fusion of Multisensor"><img class="example-image" src="./styles/img/paper_1.jpg" alt="image-1"/></a>
-                                        <div class="post-content">
-                                            <h2 class="post-title"><a
-                                                    href="https://www.hindawi.com/journals/js/2021/5550850/"
-                                                    target="_blank">End-Effector
-                                                    Pose Estimation in Complex Environments Using Complementary
-                                                    Enhancement and Adaptive Fusion of Multisensor</a></h2>
-                                            <span class="post-date"><b>罗明睿</b>; 李恩; 郭锐; 刘佳鑫;
-                                                梁自泽&nbsp;&nbsp;|&nbsp;&nbsp;2021, Mar 25</span>
-                                            <span class="highlight1" style="display:block;margin-bottom: 10px;">Journal
-                                                of Sensors&nbsp;&nbsp;|&nbsp;&nbsp;IF: <b>2.336/Q3 SCI</b>检索</span>
-                                            <!-- et al. -->
-                                            <p>In this paper, a pose estimation method is proposed with the fusion of vision sensors, inertial
-                                                sensors, and encoders. The proposed method achieves better performances on estimation error and
-                                                update frequency than the original extended Kalman filter (EKF) and
-                                                unscented Kalman filter (UKF) algorithm, especially in complex
-                                                environments.</p>
-                                            <div class="page-footer">
-                                                <div class="page-tag">
-                                                    <a class="tag">&#35; 多传感器融合</a>
-                                                    <a class="tag">&#35; 定位</a>
-                                                </div>
-                                                <div class="page-share">
-                                                    <a href="https://downloads.hindawi.com/journals/js/2021/5550850.pdf"
-                                                        target="_blank" title="阅读论文"><span
-                                                            class="ace-icon ace-icon-file"></span>论文</a>
-                                                    <a href="" title="观看实验视频"><span
-                                                            class="ace-icon ace-icon-film"></span>视频</a>
-                                                    <a href="" title="下载程序代码"><span
-                                                            class="ace-icon ace-icon-folder"></span>代码</a>
-                                                </div>
+                                    </div>
+                                </article>
+            
+                                <article class="post">
+                                    <a class="post-thumbnail" href="./styles/img/paper_1.jpg" data-lightbox="image" data-title="End-Effector Pose Estimation in Complex Environments Using Complementary Enhancement and Adaptive Fusion of Multisensor"> <img class="example-image" src="./styles/img/paper_1.jpg"
+                                        alt="image" /></a>
+                                    <div class="post-content">
+                                        <h2 class="post-title"><a href="https://www.hindawi.com/journals/js/2021/5550850/" target="_blank">End-Effector Pose Estimation in Complex Environments Using Complementary Enhancement and Adaptive Fusion of Multisensor</a></h2>
+                                        <span class="post-date"><b>罗明睿</b>; 李恩; 郭锐; 刘佳鑫; 梁自泽&nbsp;&nbsp;|&nbsp;&nbsp;2021, Mar 25</span>
+                                        <span class="highlight1" style="display:block;margin-bottom: 10px;">Journal of Sensors&nbsp;&nbsp;|&nbsp;&nbsp;IF: <b>2.336/Q3 SCI</b>检索</span>
+                                        <p>In this paper, a pose estimation method is proposed with the fusion of vision sensors, inertial sensors, and encoders. The proposed method achieves better performances on estimation error and update frequency than the original extended Kalman filter (EKF) and unscented Kalman filter (UKF) algorithm, especially in complex environments.</p>
+                                        <div class="page-footer">
+                                            <div class="page-tag">
+                                                
+                    <a class="tag">&#35; 多传感器融合</a>
+                    
+                    <a class="tag">&#35; 定位</a>
+                    
+                                            </div>
+                                            <div class="page-share">
+                                                
+                        <a href="https://downloads.hindawi.com/journals/js/2021/5550850.pdf" target="_blank" title="阅读论文"><span class="ace-icon ace-icon-file"></span>论文</a>
+                    
                                             </div>
                                         </div>
-                                    </article>
-
-                                    <article class="post">
-                                        <a class="post-thumbnail" href="./styles/img/paper_2.jpg" data-lightbox="example-2" data-title="An Active and
-                                        Adaptive Image Enhancement Method for Applications in Low-Light and
-                                        Narrow Environment"><img class="example-image" src="./styles/img/paper_2.jpg" alt="image-1"/></a>
-                                        <div class="post-content">
-                                            <h2 class="post-title"><a
-                                                    href="https://ieeexplore.ieee.org/document/9326629"
-                                                    target="_blank">An Active and
-                                                    Adaptive Image Enhancement Method for Applications in Low-Light and
-                                                    Narrow Environment</a></h2>
-                                            <span class="post-date"><b>罗明睿</b>; 李恩; 郭锐; 李胜川;
-                                                康存锋&nbsp;&nbsp;|&nbsp;&nbsp;2020, Nov 6</span>
-                                            <span class="highlight1"
-                                                style="display:block;margin-bottom: 10px;">中国自动化大会(CAC)
-                                                2020&nbsp;&nbsp;|&nbsp;&nbsp;<b>EI</b> 检索</span>
-                                            <!-- et al. -->
-                                            <p>This paper proposes an active and adaptive image enhancement method,
-                                                including the distributed light source model, the difference in
-                                                brightness between frames, contrast limited adaptive histogram
-                                                equalization, bilateral filter, and fuzzy inference parameter
-                                                self-adjustment method. The method proposed in this paper can effectively
-                                                enhance the images in the low-light and narrow environment.</p>
-                                            <div class="page-footer">
-                                                <div class="page-tag">
-                                                    <a class="tag">&#35; 图像增强</a>
-                                                </div>
-                                                <div class="page-share">
-                                                    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9326629&tag=1"
-                                                        target="_blank" title="阅读论文"><span
-                                                            class="ace-icon ace-icon-file"></span>论文</a>
-                                                </div>
+                                    </div>
+                                </article>
+            
+                                <article class="post">
+                                    <a class="post-thumbnail" href="./styles/img/paper_2.jpg" data-lightbox="image" data-title="An Active and Adaptive Image Enhancement Method for Applications in Low-Light and Narrow Environment"> <img class="example-image" src="./styles/img/paper_2.jpg"
+                                        alt="image" /></a>
+                                    <div class="post-content">
+                                        <h2 class="post-title"><a href="https://www.hindawi.com/journals/js/2021/5550850/" target="_blank">An Active and Adaptive Image Enhancement Method for Applications in Low-Light and Narrow Environment</a></h2>
+                                        <span class="post-date"><b>罗明睿</b>; 李恩; 郭锐; 李胜川; 康存锋&nbsp;&nbsp;|&nbsp;&nbsp;2020, Nov 6</span>
+                                        <span class="highlight1" style="display:block;margin-bottom: 10px;">中国自动化大会(CAC) 2020&nbsp;&nbsp;|&nbsp;&nbsp;<b>EI</b> 检索</span>
+                                        <p>This paper proposes an active and adaptive image enhancement method, including the distributed light source model, the difference in brightness between frames, contrast limited adaptive histogram equalization, bilateral filter, and fuzzy inference parameter self-adjustment method. The method proposed in this paper can effectively enhance the images in the low-light and narrow environment.</p>
+                                        <div class="page-footer">
+                                            <div class="page-tag">
+                                                
+                    <a class="tag">&#35; 图像增强</a>
+                    
+                                            </div>
+                                            <div class="page-share">
+                                                
+                        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9326629" target="_blank" title="阅读论文"><span class="ace-icon ace-icon-file"></span>论文</a>
+                    
                                             </div>
                                         </div>
-                                    </article>
+                                    </div>
+                                </article>
+            
 
                                     <h3 class="title-thin text-muted"><span
                                             class="ace-icon ace-icon-book"></span>&nbsp;&nbsp;专利</h3>
 
-
-                                    <article class="post">
-                                        <a class="post-thumbnail" href="./styles/img/patent_8.jpg" data-lightbox="example-2" data-title="GIS腔体作业装置与GIS腔体作业方法"><img class="example-image" src="./styles/img/patent_8.jpg" alt="image-1"/></a>
-                                        <div class="post-content">
-                                            <h2 class="post-title"><a
-                                                    href="https://patents.glgoo.top/patent/CN114618802A/en?oq=CN114618802A"
-                                                    target="_blank">
-                                                    GIS腔体作业装置与GIS腔体作业方法</a></h2>
-                                            <span class="post-date">刘佳鑫; <b>罗明睿</b>; 郭锐; 李胜川; 李恩; 胡博; 刘劲松; 张旭; 李勇 等
-                                                &nbsp;&nbsp;|&nbsp;&nbsp;2022, Feb 17(公布)</span>
-                                            <span class="highlight1"
-                                                style="display:block;margin-bottom: 10px;"><b>发明专利</b>&nbsp;&nbsp;|&nbsp;&nbsp;CN
-                                                114618802A</span>
-                                            <!-- et al. -->
-                                            <p>本发明提供的GIS腔体作业装置，有效提高了GIS腔体作业任务的执行效率，减少了人力的投入，降低了人工检修所带来的安全风险。</p>
-                                            <div class="page-footer">
-                                                <div class="page-tag">
-                                                    <a class="tag">&#35; 机构设计</a>
-                                                </div>
-                                                <div class="page-share">
-                                                    <a href="https://patentimages.storage.googleapis.com/98/1a/36/512a22d7f034de/CN114618802A.pdf"
-                                                        target="_blank" title="下载专利公告文件"><span
-                                                            class="ace-icon ace-icon-file"></span>公告文件</a>
-                                                </div>
+                                    
+                                <article class="post">
+                                    <a class="post-thumbnail" href="./styles/img/patent_8.jpg" data-lightbox="image" data-title="GIS腔体作业装置与GIS腔体作业方法"> <img class="example-image" src="./styles/img/patent_8.jpg"
+                                        alt="image" /></a>
+                                    <div class="post-content">
+                                        <h2 class="post-title"><a href="https://patents.glgoo.top/patent/CN114618802A/zh?oq=CN114618802A" target="_blank">GIS腔体作业装置与GIS腔体作业方法</a></h2>
+                                        <span class="post-date">刘佳鑫; <b>罗明睿</b>; 郭锐; 李胜川; 李恩; 胡博; 刘劲松; 张旭; 李勇 等&nbsp;&nbsp;|&nbsp;&nbsp;2022, Feb 17(公布)</span>
+                                        <span class="highlight1" style="display:block;margin-bottom: 10px;"><b>发明专利</b>&nbsp;&nbsp;|&nbsp;&nbsp;CN 114618802A</span>
+                                        <p>本发明提供的GIS腔体作业装置，有效提高了GIS腔体作业任务的执行效率，减少了人力的投入，降低了人工检修所带来的安全风险。</p>
+                                        <div class="page-footer">
+                                            <div class="page-tag">
+                                                
+                    <a class="tag">&#35; 机构设计</a>
+                    
+                                            </div>
+                                            <div class="page-share">
+                                                
+                        <a href="https://patentimages.storage.googleapis.com/98/1a/36/512a22d7f034de/CN114618802A.pdf" target="_blank" title="下载专利公告文件"><span class="ace-icon ace-icon-file"></span>公告文件</a>
+                    
                                             </div>
                                         </div>
-                                    </article>
-
-                                    <article class="post">
-                                        <a class="post-thumbnail" href="./styles/img/patent_7.jpg" data-lightbox="example-2" data-title="低光照弱对比复杂环境下的深度相机视觉增强方法及系统"><img class="example-image" src="./styles/img/patent_7.jpg" alt="image-1"/></a>
-                                        <div class="post-content">
-                                            <h2 class="post-title"><a
-                                                    href="https://patents.glgoo.top/patent/CN112200848A/zh?oq=CN+112200848A"
-                                                    target="_blank">
-                                                    低光照弱对比复杂环境下的深度相机视觉增强方法及系统</a></h2>
-                                            <span class="post-date">李恩; <b>罗明睿</b>; 杨国栋; 梁自泽; 谭民; 郭锐; 李勇; 刘海波
-                                                &nbsp;&nbsp;|&nbsp;&nbsp;2023, Feb 17</span>
-                                            <span class="highlight1"
-                                                style="display:block;margin-bottom: 10px;"><b>发明专利</b>&nbsp;&nbsp;|&nbsp;&nbsp;ZL
-                                                2020 1 1190396.2</span>
-                                            <!-- et al. -->
-                                            <p>本发明同时对深度相机的彩色图和深度图进行增强与修复，进一步提升深度相机对更加复杂、恶劣的环境的适应性。</p>
-                                            <div class="page-footer">
-                                                <div class="page-tag">
-                                                    <a class="tag">&#35; 图像增强</a><a class="tag">&#35; 点云修复</a>
-                                                </div>
-                                                <div class="page-share">
-                                                    <a href="https://patentimages.storage.googleapis.com/d8/fb/4c/536adb00923b13/CN112200848A.pdf"
-                                                        target="_blank" title="下载专利公告文件"><span
-                                                            class="ace-icon ace-icon-file"></span>公告文件</a>
-                                                </div>
+                                    </div>
+                                </article>
+            
+                                <article class="post">
+                                    <a class="post-thumbnail" href="./styles/img/patent_7.jpg" data-lightbox="image" data-title="低光照弱对比复杂环境下的深度相机视觉增强方法及系统"> <img class="example-image" src="./styles/img/patent_7.jpg"
+                                        alt="image" /></a>
+                                    <div class="post-content">
+                                        <h2 class="post-title"><a href="https://patents.glgoo.top/patent/CN112200848A/zh?oq=CN+112200848A" target="_blank">低光照弱对比复杂环境下的深度相机视觉增强方法及系统</a></h2>
+                                        <span class="post-date">李恩; <b>罗明睿</b>; 杨国栋; 梁自泽; 谭民; 郭锐; 李勇; 刘海波&nbsp;&nbsp;|&nbsp;&nbsp;2023, Feb 17</span>
+                                        <span class="highlight1" style="display:block;margin-bottom: 10px;"><b>发明专利</b>&nbsp;&nbsp;|&nbsp;&nbsp;ZL 2020 1 1190396.2</span>
+                                        <p>本发明同时对深度相机的彩色图和深度图进行增强与修复，进一步提升深度相机对更加复杂、恶劣的环境的适应性。</p>
+                                        <div class="page-footer">
+                                            <div class="page-tag">
+                                                
+                    <a class="tag">&#35; 图像增强</a>
+                    
+                    <a class="tag">&#35; 点云修复</a>
+                    
+                                            </div>
+                                            <div class="page-share">
+                                                
+                        <a href="https://patentimages.storage.googleapis.com/d8/fb/4c/536adb00923b13/CN112200848A.pdf" target="_blank" title="下载专利公告文件"><span class="ace-icon ace-icon-file"></span>公告文件</a>
+                    
                                             </div>
                                         </div>
-                                    </article>
-
-                                    <article class="post">
-                                        <a class="post-thumbnail" href="./styles/img/patent_6.jpg" data-lightbox="example-2" data-title="狭窄空间的多层次场景重建和快速分割方法、系统及装置"><img class="example-image" src="./styles/img/patent_6.jpg" alt="image-1"/></a>
-                                        <div class="post-content">
-                                            <h2 class="post-title"><a
-                                                    href="https://patents.glgoo.top/patent/CN112200874A/zh?oq=CN+112200874A"
-                                                    target="_blank">
-                                                    狭窄空间的多层次场景重建和快速分割方法、系统及装置</a></h2>
-                                            <span class="post-date"><b>罗明睿</b>; 李恩; 郭锐; 刘佳鑫; 杨国栋; 梁自泽; 谭民; 李勇; 刘海波 等
-                                                &nbsp;&nbsp;|&nbsp;&nbsp;2022, June 21</span>
-                                            <span class="highlight1"
-                                                style="display:block;margin-bottom: 10px;"><b>发明专利</b>&nbsp;&nbsp;|&nbsp;&nbsp;ZL
-                                                2020 1 1195340.6</span>
-                                            <!-- et al. -->
-                                            <p>本发明旨在解决狭窄空间下机器人场景重建及分割无法兼顾重建精度与计算实时性的问题，在不损失场景必要细节的前提下，实现了稠密重建及算法加速，更有利于实际工程场合的应用。
-                                            </p>
-                                            <div class="page-footer">
-                                                <div class="page-tag">
-                                                    <a class="tag">&#35; 三维重建</a><a class="tag">&#35; 三维分割</a>
-                                                </div>
-                                                <div class="page-share">
-                                                    <a href="https://patentimages.storage.googleapis.com/91/6f/7f/b8fc63903aec86/CN112200874A.pdf"
-                                                        target="_blank" title="下载专利公告文件"><span
-                                                            class="ace-icon ace-icon-file"></span>公告文件</a>
-                                                </div>
+                                    </div>
+                                </article>
+            
+                                <article class="post">
+                                    <a class="post-thumbnail" href="./styles/img/patent_6.jpg" data-lightbox="image" data-title="狭窄空间的多层次场景重建和快速分割方法、系统及装置"> <img class="example-image" src="./styles/img/patent_6.jpg"
+                                        alt="image" /></a>
+                                    <div class="post-content">
+                                        <h2 class="post-title"><a href="https://patents.glgoo.top/patent/CN112200874A/zh?oq=CN+112200874A" target="_blank">狭窄空间的多层次场景重建和快速分割方法、系统及装置</a></h2>
+                                        <span class="post-date"><b>罗明睿</b>; 李恩; 郭锐; 刘佳鑫; 杨国栋; 梁自泽; 谭民; 李勇; 刘海波 等&nbsp;&nbsp;|&nbsp;&nbsp;2022, June 21</span>
+                                        <span class="highlight1" style="display:block;margin-bottom: 10px;"><b>发明专利</b>&nbsp;&nbsp;|&nbsp;&nbsp;ZL 2020 1 1195340.6</span>
+                                        <p>本发明旨在解决狭窄空间下机器人场景重建及分割无法兼顾重建精度与计算实时性的问题，在不损失场景必要细节的前提下，实现了稠密重建及算法加速，更有利于实际工程场合的应用。</p>
+                                        <div class="page-footer">
+                                            <div class="page-tag">
+                                                
+                    <a class="tag">&#35; 三维重建</a>
+                    
+                    <a class="tag">&#35; 三维分割</a>
+                    
+                                            </div>
+                                            <div class="page-share">
+                                                
+                        <a href="https://patentimages.storage.googleapis.com/91/6f/7f/b8fc63903aec86/CN112200874A.pdf" target="_blank" title="下载专利公告文件"><span class="ace-icon ace-icon-file"></span>公告文件</a>
+                    
                                             </div>
                                         </div>
-                                    </article>
-
-                                    <article class="post">
-                                        <a class="post-thumbnail" href="./styles/img/patent_5.jpg" data-lightbox="example-2" data-title="机器人多传感器融合感知与空间定位的方法、系统及装置"><img class="example-image" src="./styles/img/patent_5.jpg" alt="image-1"/></a>
-                                        <div class="post-content">
-                                            <h2 class="post-title"><a
-                                                    href="https://patents.glgoo.top/patent/CN112388635A/zh?oq=CN+112388635+A"
-                                                    target="_blank">
-                                                    机器人多传感器融合感知与空间定位的方法、系统及装置</a></h2>
-                                            <span class="post-date">李恩; <b>罗明睿</b>; 杨国栋; 梁自泽; 谭民; 郭锐; 李勇; 刘海波
-                                                &nbsp;&nbsp;|&nbsp;&nbsp;2022, Mar 25</span>
-                                            <span class="highlight1"
-                                                style="display:block;margin-bottom: 10px;"><b>发明专利</b>&nbsp;&nbsp;|&nbsp;&nbsp;ZL
-                                                2020 1 1190385.4</span>
-                                            <!-- et al. -->
-                                            <p>本发明属于机器人环境感知技术领域，具体涉及了一种机器人多传感器融合感知与空间定位的方法、系统及装置，旨在解决环境中多因素综合的不利干扰条件导致机器人感知与空间定位准确度与精度低的问题。
-                                            </p>
-                                            <div class="page-footer">
-                                                <div class="page-tag">
-                                                    <a class="tag">&#35; 多传感器融合</a><a class="tag">&#35; 定位</a>
-                                                </div>
-                                                <div class="page-share">
-                                                    <a href="https://patentimages.storage.googleapis.com/ae/c2/c4/a13c607d4c824e/CN112388635A.pdf"
-                                                        target="_blank" title="下载专利公告文件"><span
-                                                            class="ace-icon ace-icon-file"></span>公告文件</a>
-                                                </div>
+                                    </div>
+                                </article>
+            
+                                <article class="post">
+                                    <a class="post-thumbnail" href="./styles/img/patent_5.jpg" data-lightbox="image" data-title="机器人多传感器融合感知与空间定位的方法、系统及装置"> <img class="example-image" src="./styles/img/patent_5.jpg"
+                                        alt="image" /></a>
+                                    <div class="post-content">
+                                        <h2 class="post-title"><a href="https://patents.glgoo.top/patent/CN112388635A/zh?oq=CN+112388635+A" target="_blank">机器人多传感器融合感知与空间定位的方法、系统及装置</a></h2>
+                                        <span class="post-date">李恩; <b>罗明睿</b>; 杨国栋; 梁自泽; 谭民; 郭锐; 李勇; 刘海波&nbsp;&nbsp;|&nbsp;&nbsp;2022, Mar 25</span>
+                                        <span class="highlight1" style="display:block;margin-bottom: 10px;"><b>发明专利</b>&nbsp;&nbsp;|&nbsp;&nbsp;ZL 2020 1 1190385.4</span>
+                                        <p>本发明属于机器人环境感知技术领域，具体涉及了一种机器人多传感器融合感知与空间定位的方法、系统及装置，旨在解决环境中多因素综合的不利干扰条件导致机器人感知与空间定位准确度与精度低的问题。</p>
+                                        <div class="page-footer">
+                                            <div class="page-tag">
+                                                
+                    <a class="tag">&#35; 多传感器融合</a>
+                    
+                    <a class="tag">&#35; 定位</a>
+                    
+                                            </div>
+                                            <div class="page-share">
+                                                
+                        <a href="https://patentimages.storage.googleapis.com/ae/c2/c4/a13c607d4c824e/CN112388635A.pdf" target="_blank" title="下载专利公告文件"><span class="ace-icon ace-icon-file"></span>公告文件</a>
+                    
                                             </div>
                                         </div>
-                                    </article>
-
-                                    <article class="post">
-                                        <a class="post-thumbnail" href="./styles/img/patent_4.jpg" data-lightbox="example-2" data-title="一种针对三阶魔方的自动填色及抽象化方法"><img class="example-image" src="./styles/img/patent_4.jpg" alt="image-1"/></a>
-                                        <div class="post-content">
-                                            <h2 class="post-title"><a
-                                                    href="https://patents.glgoo.top/patent/CN111383352A/zh?oq=CN111383352A"
-                                                    target="_blank">
-                                                    一种针对三阶魔方的自动填色及抽象化方法</a></h2>
-                                            <span class="post-date">康存锋; <b>罗明睿</b>; 石春阳; 陈东临
-                                                &nbsp;&nbsp;|&nbsp;&nbsp;2020, July 7(公布)</span>
-                                            <span class="highlight1"
-                                                style="display:block;margin-bottom: 10px;"><b>发明专利</b>&nbsp;&nbsp;|&nbsp;&nbsp;CN
-                                                111383352A</span>
-                                            <!-- et al. -->
-                                            <p>本发明公开了一种针对三阶魔方的自动填色及抽象化方法，在保证识别效率变化不大的情况下解决了颜色识别成本过高的问题，并且提出的魔方抽象化模型可以简化魔方的表达，更适合高阶魔方的算法编程。
-                                            </p>
-                                            <div class="page-footer">
-                                                <div class="page-tag">
-                                                    <a class="tag">&#35; 计算机视觉</a>
-                                                </div>
-                                                <div class="page-share">
-                                                    <a href="https://patentimages.storage.googleapis.com/4f/43/5d/6b366f38520658/CN111383352A.pdf"
-                                                        target="_blank" title="下载专利公告文件"><span
-                                                            class="ace-icon ace-icon-file"></span>公告文件</a>
-                                                </div>
+                                    </div>
+                                </article>
+            
+                                <article class="post">
+                                    <a class="post-thumbnail" href="./styles/img/patent_4.jpg" data-lightbox="image" data-title="一种针对三阶魔方的自动填色及抽象化方法"> <img class="example-image" src="./styles/img/patent_4.jpg"
+                                        alt="image" /></a>
+                                    <div class="post-content">
+                                        <h2 class="post-title"><a href="https://patents.glgoo.top/patent/CN111383352A/zh?oq=CN111383352A" target="_blank">一种针对三阶魔方的自动填色及抽象化方法</a></h2>
+                                        <span class="post-date">康存锋; <b>罗明睿</b>; 石春阳; 陈东临&nbsp;&nbsp;|&nbsp;&nbsp;2020, July 7(公布)</span>
+                                        <span class="highlight1" style="display:block;margin-bottom: 10px;"><b>发明专利</b>&nbsp;&nbsp;|&nbsp;&nbsp;CN 111383352A</span>
+                                        <p>本发明公开了一种针对三阶魔方的自动填色及抽象化方法，在保证识别效率变化不大的情况下解决了颜色识别成本过高的问题，并且提出的魔方抽象化模型可以简化魔方的表达，更适合高阶魔方的算法编程。</p>
+                                        <div class="page-footer">
+                                            <div class="page-tag">
+                                                
+                    <a class="tag">&#35; 计算机视觉</a>
+                    
+                                            </div>
+                                            <div class="page-share">
+                                                
+                        <a href="https://patentimages.storage.googleapis.com/4f/43/5d/6b366f38520658/CN111383352A.pdf" target="_blank" title="下载专利公告文件"><span class="ace-icon ace-icon-file"></span>公告文件</a>
+                    
                                             </div>
                                         </div>
-                                    </article>
-
-                                    <article class="post">
-                                        <a class="post-thumbnail" href="./styles/img/patent_3.jpg" data-lightbox="example-2" data-title="一种辅助搭建月球基地及月岩样本采集的月球车"><img class="example-image" src="./styles/img/patent_3.jpg" alt="image-1"/></a>
-                                        <div class="post-content">
-                                            <h2 class="post-title"><a
-                                                    href="https://patents.glgoo.top/patent/CN110104212A/zh?oq=CN201910391153"
-                                                    target="_blank">
-                                                    一种辅助搭建月球基地及月岩样本采集的月球车</a></h2>
-                                            <span class="post-date">王建华; 高孟玄; <b>罗明睿</b>; 沈靖瑄; 吴桐; 张彩霞;
-                                                &nbsp;&nbsp;|&nbsp;&nbsp;2019, May 11</span>
-                                            <span class="highlight1"
-                                                style="display:block;margin-bottom: 10px;"><b>发明专利</b>&nbsp;&nbsp;|&nbsp;&nbsp;ZL
-                                                2019 1 0391153.6</span>
-                                            <!-- et al. -->
-                                            <p>本发明公开了一种辅助搭建月球基地及月岩样本采集的月球车，该机器人主要分为四部分，筑造原料采集系统、墙体成型系统、底盘驱动系统和样本采集系统。
-                                            </p>
-                                            <div class="page-footer">
-                                                <div class="page-tag">
-                                                    <a class="tag">&#35; 机器人设计</a>
-                                                </div>
-                                                <div class="page-share">
-                                                    <a href="https://patentimages.storage.googleapis.com/de/15/3c/8fe46ebcdb5865/CN110104212A.pdf"
-                                                        target="_blank" title="下载专利公告文件"><span
-                                                            class="ace-icon ace-icon-file"></span>公告文件</a>
-                                                </div>
+                                    </div>
+                                </article>
+            
+                                <article class="post">
+                                    <a class="post-thumbnail" href="./styles/img/patent_3.jpg" data-lightbox="image" data-title="一种辅助搭建月球基地及月岩样本采集的月球车"> <img class="example-image" src="./styles/img/patent_3.jpg"
+                                        alt="image" /></a>
+                                    <div class="post-content">
+                                        <h2 class="post-title"><a href="https://patents.glgoo.top/patent/CN110104212A/zh?oq=CN201910391153" target="_blank">一种辅助搭建月球基地及月岩样本采集的月球车</a></h2>
+                                        <span class="post-date">王建华; 高孟玄; <b>罗明睿</b>; 沈靖瑄; 吴桐; 张彩霞;&nbsp;&nbsp;|&nbsp;&nbsp;2019, May 11</span>
+                                        <span class="highlight1" style="display:block;margin-bottom: 10px;"><b>发明专利</b>&nbsp;&nbsp;|&nbsp;&nbsp;ZL 2019 1 0391153.6</span>
+                                        <p>本发明公开了一种辅助搭建月球基地及月岩样本采集的月球车，该机器人主要分为四部分，筑造原料采集系统、墙体成型系统、底盘驱动系统和样本采集系统。</p>
+                                        <div class="page-footer">
+                                            <div class="page-tag">
+                                                
+                    <a class="tag">&#35; 机器人设计</a>
+                    
+                                            </div>
+                                            <div class="page-share">
+                                                
+                        <a href="https://patentimages.storage.googleapis.com/de/15/3c/8fe46ebcdb5865/CN110104212A.pdf" target="_blank" title="下载专利公告文件"><span class="ace-icon ace-icon-file"></span>公告文件</a>
+                    
                                             </div>
                                         </div>
-                                    </article>
-
-                                    <article class="post">
-                                        <a class="post-thumbnail" href="./styles/img/patent_2.jpg" data-lightbox="example-2" data-title="一种实现大范围延时摄影的自动化装置和控制方法"><img class="example-image" src="./styles/img/patent_2.jpg" alt="image-1"/></a>
-                                        <div class="post-content">
-                                            <h2 class="post-title"><a
-                                                    href="https://patents.glgoo.top/patent/CN109061998A/zh?oq=CN201811136164"
-                                                    target="_blank">
-                                                    一种实现大范围延时摄影的自动化装置和控制方法</a></h2>
-                                            <span class="post-date">孙树文; <b>罗明睿</b>; 石朝阳; 孙峻; 高孟玄;
-                                                洪泽汇&nbsp;&nbsp;|&nbsp;&nbsp;2018, Sep 28</span>
-                                            <span class="highlight1"
-                                                style="display:block;margin-bottom: 10px;"><b>发明专利</b>&nbsp;&nbsp;|&nbsp;&nbsp;ZL
-                                                2018 1 1136164.1</span>
-                                            <!-- et al. -->
-                                            <p>本发明提供一种实现大范围延时摄影的自动化装置和控制方法，解决传统拍摄手段场地适应性差、路径规划难、成本高、可携带性差等的缺点。</p>
-                                            <div class="page-footer">
-                                                <div class="page-tag">
-                                                    <a class="tag">&#35; 运动控制</a>
-                                                </div>
-                                                <div class="page-share">
-                                                    <a href="https://patentimages.storage.googleapis.com/e5/e7/9a/967b3db39768dc/CN109061998A.pdf"
-                                                        target="_blank" title="下载专利公告文件"><span
-                                                            class="ace-icon ace-icon-file"></span>公告文件</a>
-                                                </div>
+                                    </div>
+                                </article>
+            
+                                <article class="post">
+                                    <a class="post-thumbnail" href="./styles/img/patent_2.jpg" data-lightbox="image" data-title="一种实现大范围延时摄影的自动化装置和控制方法"> <img class="example-image" src="./styles/img/patent_2.jpg"
+                                        alt="image" /></a>
+                                    <div class="post-content">
+                                        <h2 class="post-title"><a href="https://patents.glgoo.top/patent/CN109061998A/zh?oq=CN201811136164" target="_blank">一种实现大范围延时摄影的自动化装置和控制方法</a></h2>
+                                        <span class="post-date">孙树文; <b>罗明睿</b>; 石朝阳; 孙峻; 高孟玄;&nbsp;&nbsp;|&nbsp;&nbsp;2018, Sep 28</span>
+                                        <span class="highlight1" style="display:block;margin-bottom: 10px;"><b>发明专利</b>&nbsp;&nbsp;|&nbsp;&nbsp;ZL 2018 1 1136164.1</span>
+                                        <p>本发明提供一种实现大范围延时摄影的自动化装置和控制方法，解决传统拍摄手段场地适应性差、路径规划难、成本高、可携带性差等的缺点。</p>
+                                        <div class="page-footer">
+                                            <div class="page-tag">
+                                                
+                    <a class="tag">&#35; 运动控制</a>
+                    
+                                            </div>
+                                            <div class="page-share">
+                                                
+                        <a href="https://patentimages.storage.googleapis.com/e5/e7/9a/967b3db39768dc/CN109061998A.pdf" target="_blank" title="下载专利公告文件"><span class="ace-icon ace-icon-file"></span>公告文件</a>
+                    
                                             </div>
                                         </div>
-                                    </article>
-
-                                    <article class="post">
-                                        <a class="post-thumbnail" href="./styles/img/patent_1.jpg" data-lightbox="example-2" data-title="水球自动回收机器人"><img class="example-image" src="./styles/img/patent_1.jpg" alt="image-1"/></a>
-                                        <div class="post-content">
-                                            <h2 class="post-title"><a
-                                                    href="https://patents.glgoo.top/patent/CN108635782A/zh?oq=CN201810457020"
-                                                    target="_blank">
-                                                    水球自动回收机器人</a></h2>
-                                            <span class="post-date">王建华; <b>罗明睿</b>; 刘子虓; 辛雨函;
-                                                赵永胜&nbsp;&nbsp;|&nbsp;&nbsp;2018, May 14</span>
-                                            <span class="highlight1"
-                                                style="display:block;margin-bottom: 10px;"><b>发明专利</b>&nbsp;&nbsp;|&nbsp;&nbsp;ZL
-                                                2018 1 0457020.X</span>
-                                            <!-- et al. -->
-                                            <p>本发明是水球自动回收机器人，机构分为四大部分：机器人动力机构、水球聚集机构、水球运输机构、水球收集机构，具有快速捕捉水球、高效输送及大量储存水球的能力。
-                                            </p>
-                                            <div class="page-footer">
-                                                <div class="page-tag">
-                                                    <a class="tag">&#35; 机器人设计</a>
-                                                </div>
-                                                <div class="page-share">
-                                                    <a href="https://patentimages.storage.googleapis.com/7f/82/3f/b8254ca59bebae/CN108635782B.pdf"
-                                                        target="_blank" title="下载专利公告文件"><span
-                                                            class="ace-icon ace-icon-file"></span>公告文件</a>
-                                                </div>
+                                    </div>
+                                </article>
+            
+                                <article class="post">
+                                    <a class="post-thumbnail" href="./styles/img/patent_1.jpg" data-lightbox="image" data-title="水球自动回收机器人"> <img class="example-image" src="./styles/img/patent_1.jpg"
+                                        alt="image" /></a>
+                                    <div class="post-content">
+                                        <h2 class="post-title"><a href="https://patents.glgoo.top/patent/CN108635782A/zh?oq=CN201810457020" target="_blank">水球自动回收机器人</a></h2>
+                                        <span class="post-date">王建华; <b>罗明睿</b>; 刘子虓; 辛雨函;&nbsp;&nbsp;|&nbsp;&nbsp;2018, May 14</span>
+                                        <span class="highlight1" style="display:block;margin-bottom: 10px;"><b>发明专利</b>&nbsp;&nbsp;|&nbsp;&nbsp;ZL 2018 1 0457020.X</span>
+                                        <p>本发明是水球自动回收机器人，机构分为四大部分：机器人动力机构、水球聚集机构、水球运输机构、水球收集机构，具有快速捕捉水球、高效输送及大量储存水球的能力。</p>
+                                        <div class="page-footer">
+                                            <div class="page-tag">
+                                                
+                    <a class="tag">&#35; 机器人设计</a>
+                    
+                                            </div>
+                                            <div class="page-share">
+                                                
+                        <a href="https://patentimages.storage.googleapis.com/7f/82/3f/b8254ca59bebae/CN108635782B.pdf" target="_blank" title="下载专利公告文件"><span class="ace-icon ace-icon-file"></span>公告文件</a>
+                    
                                             </div>
                                         </div>
-                                    </article>
-
-
-
+                                    </div>
+                                </article>
+            
 
                                 </section><!-- .section -->
 
@@ -548,114 +497,112 @@
                                         <div class="col-sm-12 clear-mrg">
                                             <h2 class="title-thin text-muted"><b>获奖荣誉</b></h2>
                                             <div class="education">
-                                                <div class="education-box">
-                                                    <time class="education-date" datetime="2021-09T2022-06">
-                                                        <span>June <strong class="text-upper">2022</strong></span>
-                                                    </time>
-                                                    <h4>中国科学院大学“<span class="highlight1"><b>三好学生</b></span>”称号</h4>
-                                                </div>
-                                                <div class="education-box">
-                                                    <time class="education-date" datetime="2020-09T2021-06">
-                                                        <span>June <strong class="text-upper">2021</strong></span>
-                                                    </time>
-                                                    <h4>中国科学院大学“<span class="highlight1"><b>三好学生</b></span>”称号</h4>
-                                                </div>
-                                                <div class="education-box">
-                                                    <time class="education-date" datetime="2020-01T2020-06">
-                                                        <span>June <strong class="text-upper">2020</strong></span>
-                                                    </time>
-                                                    <h4>北京市<span class="highlight1"><b>优秀毕业生</b></span>、北京工业大学<span
-                                                            class="highlight1"><b>优秀毕业生</b></span></h4>
-                                                </div>
-                                                <div class="education-box">
-                                                    <time class="education-date" datetime="2019-12T2019-12">
-                                                        <span>Dec <strong class="text-upper">2019</strong></span>
-                                                    </time>
-                                                    <h4>北京工业大学<span class="highlight1"><b>学习优秀奖</b></span>、<span
-                                                            class="highlight1"><b>创新创业奖</b></span>，机电学院<span
-                                                            class="highlight1"><b>三好学生</b></span></h4>
-                                                </div>
-                                                <div class="education-box">
-                                                    <time class="education-date" datetime="2019-11T2019-11">
-                                                        <span>Nov <strong class="text-upper">2019</strong></span>
-                                                    </time>
-                                                    <h4>第五届北京工业大学“鼎新杯”学生课外学术作品竞赛&nbsp;<span
-                                                            class="highlight1"><b>一等奖</b></span></h4>
-                                                </div>
-                                                <div class="education-box">
-                                                    <time class="education-date" datetime="2019-06T2019-06">
-                                                        <span>June <strong class="text-upper">2019</strong></span>
-                                                    </time>
-                                                    <h4>第十届“挑战杯”首都大学生课外学术科技作品竞赛&nbsp;<span
-                                                            class="highlight1"><b>一等奖</b></span></h4>
-                                                </div>
-                                                <div class="education-box">
-                                                    <time class="education-date" datetime="2019-05T2019-05">
-                                                        <span>May <strong class="text-upper">2019</strong></span>
-                                                    </time>
-                                                    <h4>2019年全国大学生机械产品数字化设计大赛&nbsp;<span
-                                                            class="highlight1"><b>一等奖</b></span></h4>
-                                                </div>
-                                                <div class="education-box">
-                                                    <time class="education-date" datetime="2019-02T2019-02">
-                                                        <span>Feb <strong class="text-upper">2019</strong></span>
-                                                    </time>
-                                                    <h4>2019年美国大学生数学建模竞赛&nbsp;<span class="highlight1"><b>Honorable
-                                                                Mention</b></span></h4>
-                                                </div>
-                                                <div class="education-box">
-                                                    <time class="education-date" datetime="2018-12T2018-12">
-                                                        <span>Dec <strong class="text-upper">2018</strong></span>
-                                                    </time>
-                                                    <h4>北京工业大学<span class="highlight1"><b>学习优秀奖</b></span>、<span
-                                                            class="highlight1"><b>创新创业奖</b></span>，机电学院<span
-                                                            class="highlight1"><b>三好学生</b></span>、<span
-                                                            class="highlight1"><b>优秀学生干部</b></span></h4>
-                                                </div>
-                                                <div class="education-box">
-                                                    <time class="education-date" datetime="2018-11T2018-11">
-                                                        <span>Nov <strong class="text-upper">2018</strong></span>
-                                                    </time>
-                                                    <h4><span class="highlight1"><b>国家奖学金</b></span>，<span
-                                                            class="highlight1"><b>杨叔子院士奖学金</b></span></h4>
-                                                </div>
-                                                <div class="education-box">
-                                                    <time class="education-date" datetime="2018-09T2018-09">
-                                                        <span>Sep <strong class="text-upper">2018</strong></span>
-                                                    </time>
-                                                    <h4>2018全国大学生数学建模竞赛（北京赛区）&nbsp;<span
-                                                            class="highlight1"><b>一等奖</b></span></h4>
-                                                </div>
-                                                <div class="education-box">
-                                                    <time class="education-date" datetime="2018-05T2018-05">
-                                                        <span>May <strong class="text-upper">2018</strong></span>
-                                                    </time>
-                                                    <h4>2018年“创青春”首都大学生创业大赛&nbsp;<span
-                                                            class="highlight1"><b>银奖</b></span></h4>
-                                                </div>
-                                                <div class="education-box">
-                                                    <time class="education-date" datetime="2017-12T2017-12">
-                                                        <span>Dec <strong class="text-upper">2017</strong></span>
-                                                    </time>
-                                                    <h4>北京工业大学<span class="highlight1"><b>学习优秀奖</b></span>、<span
-                                                            class="highlight1"><b>科技创新奖</b></span>、<span
-                                                            class="highlight1"><b>三好学生</b></span>，<span
-                                                            class="highlight1"><b>杨叔子院士奖学金</b></span></h4>
-                                                </div>
-                                                <div class="education-box">
-                                                    <time class="education-date" datetime="2017-11T2017-11">
-                                                        <span>Nov <strong class="text-upper">2017</strong></span>
-                                                    </time>
-                                                    <h4>第三届北京工业大学“鼎新杯”学生课外学术作品竞赛&nbsp;<span
-                                                            class="highlight1"><b>一等奖</b></span></h4>
-                                                </div>
-                                                <div class="education-box">
-                                                    <time class="education-date" datetime="2017-08T2017-08">
-                                                        <span>Aug <strong class="text-upper">2017</strong></span>
-                                                    </time>
-                                                    <h4>2017年中国机器人大赛&nbsp;<span class="highlight1"><b>一等奖</b></span>
-                                                    </h4>
-                                                </div>
+                                                
+                <div class="education-box">
+                    <time class="education-date" datetime="2022-6T2022-6">
+                        <span>Jun <strong class="text-upper">2022</strong></span>
+                    </time>
+                    <h4>中国科学院大学2022年度“<span class="highlight1"><b>三好学生</b></span>”称号</h4>
+                </div>
+                
+                <div class="education-box">
+                    <time class="education-date" datetime="2021-6T2021-6">
+                        <span>Jun <strong class="text-upper">2021</strong></span>
+                    </time>
+                    <h4>中国科学院大学2021年度“<span class="highlight1"><b>三好学生</b></span>”称号</h4>
+                </div>
+                
+                <div class="education-box">
+                    <time class="education-date" datetime="2020-6T2020-6">
+                        <span>Jun <strong class="text-upper">2020</strong></span>
+                    </time>
+                    <h4>北京市<span class="highlight1"><b>优秀毕业生</b></span>、北京工业大学<span class="highlight1"><b>优秀毕业生</b></span></h4>
+                </div>
+                
+                <div class="education-box">
+                    <time class="education-date" datetime="2019-12T2019-12">
+                        <span>Dec <strong class="text-upper">2019</strong></span>
+                    </time>
+                    <h4>北京工业大学<span class="highlight1"><b>学习优秀奖</b></span>、<span class="highlight1"><b>创新创业奖</b></span>，机电学院<span class="highlight1"><b>三好学生</b></span></h4>
+                </div>
+                
+                <div class="education-box">
+                    <time class="education-date" datetime="2019-11T2019-11">
+                        <span>Nov <strong class="text-upper">2019</strong></span>
+                    </time>
+                    <h4>第五届北京工业大学“鼎新杯”学生课外学术作品竞赛&nbsp;<span class="highlight1"><b>一等奖</b></span></h4>
+                </div>
+                
+                <div class="education-box">
+                    <time class="education-date" datetime="2019-6T2019-6">
+                        <span>Jun <strong class="text-upper">2019</strong></span>
+                    </time>
+                    <h4>第十届“挑战杯”首都大学生课外学术科技作品竞赛&nbsp;<span class="highlight1"><b>一等奖</b></span></h4>
+                </div>
+                
+                <div class="education-box">
+                    <time class="education-date" datetime="2019-5T2019-5">
+                        <span>May <strong class="text-upper">2019</strong></span>
+                    </time>
+                    <h4>2019年全国大学生机械产品数字化设计大赛&nbsp;<span class="highlight1"><b>一等奖</b></span></h4>
+                </div>
+                
+                <div class="education-box">
+                    <time class="education-date" datetime="2019-2T2019-2">
+                        <span>Feb <strong class="text-upper">2019</strong></span>
+                    </time>
+                    <h4>2019年美国大学生数学建模竞赛&nbsp;<span class="highlight1"><b>Honorable Mention</b></span></h4>
+                </div>
+                
+                <div class="education-box">
+                    <time class="education-date" datetime="2018-12T2018-12">
+                        <span>Dec <strong class="text-upper">2018</strong></span>
+                    </time>
+                    <h4>北京工业大学<span class="highlight1"><b>学习优秀奖</b></span>、<span class="highlight1"><b>创新创业奖</b></span>，机电学院<span class="highlight1"><b>三好学生</b></span>、<span class="highlight1"><b>优秀学生干部</b></span></h4>
+                </div>
+                
+                <div class="education-box">
+                    <time class="education-date" datetime="2018-11T2018-11">
+                        <span>Nov <strong class="text-upper">2018</strong></span>
+                    </time>
+                    <h4><span class="highlight1"><b>国家奖学金</b></span>，<span class="highlight1"><b>杨叔子院士奖学金</b></span></h4>
+                </div>
+                
+                <div class="education-box">
+                    <time class="education-date" datetime="2018-09T2018-09">
+                        <span>Sep <strong class="text-upper">2018</strong></span>
+                    </time>
+                    <h4>2018全国大学生数学建模竞赛（北京赛区）&nbsp;<span class="highlight1"><b>一等奖</b></span></h4>
+                </div>
+                
+                <div class="education-box">
+                    <time class="education-date" datetime="2018-05T2018-05">
+                        <span>May <strong class="text-upper">2018</strong></span>
+                    </time>
+                    <h4>2018年“创青春”首都大学生创业大赛&nbsp;<span class="highlight1"><b>银奖</b></span></h4>
+                </div>
+                
+                <div class="education-box">
+                    <time class="education-date" datetime="2017-12T2017-12">
+                        <span>Dec <strong class="text-upper">2017</strong></span>
+                    </time>
+                    <h4>北京工业大学<span class="highlight1"><b>学习优秀奖</b></span>、<span class="highlight1"><b>科技创新奖</b></span>、<span class="highlight1"><b>三好学生</b></span>，<span class="highlight1"><b>杨叔子院士奖学金</b></span></h4>
+                </div>
+                
+                <div class="education-box">
+                    <time class="education-date" datetime="2017-11T2017-11">
+                        <span>Nov <strong class="text-upper">2017</strong></span>
+                    </time>
+                    <h4>第三届北京工业大学“鼎新杯”学生课外学术作品竞赛&nbsp;<span class="highlight1"><b>一等奖</b></span></h4>
+                </div>
+                
+                <div class="education-box">
+                    <time class="education-date" datetime="2017-08T2017-08">
+                        <span>Aug <strong class="text-upper">2017</strong></span>
+                    </time>
+                    <h4>2017年中国机器人大赛&nbsp;<span class="highlight1"><b>一等奖</b></span></h4>
+                </div>
+                
 
                                             </div>
                                         </div>
@@ -667,32 +614,37 @@
                                         <div class="col-sm-12 clear-mrg">
                                             <h2 class="title-thin text-muted"><b>科研经历</b></h2>
                                             <div class="education">
-                                                <div class="education-box">
-                                                    <time class="education-date" datetime="2020-09T2023-03">
-                                                        <span>Sep <strong class="text-upper">2020</strong> - Mar <strong
-                                                                class="text-upper">2023</strong></span>
-                                                    </time>
-                                                    <h4>面向电力行业的作业机器人系统研究及应用</h4>
-                                                    <span class="education-company">国家重点研发计划&nbsp;&nbsp;|&nbsp;&nbsp;学生技术骨干</span>
-                                                    <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;研发了一款面向气体绝缘变电站(GIS)的竖直腔体检修机器人，该机器人由全地形移动底盘、多级升降平台和长臂展机械臂构成；</p>
-                                                    <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;参与了长臂展机械臂的构型设计，通过模仿蛇类盘曲运动，采用蜷缩式推送，结构紧凑，实现了长达2.2米、24自由度、直径50毫米的线缆驱动超冗余度机械臂;</p>
-                                                    <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;主导了长臂展机械臂的控制系统设计，以CANOpen为主要通信方式，基于Codesys和ROS实现36轴高精度同步控制;</p>
-                                                    <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;主导了长臂展机械臂的规划算法设计，通过头部跟随仿生策略，控制高冗余度机械臂末端位姿与臂形姿态，满足狭窄空间避障作业需求。</p>
-                                                </div>
-                                                <!-- .education-box -->
-
-                                                <div class="education-box">
-                                                    <time class="education-date" datetime="2021-09T2022-09">
-                                                        <span>Sep <strong class="text-upper">2021</strong> - Sep
-                                                            <strong>2022</strong></span>
-                                                    </time>
-                                                    <h4> 应用于航空制造中狭窄腔室的涂胶作业机器人
-                                                    </h4>
-                                                    <span class="education-company">企业重大课题&nbsp;&nbsp;|&nbsp;&nbsp;学生技术骨干</span>
-                                                    <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;研发了一款面向狭窄腔室的涂胶作业机器人，包括6自由度刚性机械臂和20自由度柔性机械臂；</p>
-                                                    <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;主导了涂胶作业机器人的控制系统设计，以Ethercat为主要通信方式，建立刚柔机械臂的协作，并通过OPC UA实现CATIA中的数字孪生交互；</p>
-                                                    <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;参与了涂胶作业机器人胶缝定位和质量评估算法的开发，通过计算机视觉定位胶缝，为机械臂运动学规划系统提供引导路径，并评估涂胶质量。</p>
-                                                </div>
+                                                
+                <div class="education-box">
+                    <time class="education-date" datetime="2020-09T2023-03">
+                        <span>Sep <strong class="text-upper">2020</strong> - Mar <strong
+                                class="text-upper">2023</strong></span>
+                    </time>
+                    <h4>面向电力行业的作业机器人系统研究及应用</h4>
+                    <span
+                        class="education-company">国家重点研发计划&nbsp;&nbsp;|&nbsp;&nbsp;学生技术骨干</span>
+                    <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;研发了一款面向气体绝缘变电站(GIS)的竖直腔体检修机器人，该机器人由全地形移动底盘、多级升降平台和长臂展机械臂构成；</p>
+                 <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;参与了长臂展机械臂的构型设计，通过模仿蛇类盘曲运动，采用蜷缩式推送，结构紧凑，实现了长达2.2米、24自由度、直径50毫米的线缆驱动超冗余度机械臂；</p>
+                 <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;主导了长臂展机械臂的控制系统设计，以CANOpen为主要通信方式，基于Codesys和ROS实现36轴高精度同步控制；</p>
+                 <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;主导了长臂展机械臂的规划算法设计，通过头部跟随仿生策略，控制高冗余度机械臂末端位姿与臂形姿态，满足狭窄空间避障作业需求。</p>
+                 
+                </div>
+                
+                <div class="education-box">
+                    <time class="education-date" datetime="2021-09T2022-09">
+                        <span>Sep <strong class="text-upper">2021</strong> - Sep <strong
+                                class="text-upper">2022</strong></span>
+                    </time>
+                    <h4>应用于航空制造中狭窄腔室的涂胶作业机器人</h4>
+                    <span
+                        class="education-company">企业重大课题&nbsp;&nbsp;|&nbsp;&nbsp;学生技术骨干</span>
+                    <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;研发了一款面向狭窄腔室的涂胶作业机器人，包括6自由度刚性机械臂和20自由度柔性机械臂；</p>
+                 <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;主导了涂胶作业机器人的控制系统设计，以Ethercat为主要通信方式，建立刚柔机械臂的协作，并通过OPC UA实现CATIA中的数字孪生交互；</p>
+                 <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;主导了长臂展机械臂的控制系统设计，以CANOpen为主要通信方式，基于Codesys和ROS实现36轴高精度同步控制;</p>
+                 <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;参与了涂胶作业机器人胶缝定位和质量评估算法的开发，通过计算机视觉定位胶缝，为机械臂运动学规划系统提供引导路径，并评估涂胶质量。</p>
+                 
+                </div>
+                
                                             </div>
                                         </div>
                                     </div>
@@ -706,15 +658,17 @@
             </div><!-- .ace-container -->
         </div><!-- #ace-content -->
 
-
         <footer id="ace-footer" class="ace-container-shift">
             <div class="ace-container">
                 <div class="ace-footer-cont clear-mrg">
-                    <p class="text-center"><span class="ace-icon ace-icon-leaf"></span>&nbsp;Update: 2023.03.31 @LMR&nbsp;&nbsp;|&nbsp;&nbsp;Modified from <a
-                            href="https://xiaodan_yu.gitee.io/resume.io/">XiaoXiao</a> and <a
-                            href="http://artemsheludko.com/flexible-jekyll/">Artemsheludko</a>&nbsp;<span class="ace-icon ace-icon-leaf"></span></p>
-                    <p class="text-center" style="margin-top: -0.5em;"><span class="ace-icon ace-icon-eye"></span>&nbsp;<span id="busuanzi_container_site_pv">View <span id="busuanzi_value_site_pv"></span>times</span>&nbsp;<a
-                        href="http://busuanzi.ibruce.info/">@busuanzi</a></p>
+                    <p class="text-center"><span class="ace-icon ace-icon-leaf"></span>&nbsp;Update: 2023-04-01&nbsp;&nbsp;|&nbsp;&nbsp;Modified from <a href="https://hilmr.github.io/">HILMR</a>, <a
+                            href="https://xiaodan_yu.gitee.io/resume.io/">XiaoXiao</a>, and <a
+                            href="http://artemsheludko.com/flexible-jekyll/">Artemsheludko</a>&nbsp;<span
+                            class="ace-icon ace-icon-leaf"></span></p>
+                    <p class="text-center" style="margin-top: -0.5em;"><span
+                            class="ace-icon ace-icon-eye"></span>&nbsp;<span id="busuanzi_container_site_pv">View <span
+                                id="busuanzi_value_site_pv"></span>&nbsp;times</span>&nbsp;<a
+                            href="http://busuanzi.ibruce.info/">@busuanzi</a></p>
                 </div>
             </div><!-- .ace-container -->
         </footer><!-- #ace-footer -->
@@ -730,43 +684,38 @@
         </svg>
 
     </div><!-- .ace-wrapper -->
-
-    <!-- Scripts -->
-    <script type="text/javascript" src="./styles/js/vendor/jquery-1.12.4.min.js"></script>
-    <script type="text/javascript" src="./styles/js/plugins/highlight/highlight.pack.js"></script>
-    <script type="text/javascript" src="./styles/js/plugins/jquery.mCustomScrollbar.min.js"></script>
-    <script type="text/javascript" src="./styles/js/plugins/isotope.pkgd.min.js"></script>
-    <script type="text/javascript" src="./styles/js/plugins/progressbar.min.js"></script>
-    <script type="text/javascript" src="./styles/js/plugins/slick.min.js"></script>
-
-    <script type="text/javascript" src="./styles/js/options.js"></script>
-    <script type="text/javascript" src="./styles/js/main.js"></script>
-
 </body>
 
 <script>
-    // 屏幕自适应
-
+    // Screen adaptation
     function resizeFun() {
-        var devicewidth = document.documentElement.clientWidth;//获取当前分辨率下的可是区域宽度
-        var scale = devicewidth / 1903; // 分母——设计稿的尺寸
-        document.body.style.zoom = scale;//放大缩小相应倍数
+        if (checkdevice() == 0) {
+            var devicewidth = document.documentElement.clientWidth;
+            var scale = devicewidth / 1903;
+            document.body.style.zoom = scale;
+        }
     }
-
-    // 监听屏幕缩放，自适应
+    // Devices
+    function checkdevice() {
+        var a = navigator.userAgent;
+        var isAndroid = a.indexOf('Android') > -1 || a.indexOf('Adr') > -1; //Android
+        var isiOS = !!a.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //IOS
+        if (isAndroid) {
+            return 1
+        }
+        if (isiOS) {
+            return 2
+        }
+        return 0
+    }
+    // Monitor screen zoom
     $(window).resize(function () {
         resizeFun();
     });
-
-    //  初始化调用
-
+    //  Init
     $(function () {
         resizeFun();
     })
-
-
 </script>
 
 </html>
-
-<!-- https://icomoon.io/#preview-free -->

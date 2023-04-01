@@ -1,0 +1,264 @@
+<!--  
+    Author:LMR
+    Update:2023/04/01
+    Resume Template V0.2
+-->
+<!DOCTYPE html>
+<html lang="en" class="ace ace-card-on ace-tab-nav-on ace-main-nav-on ace-sidebar-on" data-theme-color="#c0e3e7">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{TITLE}</title>
+
+    <!-- Icon Fonts -->
+    <!-- SEE https://icomoon.io/#preview-free -->
+    <link href="./styles/fonts/icomoon/style.css" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="./styles/js/plugins/highlight/solarized-light.css" rel="stylesheet">
+    <link href="./styles/css/style.css" rel="stylesheet">
+
+    <!-- Lightbox -->
+    <link rel="stylesheet" href="./styles/css/lightbox.css">
+    <script src="./styles/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./styles/js/plugins/lightbox.js"></script>
+
+    <!-- Visits -->
+    <script async src="./styles/js/plugins/busuanzi.pure.mini.js"></script>
+
+    <!-- Modernizer -->
+    <script type="text/javascript" src="./styles/js/vendor/modernizr-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="./styles/css/main.css">
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="./styles/js/vendor/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="./styles/js/plugins/highlight/highlight.pack.js"></script>
+    <script type="text/javascript" src="./styles/js/plugins/jquery.mCustomScrollbar.min.js"></script>
+    <script type="text/javascript" src="./styles/js/plugins/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="./styles/js/plugins/progressbar.min.js"></script>
+    <script type="text/javascript" src="./styles/js/plugins/slick.min.js"></script>
+
+    <script type="text/javascript" src="./styles/js/options.js"></script>
+    <script type="text/javascript" src="./styles/js/main.js"></script>
+
+    <style>
+        /* CSS */
+        .highlight1 {
+            /*float: left;*/
+            display: inline-block;
+            border-radius: 10px;
+            background: antiquewhite;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            text-decoration: aliceblue;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        @media only screen and (max-width: 480px) {
+            .highlight1 {
+                font-size: 8px;
+            }
+
+            .ace-footer-cont {
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ace-wrapper">
+
+        <header id="ace-header" class="ace-container-shift ace-logo-in ace-head-boxed ace-nav-right">
+            <div class="ace-head-inner">
+            </div>
+        </header>
+
+        <article id="ace-card" class="ace-card bg-primary">
+            <div class="ace-card-inner text-center">
+                <img class="avatar avatar-195" src="./styles/img/personal.jpg" width="195" height="195" alt="">
+                <h1>{NAME}</h1>
+                <h4 class="text-muted" style="margin-bottom: -10px;">{NAME_TITLE}</h4>
+                <hr />
+                {FIELD}
+                <hr />
+                <ul class="ace-social clear-list">
+                    {CONTACT}
+                </ul>
+            </div>
+            <footer class="ace-card-footer">
+                <a class="btn btn-lg btn-block btn-thin btn-upper" href="javascript:void(0)"
+                    onclick="window.print()">{DOWNLOAD_LINK}</a>
+                <a class="btn btn-lg btn-block btn-thin btn-upper" href="{PAGE_INDEX}">{LANGUAGE_VERSION}</a>
+            </footer>
+        </article>
+
+        <div id="ace-content" class="ace-container-shift">
+            <div class="ace-container">
+                <div id="ace-nav-wrap" class="hidden-sm hidden-xs">
+                    <div class="ace-nav-cont">
+                        <div id="ace-nav-scroll">
+                            <nav id="ace-nav" class="ace-nav">
+                                <h4>-{CONTENT_TEXT}-</h4>
+                                <ul class="clear-list">
+                                    <li>
+                                        <a href="#education" data-tooltip="EDUCATION"><span
+                                                class="ace-icon ace-icon-pencil"></span>&nbsp;<b>{EDUCATION_TEXT}</b></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#publication" data-tooltip="PUBLICATION"><span
+                                                class="ace-icon ace-icon-book"></span>&nbsp;<b>{PUBLICATION_TEXT}</b></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#reward" data-tooltip="REWARD"><span
+                                                class="ace-icon ace-icon-trophy"></span>&nbsp;<b>{REWARD_TEXT}</b></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#experience" data-tooltip="EXPERIENCE"><span
+                                                class="ace-icon ace-icon-flag"></span>&nbsp;<b>{EXPERIENCE_TEXT}</b></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div id="ace-nav-tools" class="hidden">
+                            <span class="ace-icon ace-icon-dots-three-horizontal"></span>
+
+                            <button id="ace-nav-arrow" class="clear-btn">
+                                <span class="ace-icon ace-icon-chevron-thin-down"></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- <div class="ace-nav-btm"></div> -->
+                </div><!-- .ace-nav-wrap -->
+
+                <div class="ace-paper-stock">
+                    <main class="ace-paper clearfix">
+                        <div class="ace-paper-cont clear-mrg">
+                            <!-- START: PAGE CONTENT -->
+                            <div class="padd-box clear-mrg">
+
+                                <section class="section brd-btm" id="education">
+                                    <div class="row">
+                                        <div class="col-sm-12 clear-mrg">
+                                            <h2 class="title-thin text-muted"><b>{EDUCATION_TEXT}</b></h2>
+                                            {EDUCATION_DIV}
+                                        </div><!-- .col-sm-6 -->
+                                    </div><!-- .row -->
+                                </section><!-- .section -->
+
+                                <section class="section brd-btm" id="publication">
+                                    <h2 class="title-thin text-muted"><b>{PUBLICATION_TEXT}</b></h2>
+
+                                    <h3 class="title-thin text-muted"><span
+                                            class="ace-icon ace-icon-book"></span>&nbsp;&nbsp;{RESEARCH_TEXT}</h3>
+
+                                    {RESEARCH_DIV}
+
+                                    <h3 class="title-thin text-muted"><span
+                                            class="ace-icon ace-icon-book"></span>&nbsp;&nbsp;{PATENT_TEXT}</h3>
+
+                                    {PATENT_DIV}
+
+                                </section><!-- .section -->
+
+                                <section class="section brd-btm" id="reward">
+                                    <div class="row">
+                                        <div class="col-sm-12 clear-mrg">
+                                            <h2 class="title-thin text-muted"><b>{REWARD_TEXT}</b></h2>
+                                            <div class="education">
+                                                {REWARD_DIV}
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section><!-- .section -->
+
+                                <section class="section brd-btm" id="experience">
+                                    <div class="row">
+                                        <div class="col-sm-12 clear-mrg">
+                                            <h2 class="title-thin text-muted"><b>{EXPERIENCE_TEXT}</b></h2>
+                                            <div class="education">
+                                                {EXPERIENCE_DIV}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section><!-- .section -->
+
+                            </div><!-- .padd-box -->
+                            <!-- END: PAGE CONTENT -->
+                        </div><!-- .ace-paper-cont -->
+                    </main><!-- .ace-paper -->
+                </div><!-- .ace-paper-stock -->
+            </div><!-- .ace-container -->
+        </div><!-- #ace-content -->
+
+        <footer id="ace-footer" class="ace-container-shift">
+            <div class="ace-container">
+                <div class="ace-footer-cont clear-mrg">
+                    <p class="text-center"><span class="ace-icon ace-icon-leaf"></span>&nbsp;Update: {UPDATE_TIME}&nbsp;&nbsp;|&nbsp;&nbsp;Modified from <a href="https://hilmr.github.io/">HILMR</a>, <a
+                            href="https://xiaodan_yu.gitee.io/resume.io/">XiaoXiao</a>, and <a
+                            href="http://artemsheludko.com/flexible-jekyll/">Artemsheludko</a>&nbsp;<span
+                            class="ace-icon ace-icon-leaf"></span></p>
+                    <p class="text-center" style="margin-top: -0.5em;"><span
+                            class="ace-icon ace-icon-eye"></span>&nbsp;<span id="busuanzi_container_site_pv">View <span
+                                id="busuanzi_value_site_pv"></span>&nbsp;times</span>&nbsp;<a
+                            href="http://busuanzi.ibruce.info/">@busuanzi</a></p>
+                </div>
+            </div><!-- .ace-container -->
+        </footer><!-- #ace-footer -->
+
+        <!-- Triangle Shapes -->
+        <svg id="ace-bg-shape-1" class="hidden-sm hidden-xs" height="519" width="758">
+            <polygon points="0,455,693,352,173,0,92,0,0,71"
+                style="fill:#d2d2d2;stroke:purple;stroke-width:0; opacity: 0.5">
+        </svg>
+
+        <svg id="ace-bg-shape-2" class="hidden-sm hidden-xs" height="536" width="633">
+            <polygon points="0,0,633,0,633,536" style="fill:#c0e3e7;stroke:purple;stroke-width:0" />
+        </svg>
+
+    </div><!-- .ace-wrapper -->
+</body>
+
+<script>
+    // Screen adaptation
+    function resizeFun() {
+        if (checkdevice() == 0) {
+            var devicewidth = document.documentElement.clientWidth;
+            var scale = devicewidth / 1903;
+            document.body.style.zoom = scale;
+        }
+    }
+    // Devices
+    function checkdevice() {
+        var a = navigator.userAgent;
+        var isAndroid = a.indexOf('Android') > -1 || a.indexOf('Adr') > -1; //Android
+        var isiOS = !!a.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //IOS
+        if (isAndroid) {
+            return 1
+        }
+        if (isiOS) {
+            return 2
+        }
+        return 0
+    }
+    // Monitor screen zoom
+    $(window).resize(function () {
+        resizeFun();
+    });
+    //  Init
+    $(function () {
+        resizeFun();
+    })
+</script>
+
+</html>
