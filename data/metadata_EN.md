@@ -86,7 +86,7 @@ https://downloads.hindawi.com/journals/js/2021/5550850.pdf
 ##### Image
 paper_2.jpg
 ##### Link
-https://www.hindawi.com/journals/js/2021/5550850/
+https://ieeexplore.ieee.org/document/9326629/
 ##### Author
 <b>Mingrui Luo</b>; En Li; Rui Guo; Shengchuan Li; Cunfeng Kang
 

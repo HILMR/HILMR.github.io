@@ -86,7 +86,7 @@ https://downloads.hindawi.com/journals/js/2021/5550850.pdf
 ##### Image
 paper_2.jpg
 ##### Link
-https://www.hindawi.com/journals/js/2021/5550850/
+https://ieeexplore.ieee.org/document/9326629/
 ##### Author
 <b>罗明睿</b>; 李恩; 郭锐; 李胜川; 康存锋
 
