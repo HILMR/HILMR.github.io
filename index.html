@@ -8,8 +8,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Change the default page -->
-    <meta http-equiv="refresh" content="0;url=index_CN.html" />
+    <!-- <meta http-equiv="refresh" content="0;url=index_CN.html" /> -->
     <title>Homepage Loading</title>
 </head>
 <body>
+<script>
+    window.onload = function(){
+        if (navigator.language=="zh-CN")
+        {
+            window.location.href= "index_CN.html";
+        }
+        else
+        {
+            window.location.href= "index_EN.html";
+        }
+	}
+</script>
 </body>
