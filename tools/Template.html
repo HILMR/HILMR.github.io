@@ -1,7 +1,7 @@
 <!--  
     Author:LMR
-    Update:2023/04/01
-    Resume Template V0.2
+    Update:2023/05/10
+    Resume Template V0.3
 -->
 <!DOCTYPE html>
 <html lang="en" class="ace ace-card-on ace-tab-nav-on ace-main-nav-on ace-sidebar-on" data-theme-color="#c0e3e7">
@@ -89,7 +89,7 @@
 
         <article id="ace-card" class="ace-card bg-primary">
             <div class="ace-card-inner text-center">
-                <img class="avatar avatar-195" src="./styles/img/personal.jpg" width="195" height="195" alt="">
+                <img class="avatar avatar-195" src="./data/media/personal.jpg" width="195" height="195" alt="">
                 <h1>{NAME}</h1>
                 <h4 class="text-muted" style="margin-bottom: -10px;">{NAME_TITLE}</h4>
                 <hr />
@@ -100,8 +100,8 @@
                 </ul>
             </div>
             <footer class="ace-card-footer">
-                <a class="btn btn-lg btn-block btn-thin btn-upper" href="javascript:void(0)"
-                    onclick="window.print()">{DOWNLOAD_LINK}</a>
+                <a class="btn btn-lg btn-block btn-thin btn-upper" href="{CV_LINK}"
+                    onclick="{CV_CLICK}">{DOWNLOAD_LINK}</a>
                 <a class="btn btn-lg btn-block btn-thin btn-upper" href="{PAGE_INDEX}">{LANGUAGE_VERSION}</a>
             </footer>
         </article>
@@ -115,22 +115,27 @@
                                 <h4>-{CONTENT_TEXT}-</h4>
                                 <ul class="clear-list">
                                     <li>
-                                        <a href="#education" data-tooltip="EDUCATION"><span
+                                        <a href="#news" data-tooltip="{NEWS_TEXT}"><span
+                                                class="ace-icon ace-icon-star"></span>&nbsp;<b>{NEWS_TEXT}</b></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#education" data-tooltip="{EDUCATION_TEXT}"><span
                                                 class="ace-icon ace-icon-pencil"></span>&nbsp;<b>{EDUCATION_TEXT}</b></a>
                                     </li>
 
                                     <li>
-                                        <a href="#publication" data-tooltip="PUBLICATION"><span
+                                        <a href="#publication" data-tooltip="{PUBLICATION_TEXT}"><span
                                                 class="ace-icon ace-icon-book"></span>&nbsp;<b>{PUBLICATION_TEXT}</b></a>
                                     </li>
 
                                     <li>
-                                        <a href="#reward" data-tooltip="REWARD"><span
+                                        <a href="#reward" data-tooltip="{REWARD_TEXT}"><span
                                                 class="ace-icon ace-icon-trophy"></span>&nbsp;<b>{REWARD_TEXT}</b></a>
                                     </li>
 
                                     <li>
-                                        <a href="#experience" data-tooltip="EXPERIENCE"><span
+                                        <a href="#experience" data-tooltip="{EXPERIENCE_TEXT}"><span
                                                 class="ace-icon ace-icon-flag"></span>&nbsp;<b>{EXPERIENCE_TEXT}</b></a>
                                     </li>
                                 </ul>
@@ -155,6 +160,17 @@
                             <!-- START: PAGE CONTENT -->
                             <div class="padd-box clear-mrg">
 
+                                <section class="section brd-btm" id="news" >
+                                    <div class="row">
+                                        <div class="col-sm-12 clear-mrg">
+                                            <h2 class="title-thin text-muted"><b>{NEWS_TEXT}</b></h2>
+                                            <div class="education">
+                                                {NEWS_DIV}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section><!-- .section -->
+
                                 <section class="section brd-btm" id="education">
                                     <div class="row">
                                         <div class="col-sm-12 clear-mrg">
@@ -177,6 +193,10 @@
 
                                     {PATENT_DIV}
 
+                                    <h3 class="title-thin text-muted" style="margin-bottom: 10px;"><span
+                                        class="ace-icon ace-icon-book"></span>&nbsp;&nbsp;{COPYRIGHT_TEXT}</h3>
+
+                                    {COPYRIGHT_DIV}
                                 </section><!-- .section -->
 
                                 <section class="section brd-btm" id="reward">

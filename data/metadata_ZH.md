@@ -1,5 +1,13 @@
 # 罗明睿——个人主页
 
+## News
+### Mingrui Luo, Yunong Tian, En Li*, et al. “RL-Based Collision-free Path Planning for the Follow-the-Leader Motion of Coiled Hyper-Redundant Manipulators,” IEEE Robotics and Automation Letters, <b>Under Review (RR)</b>.
+#### Date
+2023-4-8
+### Mingrui Luo, En Li*, et al. “A Novel Coiled Redundant Manipulator with Cable-Conduit Actuation for Remote Operating in Narrow Spaces,”  IROS 2023, <b>Under Review (DP)</b>.
+#### Date
+2023-3-1
+
 ## Basic Information
 ### Name
 罗明睿
@@ -27,7 +35,7 @@ school2.png
 我师从<b>李恩</b>和<b>谭民</b>研究员，研究有关<b>仿生冗余机械臂</b>的系统设计，智能控制、规划和感知，连续获得两届<b>“三好学生”</b>称号，曾任职于<b>学生会学术部</b>。
 ### 北京工业大学(BJUT)
 #### Image
-school.jpg
+school1.png
 #### Brief
 2016 - 2020 | 机械工程 (主修) 机器人工程 (辅修) | <b>工学</b> 学士<a class="highlight" style="margin-left: 10px;">GPA:<b>3.93</b>/4.0</a>
 #### Detail
@@ -287,6 +295,35 @@ ZL 2018 1 0457020.X
 ###### DOC
 https://patentimages.storage.googleapis.com/7f/82/3f/b8254ca59bebae/CN108635782B.pdf
 
+### Software Copyright
+#### 多层次三维场景重建与分割软件
+##### Index
+2021SR0524534
+#### 机器人多传感器融合感知与定位软件
+##### Index
+2021SR0524533
+#### 弱光弱光比狭窄环境的视觉增强处理软件
+##### Index
+2021SR0588949
+#### 三阶魔方多功能复原教学平台
+##### Index
+2019SR1164798
+#### 基于stm32的步进电机精准控制系统
+##### Index
+2019SR1172985
+#### 智能相机运动控制软件
+##### Index
+2018SR878238
+#### 智能打印模型车控制软件
+##### Index
+2017SR685869
+#### 智能雨林净化器自动控制系统
+##### Index
+2017SR611328
+#### 助老机器人室内定位移动抓取系统
+##### Index
+2017SR611308
+
 ## Reward
 
 ### 中国科学院大学2022年度“<span class="highlight"><b>三好学生</b></span>”称号
@@ -297,11 +334,13 @@ https://patentimages.storage.googleapis.com/7f/82/3f/b8254ca59bebae/CN108635782B
 #### Date
 2021-6
 
-### 北京市<span class="highlight"><b>优秀毕业生</b></span>、北京工业大学<span class="highlight"><b>优秀毕业生</b></span>
+### 北京市“<span class="highlight"><b>优秀毕业生</b></span>”、北京工业大学“<span class="highlight"><b>优秀毕业生</b></span>”称号
 #### Date
 2020-6
+#### Image
+award2.jpg
 
-### 北京工业大学<span class="highlight"><b>学习优秀奖</b></span>、<span class="highlight"><b>创新创业奖</b></span>，机电学院<span class="highlight"><b>三好学生</b></span>
+### 北京工业大学<span class="highlight"><b>学习优秀</b></span>奖学金、<span class="highlight"><b>创新创业</b></span>奖学金，机电学院“<span class="highlight"><b>三好学生</b></span>”称号
 #### Date
 2019-12
 
@@ -316,18 +355,24 @@ https://patentimages.storage.googleapis.com/7f/82/3f/b8254ca59bebae/CN108635782B
 ### 2019年全国大学生机械产品数字化设计大赛&nbsp;<span class="highlight"><b>一等奖</b></span>
 #### Date
 2019-5
+#### Image
+award4.jpg
 
 ### 2019年美国大学生数学建模竞赛&nbsp;<span class="highlight"><b>Honorable Mention</b></span>
 #### Date
 2019-2
+#### Image
+award5.jpg
 
-### 北京工业大学<span class="highlight"><b>学习优秀奖</b></span>、<span class="highlight"><b>创新创业奖</b></span>，机电学院<span class="highlight"><b>三好学生</b></span>、<span class="highlight"><b>优秀学生干部</b></span>
+### 北京工业大学<span class="highlight"><b>学习优秀</b></span>奖学金、<span class="highlight"><b>创新创业</b></span>奖学金，机电学院“<span class="highlight"><b>三好学生</b></span>”、“<span class="highlight"><b>优秀学生干部</b></span>”称号
 #### Date
 2018-12
 
 ### <span class="highlight"><b>国家奖学金</b></span>，<span class="highlight"><b>杨叔子院士奖学金</b></span>
 #### Date
 2018-11
+#### Image
+award1.jpg
 
 ### 2018全国大学生数学建模竞赛（北京赛区）&nbsp;<span class="highlight"><b>一等奖</b></span>
 #### Date
@@ -337,7 +382,7 @@ https://patentimages.storage.googleapis.com/7f/82/3f/b8254ca59bebae/CN108635782B
 #### Date
 2018-05
 
-### 北京工业大学<span class="highlight"><b>学习优秀奖</b></span>、<span class="highlight"><b>科技创新奖</b></span>、<span class="highlight"><b>三好学生</b></span>，<span class="highlight"><b>杨叔子院士奖学金</b></span>
+### 北京工业大学<span class="highlight"><b>学习优秀</b></span>奖学金、<span class="highlight"><b>科技创新</b></span>奖学金、<span class="highlight"><b>杨叔子院士奖学金</b></span>，“<span class="highlight"><b>三好学生</b></span>”称号
 #### Date
 2017-12
 
@@ -348,6 +393,8 @@ https://patentimages.storage.googleapis.com/7f/82/3f/b8254ca59bebae/CN108635782B
 ### 2017年中国机器人大赛&nbsp;<span class="highlight"><b>一等奖</b></span>
 #### Date
 2017-08
+#### Image
+award3.jpg
 
 ## Experience
 
@@ -361,10 +408,13 @@ https://patentimages.storage.googleapis.com/7f/82/3f/b8254ca59bebae/CN108635782B
 #### Title
 学生技术骨干
 #### Detail
+- @project1.gif,GIS检修机器人现场演示,20%
 - 研发了一款面向气体绝缘变电站(GIS)的竖直腔体检修机器人，该机器人由全地形移动底盘、多级升降平台和长臂展机械臂构成；
 - 参与了长臂展机械臂的构型设计，通过模仿蛇类盘曲运动，采用蜷缩式推送，结构紧凑，实现了长达2.2米、24自由度、直径50毫米的线缆驱动超冗余度机械臂；
 - 主导了长臂展机械臂的控制系统设计，以CANOpen为主要通信方式，基于Codesys和ROS实现36轴高精度同步控制；
 - 主导了长臂展机械臂的规划算法设计，通过头部跟随仿生策略，控制高冗余度机械臂末端位姿与臂形姿态，满足狭窄空间避障作业需求。
+#### Video
+./data/media/project1.gif
 
 ### 应用于航空制造中狭窄腔室的涂胶作业机器人
 #### FromDate

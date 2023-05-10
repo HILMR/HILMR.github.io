@@ -1,5 +1,5 @@
 # Page generator
-# Update:2023/04/01 @LMR
+# Update:2023/05/10 @LMR
 # pip install -r .\requirements.txt
 
 from markdown_to_json.vendor import CommonMark
@@ -51,25 +51,29 @@ class PageGenerator():
                 r'{PAGE_INDEX}':'index_EN.html',
                 r'{LANGUAGE_VERSION}':'English Version',
                 r'{CONTENT_TEXT}':'分栏导航',
+                r'{NEWS_TEXT}':'近期动态',
                 r'{EDUCATION_TEXT}':'教育背景',
                 r'{PUBLICATION_TEXT}':'主要成果',
                 r'{REWARD_TEXT}':'获奖荣誉',
                 r'{EXPERIENCE_TEXT}':'科研经历',
                 r'{RESEARCH_TEXT}':'研究论文',
-                r'{PATENT_TEXT}':'专利'
+                r'{PATENT_TEXT}':'专利',
+                r'{COPYRIGHT_TEXT}':'软件著作权'
               },
               'EN':
               {
-                r'{DOWNLOAD_LINK}':'Download Resume',
+                r'{DOWNLOAD_LINK}':'Download CV',
                 r'{PAGE_INDEX}':'index_CN.html',
                 r'{LANGUAGE_VERSION}':'访问中文版',
                 r'{CONTENT_TEXT}':'QUICK LINKS',
+                r'{NEWS_TEXT}':'RECENT NEWS',
                 r'{EDUCATION_TEXT}':'EDUCATION',
                 r'{PUBLICATION_TEXT}':'PUBLICATION',
-                r'{REWARD_TEXT}':'REWARD',
+                r'{REWARD_TEXT}':'AWARD',
                 r'{EXPERIENCE_TEXT}':'EXPERIENCE',
                 r'{RESEARCH_TEXT}':'Research',
-                r'{PATENT_TEXT}':'Patent'
+                r'{PATENT_TEXT}':'Patent',
+                r'{COPYRIGHT_TEXT}':'Software Copyright'
               }
          }
         for key in lang_dict[self.lang]:
@@ -106,6 +110,13 @@ class PageGenerator():
                                 class="ace-icon ace-icon-contact"></span>&nbsp;{0}</a></li>
                     """.format(self.page_content['Basic Information']['Contact'][item])
         self.pagereplace(r'{CONTACT}',contact_items)
+
+        if 'CV' in self.page_content['Basic Information']:
+            self.pagereplace(r'{CV_LINK}',self.page_content['Basic Information']['CV'])
+            self.pagereplace(r'{CV_CLICK}','')
+        else:
+            self.pagereplace(r'{CV_LINK}','javascript:void(0)')
+            self.pagereplace(r'{CV_CLICK}','window.print()')                                            
     
     def add_education(self):
         """Add education section"""
@@ -114,7 +125,7 @@ class PageGenerator():
             school_items+="""
             <div class="ref-box hreview">
                 <div class="ref-avatar">
-                    <img alt="" src="./styles/img/{0}" class="avatar avatar-54 photo" height="54" width="54">
+                    <img alt="" src="./data/media/{0}" class="avatar avatar-54 photo" height="54" width="54">
                 </div>
             
                 <div class="ref-info">
@@ -142,78 +153,111 @@ class PageGenerator():
         content=self.page_content['Publication'][typ]
         publication_items=""
         for item in content:
-            keywords=""
-            for subitems in content[item]['Keywords']:
-                    keywords+="""
-                    <a class="tag">&#35; {0}</a>
-                    """.format(subitems)
-            actions=""
-            for subitems in content[item]['Actions']:
-                tipnotes={'ZH':
-                        {'PDF':['阅读论文','论文'],'VIDEO':['观看实验视频','视频'],'CODE':['下载程序代码','代码'],'DOC':['下载专利公告文件','公告文件']},
-                        'EN':
-                        {'PDF':['Read the paper','Paper'],'VIDEO':['Watch the experiment video','Video'],'CODE':['Download the program code','Code'],'DOC':['Download the document','Document']}
-                }
-                icons={'PDF':'file','VIDEO':'film','CODE':'folder','DOC':'file'}
-                actions+="""
-                        <a href="{0}" target="_blank" title="{1}"><span class="ace-icon ace-icon-{2}"></span>{3}</a>
-                    """.format(content[item]['Actions'][subitems],
-                                tipnotes[self.lang][subitems][0],icons[subitems],
-                                tipnotes[self.lang][subitems][1])
-                    
-            publication_items+="""
-                                <article class="post">
-                                    <a class="post-thumbnail" href="./styles/img/{0}" data-lightbox="image" data-title="{1}"> <img class="example-image" src="./styles/img/{0}"
-                                        alt="image" /></a>
-                                    <div class="post-content">
-                                        <h2 class="post-title"><a href="{2}" target="_blank">{1}</a></h2>
-                                        <span class="post-date">{3}&nbsp;&nbsp;|&nbsp;&nbsp;{4}</span>
-                                        <span class="post-highlight">{5}&nbsp;&nbsp;|&nbsp;&nbsp;{6}</span>
-                                        <p>{7}</p>
-                                        <div class="page-footer">
-                                            <div class="page-tag">
-                                                {8}
-                                            </div>
-                                            <div class="page-share">
-                                                {9}
+            if typ=='Software Copyright':
+                if self.lang=='ZH':
+                    publication_items+="""
+                                    <div class="ref-author">
+                                        <strong><span class="ace-icon ace-icon-bookmark" style="display:inline-block;"></span>&nbsp;&nbsp;{0}<span style="display:inline-block;">&nbsp;|&nbsp;中国版权登记号:<a class="highlight" style="margin-left: 10px;">{1}</a></span></strong>
+                                    </div>""".format(item,content[item]['Index'])
+                else:
+                    publication_items+="""<div class="ref-author">
+                                        <strong><span class="ace-icon ace-icon-bookmark" style="display:inline-block;"></span>&nbsp;&nbsp;{0}</strong>
+                                        <span>CN. Copyright No.<a class="highlight" style="margin-left: 10px;">{1}</a></span>
+                                    </div>""".format(item,content[item]['Index'])
+            else:
+                keywords=""
+                for subitems in content[item]['Keywords']:
+                        keywords+="""
+                        <a class="tag">&#35; {0}</a>
+                        """.format(subitems)
+                actions=""
+                for subitems in content[item]['Actions']:
+                    tipnotes={'ZH':
+                            {'PDF':['阅读论文','论文'],'VIDEO':['观看实验视频','视频'],'CODE':['下载程序代码','代码'],'DOC':['下载专利公告文件','公告文件']},
+                            'EN':
+                            {'PDF':['Read the paper','Paper'],'VIDEO':['Watch the experiment video','Video'],'CODE':['Download the program code','Code'],'DOC':['Download the document','Document']}
+                    }
+                    icons={'PDF':'file','VIDEO':'film','CODE':'folder','DOC':'file'}
+                    actions+="""
+                            <a href="{0}" target="_blank" title="{1}"><span class="ace-icon ace-icon-{2}"></span>{3}</a>
+                        """.format(content[item]['Actions'][subitems],
+                                    tipnotes[self.lang][subitems][0],icons[subitems],
+                                    tipnotes[self.lang][subitems][1])
+                        
+                publication_items+="""
+                                    <article class="post">
+                                        <a class="post-thumbnail" href="./data/media/{0}" data-lightbox="image" data-title="{1}"> <img class="example-image" src="./data/media/{0}"
+                                            alt="image" /></a>
+                                        <div class="post-content">
+                                            <h2 class="post-title"><a href="{2}" target="_blank">{1}</a></h2>
+                                            <span class="post-date">{3}&nbsp;&nbsp;|&nbsp;&nbsp;{4}</span>
+                                            <span class="post-highlight">{5}&nbsp;&nbsp;|&nbsp;&nbsp;{6}</span>
+                                            <p>{7}</p>
+                                            <div class="page-footer">
+                                                <div class="page-tag">
+                                                    {8}
+                                                </div>
+                                                <div class="page-share">
+                                                    {9}
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </article>
-            """.format(
-                    content[item]['Image'],item,
-                    content[item]['Link'],
-                    content[item]['Author'],
-                    content[item]['Date'],
-                    content[item]['PubTitle'],
-                    content[item]['Index'],
-                    content[item]['Abstract'],
-                    keywords,actions
-            )
+                                    </article>
+                """.format(
+                        content[item]['Image'],item,
+                        content[item]['Link'],
+                        content[item]['Author'],
+                        content[item]['Date'],
+                        content[item]['PubTitle'],
+                        content[item]['Index'],
+                        content[item]['Abstract'],
+                        keywords,actions
+                )
         if typ=='Research':
             self.pagereplace(r'{RESEARCH_DIV}',publication_items)
         elif typ=='Patent':
             self.pagereplace(r'{PATENT_DIV}',publication_items)
+        elif typ=='Software Copyright':
+            self.pagereplace(r'{COPYRIGHT_DIV}',publication_items)
     
-    def add_rewards(self):
+    def add_timeline(self,typ='Reward'):
         """Add reward section"""
         reward_items=""
-        for item in self.page_content['Reward']:
-            date=datetime.strptime(self.page_content['Reward'][item]['Date'], '%Y-%m')
+        for item in self.page_content[typ]:
+            if len(self.page_content[typ][item]['Date'].split('-'))==2:
+                date=datetime.strptime(self.page_content[typ][item]['Date'], '%Y-%m')
+                daytext=''
+            elif len(self.page_content[typ][item]['Date'].split('-'))==3:
+                date=datetime.strptime(self.page_content[typ][item]['Date'], '%Y-%m-%d')
+                daytext=' %d,'%(date.day)
+            else:
+                continue
+            if 'Image' in self.page_content[typ][item]:
+                if self.lang=='ZH':
+                    imgcontent="""&nbsp;<a class="post-thumbnail" href="./data/media/{0}" data-lightbox="image" data-title="{1}" title="查看荣誉证书" style="color: rgb(38, 118, 229);">▛证书▟</a>""".format(
+                        self.page_content[typ][item]['Image'],item.replace('<span class="highlight"><b>','').replace('</b></span>','')
+                    )
+                else:
+                    imgcontent="""&nbsp;<a class="post-thumbnail" href="./data/media/{0}" data-lightbox="image" data-title="{1}" title="View certificate" style="color: rgb(38, 118, 229);">▛Cert.▟</a>""".format(
+                        self.page_content[typ][item]['Image'],item.replace('<span class="highlight"><b>','').replace('</b></span>','')
+                    )
+            else:
+                imgcontent=''
+
             reward_items+="""
                 <div class="education-box">
                     <time class="education-date" datetime="{0}T{0}">
                         <span>{1} <strong class="text-upper">{2}</strong></span>
                     </time>
-                    <h4>{3}</h4>
+                    <h5 style="font-weight:inherit">{3}</h5>
                 </div>
-                """.format(self.page_content['Reward'][item]['Date'],
-                        calendar.month_abbr[date.month],
+                """.format(self.page_content[typ][item]['Date'],
+                        calendar.month_abbr[date.month]+daytext,
                         date.year,
-                        item
+                        item+imgcontent
                         )
             
-        self.pagereplace(r'{REWARD_DIV}',reward_items)
+        self.pagereplace(r'{%s_DIV}'%(typ.upper()),reward_items)
     
     def add_experiences(self):
         """Add experience section"""
@@ -223,13 +267,26 @@ class PageGenerator():
             date_to=datetime.strptime(self.page_content['Experience'][item]['ToDate'], '%Y-%m')
             details=""
             for subitem in self.page_content['Experience'][item]['Detail']:
-                 details+="""<p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;{0}</p>
-                 """.format(subitem)
+                if subitem[0]=='@':
+                     imgdata=subitem[1:].split(',')
+                     details+="""<a class="post-thumbnail" href="./data/media/{0}" data-lightbox="image" data-title="{1}"> <img class="example-image" style="margin-top: 10px;width: {2};" align="right" src="./data/media/{0}"
+                            alt="image" /></a>""".format(imgdata[0],imgdata[1],imgdata[2])
+                else:
+                    details+="""<p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;{0}</p>
+                    """.format(subitem)
+            if 'Video' in self.page_content['Experience'][item]:
+                tiptext={'EN':['Watch the Video','Video'],'ZH':['观看视频','观看视频']}
+                videolink="""<hr style="margin-top: 15px;"/>
+                <span class="highlight"><a href="{0}" target="_blank" title="{1}"><span class="ace-icon ace-icon-film"></span>{2}</a></span>""".format(
+                    self.page_content['Experience'][item]['Video'],tiptext[self.lang][0],tiptext[self.lang][1])
+            else:
+                videolink=''
             experience_items+="""
                 <div class="education-box">
                     <time class="education-date" datetime="{0}T{1}">
                         <span>{2} <strong class="text-upper">{3}</strong> - {4} <strong
                                 class="text-upper">{5}</strong></span>
+                        {10}
                     </time>
                     <h4>{6}</h4>
                     <span
@@ -245,7 +302,7 @@ class PageGenerator():
                             item,
                             self.page_content['Experience'][item]['Project'],
                             self.page_content['Experience'][item]['Title'],
-                            details
+                            details,videolink
                         )
             
         self.pagereplace(r'{EXPERIENCE_DIV}',experience_items)
@@ -256,7 +313,9 @@ class PageGenerator():
         self.add_education()
         self.add_publication('Research')
         self.add_publication('Patent')
-        self.add_rewards()
+        self.add_publication('Software Copyright')
+        self.add_timeline('Reward')
+        self.add_timeline('News')
         self.add_experiences()
             
     def save(self,out_path):

@@ -1,5 +1,16 @@
 # Mingrui's Homepage
 
+## News
+### <span class="highlight">Currently applying for an academic visit project...</span>
+#### Date
+2023-5-10
+### Mingrui Luo, Yunong Tian, En Li*, et al. “RL-Based Collision-free Path Planning for the Follow-the-Leader Motion of Coiled Hyper-Redundant Manipulators,” IEEE Robotics and Automation Letters, <b>Under Review (RR)</b>.
+#### Date
+2023-4-8
+### Mingrui Luo, En Li*, et al. “A Novel Coiled Redundant Manipulator with Cable-Conduit Actuation for Remote Operating in Narrow Spaces,”  IROS 2023, <b>Under Review (DP)</b>.
+#### Date
+2023-3-1
+
 ## Basic Information
 ### Name
 Mingrui Luo
@@ -16,6 +27,8 @@ Ph.D.
 [HILMR](https://github.com/HILMR)
 #### EMAIL
 hi_lmr@163.com
+### CV
+./data/Mingrui_s_CV.pdf
 
 ## Education
 ### University of Chinese Academy of Sciences (UCAS)
@@ -28,7 +41,7 @@ I studied under researchers <b>Li En</b> and <b>Tan Min</b>, researching system 
 
 ### Beijing University of Technology (BJUT)
 #### Image
-school.jpg
+school1.png
 #### Brief
 2016 - 2020 | Mechanical Engineering (Major) Robot Engineering (Minor) | <b>B.E.</b> Degree<a class="highlight" style="margin-left: 10px;">GPA:<b>3.93</b>/4.0</a>
 #### Detail
@@ -283,6 +296,36 @@ The present invention is water polo machine for automatically recovering device 
 ###### DOC
 https://patentimages.storage.googleapis.com/7f/82/3f/b8254ca59bebae/CN108635782B.pdf
 
+### Software Copyright
+
+#### Multilevel 3D scene reconstruction and segmentation software
+##### Index
+2021SR0524534
+#### Robot multi-sensor fusion perception and positioning software
+##### Index
+2021SR0524533
+#### Visual Enhancement Processing Software for Narrow Environment with Weak Light
+##### Index
+2021SR0588949
+#### Third level Rubik's Cube multifunctional restoration teaching platform
+##### Index
+2019SR1164798
+#### A Stepping Motor Precision Control System Based on STM32
+##### Index
+2019SR1172985
+#### Intelligent camera motion control software
+##### Index
+2018SR878238
+#### Intelligent printing model car control software
+##### Index
+2017SR685869
+#### Intelligent rainforest purifier automatic control system
+##### Index
+2017SR611328
+#### Indoor positioning and mobile grabbing system for elderly robot assistance
+##### Index
+2017SR611308
+
 ## Reward
 
 ### “<span class="highlight"><b>Excellent Student</b></span>” title of University of Chinese Academy of Sciences in 2022
@@ -292,14 +335,17 @@ https://patentimages.storage.googleapis.com/7f/82/3f/b8254ca59bebae/CN108635782B
 ### “<span class="highlight"><b>Excellent Student</b></span>” title of University of Chinese Academy of Sciences in 2021
 #### Date
 2021-6
-### <span class="highlight"><b>Outstanding Graduate</b></span>of Beijing and <span class="highlight"><b>Outstanding Graduate</b></span> of Beijing University of Technology
+### <span class="highlight"><b>Outstanding Graduate</b></span> of Beijing and <span class="highlight"><b>Outstanding Graduate</b></span> of Beijing University of Technology
 #### Date
 2020-6
-### <span class="highlight"><b>Excellent Learning Award</b></span>, <span class="highlight"><b>Innovation and Entrepreneurship Award</b></span>, and <span class="highlight"><b>Excellent Student</b></span>of Beijing University of Technology
+#### Image
+award2.jpg
+
+### <span class="highlight"><b>Excellent Learning</b></span> Award, <span class="highlight"><b>Innovation and Entrepreneurship</b></span>  Award, and <span class="highlight"><b>Excellent Student</b></span> of Beijing University of Technology
 #### Date
 2019-12
   
-### <span class="highlight"><b>First Prize</b></span> of the 5th Student Extracurricular Academic Works Competition of Beijing University of Technology "Dingxin Cup"
+### <span class="highlight"><b>First Prize</b></span> of the 5th Student Extracurricular Academic Works Competition of Beijing University of Technology
 #### Date
 2019-11
 ### <span class="highlight"><b>First Prize</b></span> of the 10th Challenge Cup Capital University Extracurricular Academic Science and Technology Works Competition
@@ -308,16 +354,22 @@ https://patentimages.storage.googleapis.com/7f/82/3f/b8254ca59bebae/CN108635782B
 ### <span class="highlight"><b>First Prize</b></span> of the 2019 National College Student Mechanical Product Digital Design Competition
 #### Date
 2019-5
+#### Image
+award4.jpg
 ### <span class="highlight"><b>Honorable Mention</b></span> of the 2019 American College Student Mathematical Modeling Competition
 #### Date
 2019-2
-
-### <span class="highlight"><b>Excellent Learning Award</b></span>, <span class="highlight"><b>Innovation and Entrepreneurship Award</b></span>, <span class="highlight"><b>Excellent Student</b></span>, and <span class="highlight"><b>Excellent Student Cadre</b></span> of Beijing University of Technology
+#### Image
+award5.jpg
+### <span class="highlight"><b>Excellent Learning</b></span> Award, <span class="highlight"><b>Innovation and Entrepreneurship</b></span> Award, <span class="highlight"><b>Excellent Student</b></span>, and <span class="highlight"><b>Excellent Student Cadre</b></span> of Beijing University of Technology
 #### Date
 2018-12
 ### <span class="highlight"><b>National Scholarship</b></span> and <span class="highlight"><b>Yang Shuzi Academic Scholarship</b></span>
 #### Date
 2018-11
+#### Image
+award1.jpg
+
 ### <span class="highlight"><b>First Prize</b></span> of the 2018 National College Student Mathematical Modeling Competition (Beijing Division)
 #### Date
 2018-09
@@ -325,15 +377,17 @@ https://patentimages.storage.googleapis.com/7f/82/3f/b8254ca59bebae/CN108635782B
 #### Date
 2018-05
 
-### <span class="highlight"><b>Excellent Learning Award</b></span>, <span class="highlight"><b>Science and Technology Innovation Award</b></span>, <span class="highlight"><b>Excellent Student</b></span>, and <span class="highlight"><b>Yang Shuzi Academic Scholarship</b></span> of Beijing University of Technology
+### <span class="highlight"><b>Excellent Learning</b></span> Award, <span class="highlight"><b>Science and Technology Innovation</b></span> Award, <span class="highlight"><b>Excellent Student</b></span>, and <span class="highlight"><b>Yang Shuzi Academic Scholarship</b></span> of Beijing University of Technology
 #### Date
 2017-12
-### <span class="highlight"><b>First Prize</b></span> of the 3rd Student Extracurricular Academic Works Competition of Beijing University of Technology "Dingxin Cup"
+### <span class="highlight"><b>First Prize</b></span> of the 3rd Student Extracurricular Academic Works Competition of Beijing University of Technology
 #### Date
 2017-11
 ### <span class="highlight"><b>First Prize</b></span>  of the 2017 China Robot Competition
 #### Date
 2017-08
+#### Image
+award3.jpg
 
 ## Experience
 
@@ -345,16 +399,17 @@ https://patentimages.storage.googleapis.com/7f/82/3f/b8254ca59bebae/CN108635782B
 #### Project
 National Key Research and Development Program (2018YFB1307400)
 #### Title
-Student Technology Backbone
+Core Student Member
 #### Detail
-- Developed a vertical chamber inspection robot for gas-insulated switchgear (GIS) in power substations. The robot consists of an all-terrain mobile chassis, a multi-level lifting platform, and a long-reach flexible manipulator.
-- Participated in the configuration design of the long-reach flexible manipulator, which imitates the coiling motion of snakes and adopts a compact feeding structure. It achieves a cable-driven hyper-redundant manipulator (CDHRM) with a length of 2.2 meters, 24 degrees of freedom, and a diameter of 50 millimeters.
-- Led the design of the control system for the CDHRM, mainly using CANOpen communication and realizing 36-axis high-precision synchronous control based on CODESYS and ROS.
-- Led the planning algorithm design for the CDHRM, using a follow-the-leader biomimetic strategy to control the tip pose and segment posture of the highly redundant mechanism, meeting the needs of narrow-space obstacle avoidance operations.
+- @project1.gif,On-site demonstration of GIS maintenance robot,30%
+- Developed an inspection robot for gas-insulated switchgear in power substations. The robot consists of an all-terrain mobile chassis, a multi-level lifting platform, and a cable-driven manipulator with a length of 2.2 meters, 24 degrees of freedom, and a diameter of 50 millimeters.
+- Participated in the mechanism optimization of the manipulator, which imitates the coiling behavior of snakes and can coil to reduce storage space or uncoil to expand working range.
+- Participated in the design of the control system for the manipulator, mainly using CANOpen communication and realizing 36-axis high-precision synchronous control based on CODESYS and ROS.
+- Participated in the planning algorithm design for the manipulator, using a follow-the-leader biomimetic strategy and Multi-constraint redundant inverse kinematics to control the tip pose, meeting the needs of narrow-space obstacle avoidance operations.
+#### Video
+./data/media/project1.gif
 
-
-
-### Research of a Narrow-space Coating Robot for use in Aviation Manufacturing
+### Research of a Narrow-space Coating Robot for Application in Aviation Manufacturing
 #### FromDate
 2021-09
 #### ToDate
@@ -362,8 +417,8 @@ Student Technology Backbone
 #### Project
 Major enterprise Project
 #### Title
-Student Technology Backbone
+Core Student Member
 #### Detail
-- Developed a narrow-space coating robot for use in aviation manufacturing, which consists of a 6-degree-of-freedom rigid manipulator and a 20-degree-of-freedom flexible manipulator.
-- Led the design of the control system for the coating robot, using Ethercat as the main communication method to establish the collaboration between the rigid and flexible arms, and implemented CATIA's digital twin interaction through OPC UA.
-- Participated in the development of algorithms for seam positioning and quality assessment of the coating robot, which uses computer vision to locate seams and provide guiding paths for the kinematic planning system, as well as evaluate the quality of the coating.
+- Developed a narrow-space coating robot, which consists of a 6-degree-of-freedom rigid manipulator and a 20-degree-of-freedom flexible manipulator.
+- Participated in the design of the control system for the robot, using Ethercat as the main communication method to establish the collaboration between the rigid and flexible arms, and implemented CATIA's digital twin interaction through OPC UA.
+- Participated in the development of algorithms for seam positioning and quality assessment, which uses computer vision to locate seams and provide guiding paths for the kinematic planning system, as well as evaluate the quality of the coating with YOLO algorithm.
