@@ -15,7 +15,7 @@
 ### Name
 Mingrui Luo
 ### Title
-Ph.D.
+Ph.D. Student
 ### Field
 - Robotics
 - Redundant Manipulator
@@ -35,7 +35,7 @@ hi_lmr@163.com
 #### Image
 school2.png
 #### Brief
-2020 - Now | Control Theory and Control Engineering | <b>Ph.D.</b> Degree<a class="highlight" style="margin-left: 10px;">GPA:<b>3.85</b>/4.0</a>
+2020 - Now | Control Theory and Control Engineering | <b>Ph.D.</b> Student<a class="highlight" style="margin-left: 10px;">GPA:<b>3.85</b>/4.0</a>
 #### Detail
 I studied under researchers <b>Li En</b> and <b>Tan Min</b>, researching system design, intelligent control, planning and perception of <b>bionic redundant manipulators</b>. I have won the “<b>Excellent Student</b>” award twice in a row and have served as a member of <b>the academic department of the student union</b>.
 
