@@ -129,11 +129,11 @@ https://patents.glgoo.top/patent/CN114618802A/en?oq=CN114618802A
 Jiaxin Liu; <b>Mingrui Luo</b>; Rui Guo; Shengchuan Li; En Li; et al.
 
 ##### Date
-2022, Feb 17
+2023, May 5
 ##### PubTitle
-<b>Patent Publication</b>
+<b>Patent Grant</b>
 ##### Index
-CN 114618802A
+ZL 2022 1 0266769.2
 ##### Abstract
 The GIS cavity operation device provided by the invention effectively improves the execution efficiency of GIS cavity operation tasks, reduces the labor input and reduces the safety risk caused by manual maintenance.
 ##### Keywords
@@ -141,6 +141,28 @@ The GIS cavity operation device provided by the invention effectively improves t
 ##### Actions
 ###### DOC
 https://patentimages.storage.googleapis.com/98/1a/36/512a22d7f034de/CN114618802A.pdf
+
+#### Rope-driven snakelike mechanical arm control method, device and equipment
+##### Image
+patent_9.jpg
+##### Link
+https://patents.glgoo.top/patent/CN114055448A/en?oq=CN114055448A
+##### Author
+En Li; Aoshun Zhang; <b>Mingrui Luo</b>; Guodong Yang; et al.
+##### Date
+2023, Mar 31
+##### PubTitle
+<b>Patent Grant</b>
+##### Index
+ZL 2021 1 1371378.9
+##### Abstract
+The rope-driven serpentine robot arm control method proposed by this invention adjusts the joints closer to the root of the arm in priority sequence according to priority, avoiding the coupling problem of ropes when adjusting multiple ropes simultaneously, and correctly completes the control of ropes.
+
+##### Keywords
+- Mechanism Design
+##### Actions
+###### DOC
+https://patentimages.storage.googleapis.com/e6/e9/d6/11c024faf9b5bf/CN114055448A.pdf
 
 #### Depth camera vision enhancement method and system under low-illumination weak-contrast complex environment
 ##### Image
@@ -422,3 +444,18 @@ Core Student Member
 - Developed a narrow-space coating robot, which consists of a 6-degree-of-freedom rigid manipulator and a 20-degree-of-freedom flexible manipulator.
 - Participated in the design of the control system for the robot, using Ethercat as the main communication method to establish the collaboration between the rigid and flexible arms, and implemented CATIA's digital twin interaction through OPC UA.
 - Participated in the development of algorithms for seam positioning and quality assessment, which uses computer vision to locate seams and provide guiding paths for the kinematic planning system, as well as evaluate the quality of the coating with YOLO algorithm.
+
+### Research on Environment Perception and Reconstruction for Robots in Narrow Spaces
+#### FromDate
+2019-11
+#### ToDate
+2020-06
+#### Project
+National Natural Science Foundation of China (61873267)
+#### Title
+Bachelor's Thesis
+#### Detail
+- An active brightness equalization algorithm was developed for low-light environments using a combination of multiscale Gaussian filtering, distributed fill-light modeling, and gamma correction techniques.
+- A repair algorithm was designed to address point cloud data in narrow blind spots through the utilization of spatial texture features.
+- A robust algorithm for estimating the end effector pose of a robot was established, which fuses visual odometry, encoders, and MARG sensors using a fuzzy adaptive EKF based on a differential motion model.
+- A multi-level reconstruction method for scenes was designed based on the OctoMap framework, which achieves real-time reconstruction of large-scale dynamic scenes while preserving essential details.
