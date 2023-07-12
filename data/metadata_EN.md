@@ -4,12 +4,9 @@
 ### <span class="highlight">Currently applying for an academic visit project...</span>
 #### Date
 2023-5-10
-### Mingrui Luo, Yunong Tian, En Li*, et al. “RL-Based Collision-free Path Planning for the Follow-the-Leader Motion of Coiled Hyper-Redundant Manipulators,” IEEE Robotics and Automation Letters, <b>Under Review (RR)</b>.
+### Presentation of research experience：<span class="highlight"><b><a href=https://www.bilibili.com/video/BV1Zh4y1Z7sr/>👉Watch videos</a></b></span>
 #### Date
-2023-4-8
-### Mingrui Luo, En Li*, et al. “A Novel Coiled Redundant Manipulator with Cable-Conduit Actuation for Remote Operating in Narrow Spaces,”  IROS 2023, <b>Under Review (DP)</b>.
-#### Date
-2023-3-1
+2023-7-12
 
 ## Basic Information
 ### Name
@@ -50,6 +47,31 @@ During my school years, I have won various <b>scholarships</b> at the school, ci
 ## Publication
 ### Research
 
+#### A Novel Coiled Cable-conduit-driven Hyper-redundant Manipulator for Remote Operating in Narrow Spaces
+##### Image
+paper_4.jpg
+##### Link
+https://ieee-iros.org/
+##### Author
+<b>Mingrui Luo</b>; Yunong Tian; En Li; Minghao Chen; Min Tan; et al.
+
+##### Date
+2023, July 1
+##### PubTitle
+IROS 2023
+##### Index
+IEEE Conference<b>(TOP) EI </b>Index
+##### Abstract
+In this paper, we propose a coiled cable-conduit-driven hyper-redundant manipulator (C-CDHRM) with great slenderness
+and flexibility. By imitating the structure and behavior of a constricting snake, it can be uncoiled sequentially from a coiled storage state, led by the head. In terms of control methods, we propose a multi-layer control system that can make remote operations more accurate and reliable.
+
+##### Keywords
+- 超冗余机械臂
+- 运动控制
+##### Actions
+###### VIDEO
+https://www.bilibili.com/video/BV1Wh4y1Z7Vp/
+
 #### A Bioinspired Coiled Cable-Driven Manipulator: Mechatronic Design and Kinematics Planning with Multi-Constraints
 ##### Image
 paper_3.jpg
@@ -63,7 +85,7 @@ https://doi.org/10.1109/tmech.2023.3257481
 ##### PubTitle
 IEEE/ASME Transactions on Mechatronics
 ##### Index
-IF: <b>5.867/Q1(TOP)</b>
+IF: <b>6.4/Q1(TOP)</b>
 ##### Abstract
 In this paper, a highly compact coiled CDHRM (C-CDHRM) that mimics the coiling behavior of snakes is designed, including 12 fully-constrained rigid bodies, 36 double-screw retractors, and a coiled feeding mechanism that can coil or uncoil according to task needs. The kinematic model and planning method we proposed enable the bioinspired coiled manipulator to exert excellent dexterity and maneuverability.
 ##### Keywords
@@ -72,6 +94,8 @@ In this paper, a highly compact coiled CDHRM (C-CDHRM) that mimics the coiling b
 ##### Actions
 ###### PDF
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10089203
+###### VIDEO
+https://www.bilibili.com/video/BV1JV411T795/
 
 #### End-Effector Pose Estimation in Complex Environments Using Complementary Enhancement and Adaptive Fusion of Multisensor
 ##### Image
@@ -108,7 +132,7 @@ https://ieeexplore.ieee.org/document/9326629/
 ##### PubTitle
 CAC 2020
 ##### Index
-<b>EI</b> Index
+IEEE Conference <b>EI</b> Index
 
 ##### Abstract
 This paper proposes an active and adaptive image enhancement method, including the distributed light source model, the difference in brightness between frames, contrast limited adaptive histogram equalization, bilateral filter, and fuzzy inference parameter self-adjustment method. The method proposed in this paper can effectively enhance the images in the low-light and narrow environment.
@@ -429,7 +453,7 @@ Core Student Member
 - Participated in the design of the control system for the manipulator, mainly using CANOpen communication and realizing 36-axis high-precision synchronous control based on CODESYS and ROS.
 - Participated in the planning algorithm design for the manipulator, using a follow-the-leader biomimetic strategy and Multi-constraint redundant inverse kinematics to control the tip pose, meeting the needs of narrow-space obstacle avoidance operations.
 #### Video
-./data/media/project1.gif
+https://www.bilibili.com/video/BV1Zh4y1Z7sr/
 
 ### Research of a Narrow-space Coating Robot for Application in Aviation Manufacturing
 #### FromDate
