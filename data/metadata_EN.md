@@ -3,8 +3,14 @@
 ## News
 ### <span class="highlight">Currently applying for an academic visit project...</span>
 #### Date
-2023-5-10
-### Presentation of research experience：<span class="highlight"><b><a href=https://www.bilibili.com/video/BV1Zh4y1Z7sr/>👉Watch videos</a></b></span>
+2023-9-1
+### The Paper titled "A Constrained Path Following Method for Snake-like Manipulators via Controlled Winding Uncoiling Strategy" was submitted to <span class="highlight">ICRA2024</span>
+#### Date
+2023-9-9
+### The paper titled "A Local Obstacle Avoidance and Global Planning Method for the Follow-the-Leader Motion of Coiled Hyper-Redundant Manipulators" submitted to <span class="highlight">TII</span> is undergoing major revision
+#### Date
+2023-8-6
+### Video presentation of research experience：<span class="highlight"><b><a href=https://www.bilibili.com/video/BV1Zh4y1Z7sr/>👉Watch videos</a></b></span>
 #### Date
 2023-7-12
 
@@ -23,7 +29,7 @@ Ph.D. Student
 #### GITHUB
 [HILMR](https://github.com/HILMR)
 #### EMAIL
-hi_lmr@163.com
+luomingrui2020@ia.ac.cn
 ### CV
 ./data/Mingrui_s_CV.pdf
 
@@ -34,7 +40,7 @@ school2.png
 #### Brief
 2020 - Now | Control Theory and Control Engineering | <b>Ph.D.</b> Student<a class="highlight" style="margin-left: 10px;">GPA:<b>3.85</b>/4.0</a>
 #### Detail
-I studied under researchers <b>Li En</b> and <b>Tan Min</b>, researching system design, intelligent control, planning and perception of <b>bionic redundant manipulators</b>. I have won the “<b>Excellent Student</b>” award twice in a row and have served as a member of <b>the academic department of the student union</b>.
+I studied under researchers <b>Li En</b> and <b>Tan Min</b>, researching system design, intelligent control, planning, and perception of <b>bionic redundant manipulators</b>. I have published <b>2 SCI papers</b> in journals such as <b>T-Mech</b>, <b>2 EI papers</b> in conferences like <b>IROS</b>, <b>4 patents</b>, and <b>3 software copyrights</b>. I have won the “<b>Excellent Student</b>” award twice in a row and have served as a member of <b>the academic department of the student union</b>.
 
 ### Beijing University of Technology (BJUT)
 #### Image
@@ -42,14 +48,17 @@ school1.png
 #### Brief
 2016 - 2020 | Mechanical Engineering (Major) Robot Engineering (Minor) | <b>B.E.</b> Degree<a class="highlight" style="margin-left: 10px;">GPA:<b>3.93</b>/4.0</a>
 #### Detail
-During my school years, I have won various <b>scholarships</b> at the school, city and national levels, and have won prizes in various <b>competitions</b>. I have hosted or participated in many college student <b>innovation projects</b> and published many <b>patents</b> and <b>software works</b>. I have obtained certificates for <b>CET-4</b>, <b>CET-6</b>, and <b>computer level certification</b>. I have served as <b>the president of the Science and Technology Association</b> and the <b>student in charge of the Innovation Laboratory</b>.
+During my school years, I have won various <b>scholarships</b> at the school, city, and national levels, and have won prizes in various <b>competitions</b>. I have hosted or participated in many college student <b>innovation projects</b> and published many <b>patents</b> and <b>software copyrights</b>. I have obtained certificates for <b>CET-4</b>, <b>CET-6</b>, and <b>computer level certification</b>. I have served as <b>the president of the Science and Technology Association</b> and the <b>student in charge of the Innovation Laboratory</b>.
 
 ## Publication
 ### Research
 
 #### A Novel Coiled Cable-conduit-driven Hyper-redundant Manipulator for Remote Operating in Narrow Spaces
 ##### Image
-paper_4.jpg
+- paper_4.jpg
+- IROS-1.gif
+- IROS-2.gif
+- IROS-3.gif
 ##### Link
 https://ieee-iros.org/
 ##### Author
@@ -66,15 +75,18 @@ In this paper, we propose a coiled cable-conduit-driven hyper-redundant manipula
 and flexibility. By imitating the structure and behavior of a constricting snake, it can be uncoiled sequentially from a coiled storage state, led by the head. In terms of control methods, we propose a multi-layer control system that can make remote operations more accurate and reliable.
 
 ##### Keywords
-- 超冗余机械臂
-- 运动控制
+- Manipulator
+- Motion Control
 ##### Actions
 ###### VIDEO
 https://www.bilibili.com/video/BV1Wh4y1Z7Vp/
 
 #### A Bioinspired Coiled Cable-Driven Manipulator: Mechatronic Design and Kinematics Planning with Multi-Constraints
 ##### Image
-paper_3.jpg
+- paper_3.jpg
+- TMECH-1.gif
+- TMECH-2.gif
+- TMECH-3.gif
 ##### Link
 https://doi.org/10.1109/tmech.2023.3257481
 ##### Author
@@ -447,13 +459,19 @@ National Key Research and Development Program (2018YFB1307400)
 #### Title
 Core Student Member
 #### Detail
-- @project1.gif,On-site demonstration of GIS maintenance robot,30%
-- Developed an inspection robot for gas-insulated switchgear in power substations. The robot consists of an all-terrain mobile chassis, a multi-level lifting platform, and a cable-driven manipulator with a length of 2.2 meters, 24 degrees of freedom, and a diameter of 50 millimeters.
-- Participated in the mechanism optimization of the manipulator, which imitates the coiling behavior of snakes and can coil to reduce storage space or uncoil to expand working range.
-- Participated in the design of the control system for the manipulator, mainly using CANOpen communication and realizing 36-axis high-precision synchronous control based on CODESYS and ROS.
-- Participated in the planning algorithm design for the manipulator, using a follow-the-leader biomimetic strategy and Multi-constraint redundant inverse kinematics to control the tip pose, meeting the needs of narrow-space obstacle avoidance operations.
+- <b>Developed an inspection robot for gas-insulated switchgear in power substations.</b> The robot consists of an <b>all-terrain mobile chassis</b>, <b>a multi-level lifting platform</b>, and <b>a cable-driven manipulator</b> with a length of 2.2 meters, 24 degrees of freedom, and a diameter of 50 millimeters.
+- Participated in the <b>mechanism optimization of the manipulator</b>, which imitates the coiling behavior of snakes and can coil to reduce storage space or uncoil to expand the working range.
+- Participated in the <b>design of the control system for the manipulator</b>, mainly using <b>CANOpen</b> communication and realizing 36-axis high-precision synchronous control based on <b>CODESYS</b> and <b>ROS</b>.
+- Participated in the <b>planning algorithm design for the manipulator</b>, using a <b>follow-the-leader biomimetic strategy</b> and <b>Multi-constraint redundant inverse kinematics</b> to control the tip pose, meeting the needs of narrow-space obstacle avoidance operations.
 #### Video
 https://www.bilibili.com/video/BV1Zh4y1Z7sr/
+#### ImageV
+- project1-1.jpg
+- project1-2.jpg
+- project1-3.gif
+#### ImageH
+- project1-4.gif
+- project1-5.gif
 
 ### Research of a Narrow-space Coating Robot for Application in Aviation Manufacturing
 #### FromDate
@@ -465,9 +483,12 @@ Major enterprise Project
 #### Title
 Core Student Member
 #### Detail
-- Developed a narrow-space coating robot, which consists of a 6-degree-of-freedom rigid manipulator and a 20-degree-of-freedom flexible manipulator.
-- Participated in the design of the control system for the robot, using Ethercat as the main communication method to establish the collaboration between the rigid and flexible arms, and implemented CATIA's digital twin interaction through OPC UA.
-- Participated in the development of algorithms for seam positioning and quality assessment, which uses computer vision to locate seams and provide guiding paths for the kinematic planning system, as well as evaluate the quality of the coating with YOLO algorithm.
+- <b>Developed a narrow-space coating robot</b>, which consists of a 6-degree-of-freedom rigid manipulator and a 20-degree-of-freedom flexible manipulator.
+- Participated in the <b>design of the control system for the robot</b>, using <b>Ethercat</b> as the main communication method to establish the collaboration between the rigid and flexible arms, and implemented CATIA's <b>digital twin</b> interaction through <b>OPC UA</b>.
+- Participated in the development of algorithms for seam positioning and quality assessment, which uses <b>computer vision</b> to locate seams and provide guiding paths for the kinematic planning system, as well as evaluate the quality of the coating with the <b>YOLO</b> algorithm.
+#### ImageH
+- project2-1.jpg
+- project2-2.jpg
 
 ### Research on Environment Perception and Reconstruction for Robots in Narrow Spaces
 #### FromDate
@@ -479,7 +500,10 @@ National Natural Science Foundation of China (61873267)
 #### Title
 Bachelor's Thesis
 #### Detail
-- An active brightness equalization algorithm was developed for low-light environments using a combination of multiscale Gaussian filtering, distributed fill-light modeling, and gamma correction techniques.
-- A repair algorithm was designed to address point cloud data in narrow blind spots through the utilization of spatial texture features.
-- A robust algorithm for estimating the end effector pose of a robot was established, which fuses visual odometry, encoders, and MARG sensors using a fuzzy adaptive EKF based on a differential motion model.
-- A multi-level reconstruction method for scenes was designed based on the OctoMap framework, which achieves real-time reconstruction of large-scale dynamic scenes while preserving essential details.
+- An active <b>brightness equalization algorithm</b> was developed for low-light environments using a combination of multiscale Gaussian filtering, distributed fill-light modeling, and gamma correction techniques.
+- A <b>repair algorithm</b> was designed to address <b>point cloud data in narrow blind spots</b> through the utilization of spatial texture features.
+- A robust algorithm for <b>estimating the end effector pose</b> of a robot was established, which fuses <b>visual odometry</b>, encoders, and MARG sensors using a <b>fuzzy adaptive EKF</b> based on a differential motion model.
+- A <b>multi-level reconstruction</b> method for scenes was designed based on the <b>OctoMap</b> framework, which achieves real-time reconstruction of large-scale dynamic scenes while preserving essential details.
+#### ImageH
+- project3-1.gif
+- project3-2.gif

@@ -1,7 +1,7 @@
 <!--  
     Author:LMR
-    Update:2023/05/10
-    Resume Template V0.3
+    Update:2023/09/09
+    Resume Template V0.4
 -->
 <!DOCTYPE html>
 <html lang="en" class="ace ace-card-on ace-tab-nav-on ace-main-nav-on ace-sidebar-on" data-theme-color="#c0e3e7">
@@ -32,6 +32,10 @@
     <!-- Modernizer -->
     <script type="text/javascript" src="./styles/js/vendor/modernizr-3.3.1.min.js"></script>
     <link rel="stylesheet" href="./styles/css/main.css">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="./styles/css/swiper-bundle.min.css">   
+    <script src="./styles/js/swiper-bundle.min.js"> </script>
 
     <!-- Scripts -->
     <script type="text/javascript" src="./styles/js/vendor/jquery-1.12.4.min.js"></script>
@@ -287,6 +291,19 @@
     //  Init
     $(function () {
         resizeFun();
+    })
+    //Swiper
+    var mySwiper = new Swiper ('.swiper', {
+    direction: 'horizontal',
+    loop: true, 
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    autoplay : {
+        delay : 2000,
+        disableOnInteraction : true
+    },
     })
 </script>
 

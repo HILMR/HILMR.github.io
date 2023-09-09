@@ -1,5 +1,6 @@
 # Page generator
-# Update:2023/05/10 @LMR
+# Update:2023/09/09 @LMR multiimages
+# Update:2023/05/10 @LMR init
 # pip install -r .\requirements.txt
 
 from markdown_to_json.vendor import CommonMark
@@ -183,11 +184,26 @@ class PageGenerator():
                         """.format(content[item]['Actions'][subitems],
                                     tipnotes[self.lang][subitems][0],icons[subitems],
                                     tipnotes[self.lang][subitems][1])
-                        
+                if isinstance(content[item]['Image'],list):
+                    imagecontent="""
+                    <div class="swiper">
+                        <div class="swiper-wrapper" style="width:330px;">"""
+                    for img in content[item]['Image']:
+                        imagecontent+="""
+                        <div class="swiper-slide"><a class="post-thumbnail" href="./data/media/{0}" data-lightbox="image" data-title="{1}"> <img class="example-image" src="./data/media/{0}"
+                                                                    alt="image" /></a></div>""".format(img,item+'_%d'%(content[item]['Image'].index(img)))
+                    imagecontent+="""
+                    </div>         
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    """
+                else:
+                    imagecontent="""<a class="post-thumbnail" href="./data/media/{0}" data-lightbox="image" data-title="{1}"> <img class="example-image" src="./data/media/{0}"
+                                            alt="image" /></a>""".format(content[item]['Image'],item)
                 publication_items+="""
                                     <article class="post">
-                                        <a class="post-thumbnail" href="./data/media/{0}" data-lightbox="image" data-title="{1}"> <img class="example-image" src="./data/media/{0}"
-                                            alt="image" /></a>
+                                        {0}
                                         <div class="post-content">
                                             <h2 class="post-title"><a href="{2}" target="_blank">{1}</a></h2>
                                             <span class="post-date">{3}&nbsp;&nbsp;|&nbsp;&nbsp;{4}</span>
@@ -204,7 +220,7 @@ class PageGenerator():
                                         </div>
                                     </article>
                 """.format(
-                        content[item]['Image'],item,
+                        imagecontent,item,
                         content[item]['Link'],
                         content[item]['Author'],
                         content[item]['Date'],
@@ -267,13 +283,9 @@ class PageGenerator():
             date_to=datetime.strptime(self.page_content['Experience'][item]['ToDate'], '%Y-%m')
             details=""
             for subitem in self.page_content['Experience'][item]['Detail']:
-                if subitem[0]=='@':
-                     imgdata=subitem[1:].split(',')
-                     details+="""<a class="post-thumbnail" href="./data/media/{0}" data-lightbox="image" data-title="{1}"> <img class="example-image" style="margin-top: 10px;width: {2};" align="right" src="./data/media/{0}"
-                            alt="image" /></a>""".format(imgdata[0],imgdata[1],imgdata[2])
-                else:
-                    details+="""<p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;{0}</p>
-                    """.format(subitem)
+                details+="""<p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;{0}</p>
+                """.format(subitem)
+
             if 'Video' in self.page_content['Experience'][item]:
                 tiptext={'EN':['Watch the Video','Video'],'ZH':['观看视频','观看视频']}
                 videolink="""<hr style="margin-top: 15px;"/>
@@ -281,6 +293,41 @@ class PageGenerator():
                     self.page_content['Experience'][item]['Video'],tiptext[self.lang][0],tiptext[self.lang][1])
             else:
                 videolink=''
+            
+            imagecontent_v=''
+            imagecontent_h=''
+            imagecontent_e="""
+            </div>         
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+            </div>
+            """
+
+            if 'ImageV' in self.page_content['Experience'][item]:
+                style_detail=r'width:60%;float:left;display:inline;'
+                imagecontent_v="""
+                <div class="swiper" style="width:39%;float:right;display:inline;margin-left:1px;">
+                <div class="swiper-wrapper">
+                """
+                for img in self.page_content['Experience'][item]['ImageV']:
+                    imagecontent_v+="""
+                        <div class="swiper-slide"><a class="post-thumbnail" href="./data/media/{0}" data-lightbox="image" data-title="{1}"> <img class="example-image" src="./data/media/{0}"
+                                                                    alt="image" /></a></div>""".format(img,item+'_%d'%(self.page_content['Experience'][item]['ImageV'].index(img)))
+                imagecontent_v+=imagecontent_e
+            else:
+                style_detail=''
+            
+            if 'ImageH' in self.page_content['Experience'][item]:
+                imagecontent_h="""
+                <div class="swiper" style="width:60%;">
+                <div class="swiper-wrapper">
+                """
+                for img in self.page_content['Experience'][item]['ImageH']:
+                    imagecontent_h+="""
+                        <div class="swiper-slide"><a class="post-thumbnail" href="./data/media/{0}" data-lightbox="image" data-title="{1}"> <img class="example-image" src="./data/media/{0}"
+                                                                    alt="image" /></a></div>""".format(img,item+'_%d'%(self.page_content['Experience'][item]['ImageH'].index(img)))
+                imagecontent_h+=imagecontent_e
+            
             experience_items+="""
                 <div class="education-box">
                     <time class="education-date" datetime="{0}T{1}">
@@ -291,7 +338,11 @@ class PageGenerator():
                     <h4>{6}</h4>
                     <span
                         class="education-company">{7}&nbsp;&nbsp;|&nbsp;&nbsp;{8}</span>
-                    {9}
+                    <div style="{11}">
+                        {9}
+                        </div>
+                        {12}
+                        {13}
                 </div>
                 """.format(self.page_content['Experience'][item]['FromDate'],
                            self.page_content['Experience'][item]['ToDate'],
@@ -302,9 +353,8 @@ class PageGenerator():
                             item,
                             self.page_content['Experience'][item]['Project'],
                             self.page_content['Experience'][item]['Title'],
-                            details,videolink
+                            details,videolink,style_detail,imagecontent_v,imagecontent_h
                         )
-            
         self.pagereplace(r'{EXPERIENCE_DIV}',experience_items)
     
     def generate(self):

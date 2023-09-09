@@ -21,6 +21,8 @@
 [HILMR](https://github.com/HILMR)
 #### EMAIL
 hi_lmr@163.com
+### CV
+./data/Mingrui_s_CV.pdf
 
 ## Education
 ### 中国科学院大学(UCAS)/中国科学院自动化研究所(CASIA)
@@ -29,21 +31,24 @@ school2.png
 #### Brief
 2020 - 至今 | 控制理论与控制工程 | <b>博士</b> 在读<a class="highlight" style="margin-left: 10px ">GPA:<b>3.85</b>/4.0</a>
 #### Detail
-我师从<b>李恩</b>和<b>谭民</b>研究员，研究有关<b>仿生冗余机械臂</b>的系统设计，智能控制、规划和感知，连续获得两届<b>“三好学生”</b>称号，曾任职于<b>学生会学术部</b>。
+我师从<b>李恩</b>和<b>谭民</b>研究员，研究有关<b>仿生冗余机械臂</b>的系统设计，智能控制、规划和感知，在<b>T-Mech</b>等期刊发表<b>2篇SCI论文</b>，<b>IROS</b>等会议发表<b>2篇EI论文</b>，授权多项专利和软件著作，连续获得两届<b>“三好学生”</b>称号，曾任职于<b>学生会学术部</b>。
 ### 北京工业大学(BJUT)
 #### Image
 school1.png
 #### Brief
 2016 - 2020 | 机械工程 (主修) 机器人工程 (辅修) | <b>工学</b> 学士<a class="highlight" style="margin-left: 10px;">GPA:<b>3.93</b>/4.0</a>
 #### Detail
-在校期间，我多次获得<b>校级、市级以及国家级的各类奖学金</b>，并在<b>多项竞赛中获奖</b>。主持或参与多项大学生创新项目，并<b>发表多篇专利和软件著作</b>。取得了<b>四、六级证书和计算机等级证明</b>。曾任职<b>科技协会主席和创新实验室学生负责人</b>。
+在校期间，我多次获得<b>校级、市级以及国家级的各类奖学金</b>，并在<b>多项竞赛中获奖</b>。主持或参与多项大学生创新项目，并<b>发表多篇发明专利和软件著作</b>。取得了<b>四、六级证书和计算机等级证明</b>。曾任职<b>科技协会主席和创新实验室学生负责人</b>。
 
 ## Publication
 ### Research
 
 #### A Novel Coiled Cable-conduit-driven Hyper-redundant Manipulator for Remote Operating in Narrow Spaces
 ##### Image
-paper_4.jpg
+- paper_4.jpg
+- IROS-1.gif
+- IROS-2.gif
+- IROS-3.gif
 ##### Link
 https://ieee-iros.org/
 ##### Author
@@ -68,7 +73,10 @@ https://www.bilibili.com/video/BV1Wh4y1Z7Vp/
 
 #### A Bioinspired Coiled Cable-Driven Manipulator: Mechatronic Design and Kinematics Planning with Multi-Constraints
 ##### Image
-paper_3.jpg
+- paper_3.jpg
+- TMECH-1.gif
+- TMECH-2.gif
+- TMECH-3.gif
 ##### Link
 https://doi.org/10.1109/tmech.2023.3257481
 ##### Author
@@ -453,13 +461,19 @@ award3.jpg
 #### Title
 学生技术骨干
 #### Detail
-- @project1.gif,GIS检修机器人现场演示,20%
 - 研发了一款面向气体绝缘变电站(GIS)的竖直腔体检修机器人，该机器人由全地形移动底盘、多级升降平台和长臂展机械臂构成；
 - 参与了长臂展机械臂的构型设计，通过模仿蛇类盘曲运动，采用蜷缩式推送，结构紧凑，实现了长达2.2米、24自由度、直径50毫米的线缆驱动超冗余度机械臂；
 - 主导了长臂展机械臂的控制系统设计，以CANOpen为主要通信方式，基于Codesys和ROS实现36轴高精度同步控制；
 - 主导了长臂展机械臂的规划算法设计，通过头部跟随仿生策略，控制高冗余度机械臂末端位姿与臂形姿态，满足狭窄空间避障作业需求。
 #### Video
 https://www.bilibili.com/video/BV1Zh4y1Z7sr/
+#### ImageV
+- project1-1.jpg
+- project1-2.jpg
+- project1-3.gif
+#### ImageH
+- project1-4.gif
+- project1-5.gif
 
 ### 应用于航空制造中狭窄腔室的涂胶作业机器人
 #### FromDate
@@ -474,6 +488,9 @@ https://www.bilibili.com/video/BV1Zh4y1Z7sr/
 - 研发了一款面向狭窄腔室的涂胶作业机器人，包括6自由度刚性机械臂和20自由度柔性机械臂；
 - 主导了涂胶作业机器人的控制系统设计，以Ethercat为主要通信方式，建立刚柔机械臂的协作，并通过OPC UA实现CATIA中的数字孪生交互；
 - 参与了涂胶作业机器人胶缝定位和质量评估算法的开发，通过计算机视觉定位胶缝，为机械臂运动学规划系统提供引导路径，并评估涂胶质量。
+#### ImageH
+- project2-1.jpg
+- project2-2.jpg
 
 ### 机器人在狭窄空间中的环境感知与场景重建研究
 #### FromDate
@@ -489,3 +506,6 @@ https://www.bilibili.com/video/BV1Zh4y1Z7sr/
 - 设计了一种点云修复算法，结合RGB图像的纹理特征，补全窄盲点中的深度图数据;
 - 建立了一种用于估计机器人末端执行器姿态的鲁棒算法，该算法基于差分运动模型的模糊自适应EKF改进，融合了视觉里程计、编码器和MARG传感器;
 - 基于OctoMap框架设计了一种多层次的场景重建方法，在保留重要细节的同时，实现了大规模动态场景的实时重建。
+#### ImageH
+- project3-1.gif
+- project3-2.gif

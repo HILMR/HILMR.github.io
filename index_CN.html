@@ -1,7 +1,7 @@
 <!--  
     Author:LMR
-    Update:2023/05/10
-    Resume Template V0.3
+    Update:2023/09/09
+    Resume Template V0.4
 -->
 <!DOCTYPE html>
 <html lang="en" class="ace ace-card-on ace-tab-nav-on ace-main-nav-on ace-sidebar-on" data-theme-color="#c0e3e7">
@@ -32,6 +32,10 @@
     <!-- Modernizer -->
     <script type="text/javascript" src="./styles/js/vendor/modernizr-3.3.1.min.js"></script>
     <link rel="stylesheet" href="./styles/css/main.css">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="./styles/css/swiper-bundle.min.css">   
+    <script src="./styles/js/swiper-bundle.min.js"> </script>
 
     <!-- Scripts -->
     <script type="text/javascript" src="./styles/js/vendor/jquery-1.12.4.min.js"></script>
@@ -121,8 +125,8 @@
                 </ul>
             </div>
             <footer class="ace-card-footer">
-                <a class="btn btn-lg btn-block btn-thin btn-upper" href="javascript:void(0)"
-                    onclick="window.print()">下载简历</a>
+                <a class="btn btn-lg btn-block btn-thin btn-upper" href="./data/Mingrui_s_CV.pdf"
+                    onclick="">下载简历</a>
                 <a class="btn btn-lg btn-block btn-thin btn-upper" href="index_EN.html">English Version</a>
             </footer>
         </article>
@@ -217,7 +221,7 @@
             
                     <blockquote class="ref-cont clear-mrg">
                         <p>
-                            我师从<b>李恩</b>和<b>谭民</b>研究员，研究有关<b>仿生冗余机械臂</b>的系统设计，智能控制、规划和感知，连续获得两届<b>“三好学生”</b>称号，曾任职于<b>学生会学术部</b>。
+                            我师从<b>李恩</b>和<b>谭民</b>研究员，研究有关<b>仿生冗余机械臂</b>的系统设计，智能控制、规划和感知，在<b>T-Mech</b>等期刊发表<b>2篇SCI论文</b>，<b>IROS</b>等会议发表<b>2篇EI论文</b>，授权多项专利和软件著作，连续获得两届<b>“三好学生”</b>称号，曾任职于<b>学生会学术部</b>。
                         </p>
                     </blockquote>
                 </div>
@@ -236,7 +240,7 @@
             
                     <blockquote class="ref-cont clear-mrg">
                         <p>
-                            在校期间，我多次获得<b>校级、市级以及国家级的各类奖学金</b>，并在<b>多项竞赛中获奖</b>。主持或参与多项大学生创新项目，并<b>发表多篇专利和软件著作</b>。取得了<b>四、六级证书和计算机等级证明</b>。曾任职<b>科技协会主席和创新实验室学生负责人</b>。
+                            在校期间，我多次获得<b>校级、市级以及国家级的各类奖学金</b>，并在<b>多项竞赛中获奖</b>。主持或参与多项大学生创新项目，并<b>发表多篇发明专利和软件著作</b>。取得了<b>四、六级证书和计算机等级证明</b>。曾任职<b>科技协会主席和创新实验室学生负责人</b>。
                         </p>
                     </blockquote>
                 </div>
@@ -254,8 +258,22 @@
 
                                     
                                     <article class="post">
-                                        <a class="post-thumbnail" href="./data/media/paper_4.jpg" data-lightbox="image" data-title="A Novel Coiled Cable-conduit-driven Hyper-redundant Manipulator for Remote Operating in Narrow Spaces"> <img class="example-image" src="./data/media/paper_4.jpg"
-                                            alt="image" /></a>
+                                        
+                    <div class="swiper">
+                        <div class="swiper-wrapper" style="width:330px;">
+                        <div class="swiper-slide"><a class="post-thumbnail" href="./data/media/paper_4.jpg" data-lightbox="image" data-title="A Novel Coiled Cable-conduit-driven Hyper-redundant Manipulator for Remote Operating in Narrow Spaces_0"> <img class="example-image" src="./data/media/paper_4.jpg"
+                                                                    alt="image" /></a></div>
+                        <div class="swiper-slide"><a class="post-thumbnail" href="./data/media/IROS-1.gif" data-lightbox="image" data-title="A Novel Coiled Cable-conduit-driven Hyper-redundant Manipulator for Remote Operating in Narrow Spaces_1"> <img class="example-image" src="./data/media/IROS-1.gif"
+                                                                    alt="image" /></a></div>
+                        <div class="swiper-slide"><a class="post-thumbnail" href="./data/media/IROS-2.gif" data-lightbox="image" data-title="A Novel Coiled Cable-conduit-driven Hyper-redundant Manipulator for Remote Operating in Narrow Spaces_2"> <img class="example-image" src="./data/media/IROS-2.gif"
+                                                                    alt="image" /></a></div>
+                        <div class="swiper-slide"><a class="post-thumbnail" href="./data/media/IROS-3.gif" data-lightbox="image" data-title="A Novel Coiled Cable-conduit-driven Hyper-redundant Manipulator for Remote Operating in Narrow Spaces_3"> <img class="example-image" src="./data/media/IROS-3.gif"
+                                                                    alt="image" /></a></div>
+                    </div>         
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    
                                         <div class="post-content">
                                             <h2 class="post-title"><a href="https://ieee-iros.org/" target="_blank">A Novel Coiled Cable-conduit-driven Hyper-redundant Manipulator for Remote Operating in Narrow Spaces</a></h2>
                                             <span class="post-date"><b>罗明睿</b>; 田雨农; 李恩; 陈铭浩; 康存锋; 杨国栋; 谭民&nbsp;&nbsp;|&nbsp;&nbsp;2023, July 1</span>
@@ -280,8 +298,22 @@ and flexibility. By imitating the structure and behavior of a constricting snake
                                     </article>
                 
                                     <article class="post">
-                                        <a class="post-thumbnail" href="./data/media/paper_3.jpg" data-lightbox="image" data-title="A Bioinspired Coiled Cable-Driven Manipulator: Mechatronic Design and Kinematics Planning with Multi-Constraints"> <img class="example-image" src="./data/media/paper_3.jpg"
-                                            alt="image" /></a>
+                                        
+                    <div class="swiper">
+                        <div class="swiper-wrapper" style="width:330px;">
+                        <div class="swiper-slide"><a class="post-thumbnail" href="./data/media/paper_3.jpg" data-lightbox="image" data-title="A Bioinspired Coiled Cable-Driven Manipulator: Mechatronic Design and Kinematics Planning with Multi-Constraints_0"> <img class="example-image" src="./data/media/paper_3.jpg"
+                                                                    alt="image" /></a></div>
+                        <div class="swiper-slide"><a class="post-thumbnail" href="./data/media/TMECH-1.gif" data-lightbox="image" data-title="A Bioinspired Coiled Cable-Driven Manipulator: Mechatronic Design and Kinematics Planning with Multi-Constraints_1"> <img class="example-image" src="./data/media/TMECH-1.gif"
+                                                                    alt="image" /></a></div>
+                        <div class="swiper-slide"><a class="post-thumbnail" href="./data/media/TMECH-2.gif" data-lightbox="image" data-title="A Bioinspired Coiled Cable-Driven Manipulator: Mechatronic Design and Kinematics Planning with Multi-Constraints_2"> <img class="example-image" src="./data/media/TMECH-2.gif"
+                                                                    alt="image" /></a></div>
+                        <div class="swiper-slide"><a class="post-thumbnail" href="./data/media/TMECH-3.gif" data-lightbox="image" data-title="A Bioinspired Coiled Cable-Driven Manipulator: Mechatronic Design and Kinematics Planning with Multi-Constraints_3"> <img class="example-image" src="./data/media/TMECH-3.gif"
+                                                                    alt="image" /></a></div>
+                    </div>         
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    
                                         <div class="post-content">
                                             <h2 class="post-title"><a href="https://doi.org/10.1109/tmech.2023.3257481" target="_blank">A Bioinspired Coiled Cable-Driven Manipulator: Mechatronic Design and Kinematics Planning with Multi-Constraints</a></h2>
                                             <span class="post-date"><b>罗明睿</b>; 李恩; 章澳顺; 谭民; 梁自泽 &nbsp;&nbsp;|&nbsp;&nbsp;2023, Mar 7</span>
@@ -739,12 +771,41 @@ and flexibility. By imitating the structure and behavior of a constricting snake
                     <h4>面向电力行业的作业机器人系统研究及应用</h4>
                     <span
                         class="education-company">国家重点研发计划 (2018YFB1307400)&nbsp;&nbsp;|&nbsp;&nbsp;学生技术骨干</span>
-                    <a class="post-thumbnail" href="./data/media/project1.gif" data-lightbox="image" data-title="GIS检修机器人现场演示"> <img class="example-image" style="margin-top: 10px;width: 20%;" align="right" src="./data/media/project1.gif"
-                            alt="image" /></a><p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;研发了一款面向气体绝缘变电站(GIS)的竖直腔体检修机器人，该机器人由全地形移动底盘、多级升降平台和长臂展机械臂构成；</p>
-                    <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;参与了长臂展机械臂的构型设计，通过模仿蛇类盘曲运动，采用蜷缩式推送，结构紧凑，实现了长达2.2米、24自由度、直径50毫米的线缆驱动超冗余度机械臂；</p>
-                    <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;主导了长臂展机械臂的控制系统设计，以CANOpen为主要通信方式，基于Codesys和ROS实现36轴高精度同步控制；</p>
-                    <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;主导了长臂展机械臂的规划算法设计，通过头部跟随仿生策略，控制高冗余度机械臂末端位姿与臂形姿态，满足狭窄空间避障作业需求。</p>
-                    
+                    <div style="width:60%;float:left;display:inline;">
+                        <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;研发了一款面向气体绝缘变电站(GIS)的竖直腔体检修机器人，该机器人由全地形移动底盘、多级升降平台和长臂展机械臂构成；</p>
+                <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;参与了长臂展机械臂的构型设计，通过模仿蛇类盘曲运动，采用蜷缩式推送，结构紧凑，实现了长达2.2米、24自由度、直径50毫米的线缆驱动超冗余度机械臂；</p>
+                <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;主导了长臂展机械臂的控制系统设计，以CANOpen为主要通信方式，基于Codesys和ROS实现36轴高精度同步控制；</p>
+                <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;主导了长臂展机械臂的规划算法设计，通过头部跟随仿生策略，控制高冗余度机械臂末端位姿与臂形姿态，满足狭窄空间避障作业需求。</p>
+                
+                        </div>
+                        
+                <div class="swiper" style="width:39%;float:right;display:inline;margin-left:1px;">
+                <div class="swiper-wrapper">
+                
+                        <div class="swiper-slide"><a class="post-thumbnail" href="./data/media/project1-1.jpg" data-lightbox="image" data-title="面向电力行业的作业机器人系统研究及应用_0"> <img class="example-image" src="./data/media/project1-1.jpg"
+                                                                    alt="image" /></a></div>
+                        <div class="swiper-slide"><a class="post-thumbnail" href="./data/media/project1-2.jpg" data-lightbox="image" data-title="面向电力行业的作业机器人系统研究及应用_1"> <img class="example-image" src="./data/media/project1-2.jpg"
+                                                                    alt="image" /></a></div>
+                        <div class="swiper-slide"><a class="post-thumbnail" href="./data/media/project1-3.gif" data-lightbox="image" data-title="面向电力行业的作业机器人系统研究及应用_2"> <img class="example-image" src="./data/media/project1-3.gif"
+                                                                    alt="image" /></a></div>
+            </div>         
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+            </div>
+            
+                        
+                <div class="swiper" style="width:60%;">
+                <div class="swiper-wrapper">
+                
+                        <div class="swiper-slide"><a class="post-thumbnail" href="./data/media/project1-4.gif" data-lightbox="image" data-title="面向电力行业的作业机器人系统研究及应用_0"> <img class="example-image" src="./data/media/project1-4.gif"
+                                                                    alt="image" /></a></div>
+                        <div class="swiper-slide"><a class="post-thumbnail" href="./data/media/project1-5.gif" data-lightbox="image" data-title="面向电力行业的作业机器人系统研究及应用_1"> <img class="example-image" src="./data/media/project1-5.gif"
+                                                                    alt="image" /></a></div>
+            </div>         
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+            </div>
+            
                 </div>
                 
                 <div class="education-box">
@@ -756,10 +817,26 @@ and flexibility. By imitating the structure and behavior of a constricting snake
                     <h4>应用于航空制造中狭窄腔室的涂胶作业机器人</h4>
                     <span
                         class="education-company">企业重大课题&nbsp;&nbsp;|&nbsp;&nbsp;学生技术骨干</span>
-                    <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;研发了一款面向狭窄腔室的涂胶作业机器人，包括6自由度刚性机械臂和20自由度柔性机械臂；</p>
-                    <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;主导了涂胶作业机器人的控制系统设计，以Ethercat为主要通信方式，建立刚柔机械臂的协作，并通过OPC UA实现CATIA中的数字孪生交互；</p>
-                    <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;参与了涂胶作业机器人胶缝定位和质量评估算法的开发，通过计算机视觉定位胶缝，为机械臂运动学规划系统提供引导路径，并评估涂胶质量。</p>
-                    
+                    <div style="">
+                        <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;研发了一款面向狭窄腔室的涂胶作业机器人，包括6自由度刚性机械臂和20自由度柔性机械臂；</p>
+                <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;主导了涂胶作业机器人的控制系统设计，以Ethercat为主要通信方式，建立刚柔机械臂的协作，并通过OPC UA实现CATIA中的数字孪生交互；</p>
+                <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;参与了涂胶作业机器人胶缝定位和质量评估算法的开发，通过计算机视觉定位胶缝，为机械臂运动学规划系统提供引导路径，并评估涂胶质量。</p>
+                
+                        </div>
+                        
+                        
+                <div class="swiper" style="width:60%;">
+                <div class="swiper-wrapper">
+                
+                        <div class="swiper-slide"><a class="post-thumbnail" href="./data/media/project2-1.jpg" data-lightbox="image" data-title="应用于航空制造中狭窄腔室的涂胶作业机器人_0"> <img class="example-image" src="./data/media/project2-1.jpg"
+                                                                    alt="image" /></a></div>
+                        <div class="swiper-slide"><a class="post-thumbnail" href="./data/media/project2-2.jpg" data-lightbox="image" data-title="应用于航空制造中狭窄腔室的涂胶作业机器人_1"> <img class="example-image" src="./data/media/project2-2.jpg"
+                                                                    alt="image" /></a></div>
+            </div>         
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+            </div>
+            
                 </div>
                 
                 <div class="education-box">
@@ -771,11 +848,27 @@ and flexibility. By imitating the structure and behavior of a constricting snake
                     <h4>机器人在狭窄空间中的环境感知与场景重建研究</h4>
                     <span
                         class="education-company">国家自然科学基金 (61873267)，北京市高水平人才交叉培养“实培计划”&nbsp;&nbsp;|&nbsp;&nbsp;学士学位论文</span>
-                    <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;结合多尺度高斯滤波、分布式补光建模和伽马校正技术，针对弱光环境开发了一种主动亮度均衡算法;</p>
-                    <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;设计了一种点云修复算法，结合RGB图像的纹理特征，补全窄盲点中的深度图数据;</p>
-                    <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;建立了一种用于估计机器人末端执行器姿态的鲁棒算法，该算法基于差分运动模型的模糊自适应EKF改进，融合了视觉里程计、编码器和MARG传感器;</p>
-                    <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;基于OctoMap框架设计了一种多层次的场景重建方法，在保留重要细节的同时，实现了大规模动态场景的实时重建。</p>
-                    
+                    <div style="">
+                        <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;结合多尺度高斯滤波、分布式补光建模和伽马校正技术，针对弱光环境开发了一种主动亮度均衡算法;</p>
+                <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;设计了一种点云修复算法，结合RGB图像的纹理特征，补全窄盲点中的深度图数据;</p>
+                <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;建立了一种用于估计机器人末端执行器姿态的鲁棒算法，该算法基于差分运动模型的模糊自适应EKF改进，融合了视觉里程计、编码器和MARG传感器;</p>
+                <p><span class="ace-icon ace-icon-bookmark"></span>&nbsp;基于OctoMap框架设计了一种多层次的场景重建方法，在保留重要细节的同时，实现了大规模动态场景的实时重建。</p>
+                
+                        </div>
+                        
+                        
+                <div class="swiper" style="width:60%;">
+                <div class="swiper-wrapper">
+                
+                        <div class="swiper-slide"><a class="post-thumbnail" href="./data/media/project3-1.gif" data-lightbox="image" data-title="机器人在狭窄空间中的环境感知与场景重建研究_0"> <img class="example-image" src="./data/media/project3-1.gif"
+                                                                    alt="image" /></a></div>
+                        <div class="swiper-slide"><a class="post-thumbnail" href="./data/media/project3-2.gif" data-lightbox="image" data-title="机器人在狭窄空间中的环境感知与场景重建研究_1"> <img class="example-image" src="./data/media/project3-2.gif"
+                                                                    alt="image" /></a></div>
+            </div>         
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+            </div>
+            
                 </div>
                 
                                             </div>
@@ -794,7 +887,7 @@ and flexibility. By imitating the structure and behavior of a constricting snake
         <footer id="ace-footer" class="ace-container-shift">
             <div class="ace-container">
                 <div class="ace-footer-cont clear-mrg">
-                    <p class="text-center"><span class="ace-icon ace-icon-leaf"></span>&nbsp;Update: 2023-07-12&nbsp;&nbsp;|&nbsp;&nbsp;Modified from <a href="https://hilmr.github.io/">HILMR</a>, <a
+                    <p class="text-center"><span class="ace-icon ace-icon-leaf"></span>&nbsp;Update: 2023-09-09&nbsp;&nbsp;|&nbsp;&nbsp;Modified from <a href="https://hilmr.github.io/">HILMR</a>, <a
                             href="https://xiaodan_yu.gitee.io/resume.io/">XiaoXiao</a>, and <a
                             href="http://artemsheludko.com/flexible-jekyll/">Artemsheludko</a>&nbsp;<span
                             class="ace-icon ace-icon-leaf"></span></p>
@@ -848,6 +941,19 @@ and flexibility. By imitating the structure and behavior of a constricting snake
     //  Init
     $(function () {
         resizeFun();
+    })
+    //Swiper
+    var mySwiper = new Swiper ('.swiper', {
+    direction: 'horizontal',
+    loop: true, 
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    autoplay : {
+        delay : 2000,
+        disableOnInteraction : true
+    },
     })
 </script>
 
