@@ -397,6 +397,10 @@ https://patentimages.storage.googleapis.com/7f/82/3f/b8254ca59bebae/CN108635782B
 
 ## Reward
 
+### 2023年“挑战杯”首都大学生课外学术科技作品竞赛“<span class="highlight"><b>一等奖</b></span>”
+#### Date
+2023-8
+
 ### 中国科学院大学2022年度“<span class="highlight"><b>三好学生</b></span>”称号
 #### Date
 2022-6

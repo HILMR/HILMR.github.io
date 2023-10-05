@@ -277,9 +277,9 @@ Cunfeng Kang; <b>Mingrui Luo</b>; Chunyang Shi; Donglin Chen
 ##### Date
 2020, July 7
 ##### PubTitle
-<b>Patent Publication</b>
+<b>Patent Grant</b>
 ##### Index
-CN 111383352A
+ZL 2020 1 0205243.4
 ##### Abstract
 The invention discloses an automatic color filling and abstracting method for a three-order magic cube, which solves the problem of overhigh color identification cost under the condition of ensuring that the identification efficiency is not changed greatly.
 ##### Keywords
@@ -402,6 +402,10 @@ Cunfeng Kang;<b>Mingrui Luo</b>;Zixiao Liu
 2017SR611308
 
 ## Reward
+
+### 2023 "Challenge Cup" Capital University Extracurricular Academic and Technological Works Competition “<span class="highlight"><b>First Prize</b></span>”
+#### Date
+2023-8
 
 ### “<span class="highlight"><b>Excellent Student</b></span>” title of University of Chinese Academy of Sciences in 2022
 #### Date
