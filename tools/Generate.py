@@ -155,16 +155,20 @@ class PageGenerator():
         publication_items=""
         for item in content:
             if typ=='Software Copyright':
+                if 'Author' in content[item]:
+                    authorinf=content[item]['Author']+r'&nbsp;|&nbsp;'
+                else:
+                    authorinf=''
                 if self.lang=='ZH':
                     publication_items+="""
                                     <div class="ref-author">
-                                        <strong><span class="ace-icon ace-icon-bookmark" style="display:inline-block;"></span>&nbsp;&nbsp;{0}<span style="display:inline-block;">&nbsp;|&nbsp;中国版权登记号:<a class="highlight" style="margin-left: 10px;">{1}</a></span></strong>
-                                    </div>""".format(item,content[item]['Index'])
+                                        <strong><span class="ace-icon ace-icon-bookmark" style="display:inline-block;">&nbsp;&nbsp;<b>{0}</b>&nbsp;|&nbsp;{1}中国版权登记号:<a class="highlight" style="margin-left: 10px;">{2}</a></span></strong>
+                                    </div>""".format(item,authorinf,content[item]['Index'])
                 else:
                     publication_items+="""<div class="ref-author">
                                         <strong><span class="ace-icon ace-icon-bookmark" style="display:inline-block;"></span>&nbsp;&nbsp;{0}</strong>
-                                        <span>CN. Copyright No.<a class="highlight" style="margin-left: 10px;">{1}</a></span>
-                                    </div>""".format(item,content[item]['Index'])
+                                        <span>{1}CN. Copyright No.<a class="highlight" style="margin-left: 10px;">{2}</a></span>
+                                    </div>""".format(item,authorinf,content[item]['Index'])
             else:
                 keywords=""
                 for subitems in content[item]['Keywords']:

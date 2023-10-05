@@ -355,32 +355,49 @@ The present invention is water polo machine for automatically recovering device 
 https://patentimages.storage.googleapis.com/7f/82/3f/b8254ca59bebae/CN108635782B.pdf
 
 ### Software Copyright
-
+#### Software for detection and classification of glue defects
+##### Author
+Yunong Tian;En Li;<b>Mingrui Luo</b>;et al.
+##### Index
+2022SR0606186
 #### Multilevel 3D scene reconstruction and segmentation software
+##### Author
+En Li;<b>Mingrui Luo</b>;et al.
 ##### Index
 2021SR0524534
 #### Robot multi-sensor fusion perception and positioning software
+##### Author
+En Li;<b>Mingrui Luo</b>;et al.
 ##### Index
 2021SR0524533
 #### Visual Enhancement Processing Software for Narrow Environment with Weak Light
+##### Author
+En Li;<b>Mingrui Luo</b>;et al.
 ##### Index
 2021SR0588949
-#### Third level Rubik's Cube multifunctional restoration teaching platform
-##### Index
-2019SR1164798
 #### A Stepping Motor Precision Control System Based on STM32
+##### Author
+Cunfeng Kang;Chunyang Shi;<b>Mingrui Luo</b>;et al.
 ##### Index
 2019SR1172985
 #### Intelligent camera motion control software
+##### Author
+<b>Mingrui Luo</b>;Shuwen Sun;et al.
 ##### Index
 2018SR878238
 #### Intelligent printing model car control software
+##### Author
+Shuwen Sun;Gang Wang;<b>Mingrui Luo</b>;et al.
 ##### Index
 2017SR685869
 #### Intelligent rainforest purifier automatic control system
+##### Author
+Cunfeng Kang;Yonglong Li;<b>Mingrui Luo</b>;et al.
 ##### Index
 2017SR611328
 #### Indoor positioning and mobile grabbing system for elderly robot assistance
+##### Author
+Cunfeng Kang;<b>Mingrui Luo</b>;Zixiao Liu
 ##### Index
 2017SR611308
 

@@ -11,12 +11,12 @@
 存放至`styles/img`文件夹下，注意文件名与`Step1`中图片名称保持一致
 
 ### Step3: 生成文档
-安装依赖：
+- 确保Python版本≤3.7 （很重要！）
+- 安装依赖：
 `pip install -r .\requirements.txt`
 
 运行页面生成器：
-`python tools/Generate.py tools/Input.md ZH`
-
+`python tools/Generate.py tools/Input.md ZH index_CN.html`
 其中：
 - `tools/Input.md`为页面描述文件的位置
 - `ZH`为中文页面，`EN`为英文页面
