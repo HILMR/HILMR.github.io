@@ -22,7 +22,7 @@
 #### EMAIL
 hi_lmr@163.com
 ### CV
-./data/Mingrui_s_CV.pdf
+./data/罗明睿简历.pdf
 
 ## Education
 ### 中国科学院大学(UCAS)/中国科学院自动化研究所(CASIA)
@@ -59,7 +59,7 @@ https://ieee-iros.org/
 ##### PubTitle
 IROS 2023
 ##### Index
-IEEE会议<b>（机器人顶会） EI</b>检索
+A类(CAA) | C类(CCF) | <b>机器人顶会 EI</b>检索
 ##### Abstract
 In this paper, we propose a coiled cable-conduit-driven hyper-redundant manipulator (C-CDHRM) with great slenderness
 and flexibility. By imitating the structure and behavior of a constricting snake, it can be uncoiled sequentially from a coiled storage state, led by the head. In terms of control methods, we propose a multi-layer control system that can make remote operations more accurate and reliable.
@@ -135,7 +135,7 @@ https://ieeexplore.ieee.org/document/9326629/
 ##### PubTitle
 中国自动化大会(CAC) 2020
 ##### Index
-IEEE会议 <b>EI</b>检索
+IEEE会议 A类(CAA) | <b>EI</b>检索
 
 ##### Abstract
 This paper proposes an active and adaptive image enhancement method, including the distributed light source model, the difference in brightness between frames, contrast limited adaptive histogram equalization, bilateral filter, and fuzzy inference parameter self-adjustment method. The method proposed in this paper can effectively enhance the images in the low-light and narrow environment.
