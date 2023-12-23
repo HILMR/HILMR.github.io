@@ -31,7 +31,7 @@ school2.png
 #### Brief
 2020 - 至今 | 控制理论与控制工程 | <b>博士</b> 在读<a class="highlight" style="margin-left: 10px ">GPA:<b>3.85</b>/4.0</a>
 #### Detail
-我师从<b>李恩</b>和<b>谭民</b>研究员，研究有关<b>仿生冗余机械臂</b>的系统设计，智能控制、规划和感知，在<b>T-Mech</b>等期刊发表<b>2篇SCI论文</b>，<b>IROS</b>等会议发表<b>2篇EI论文</b>，授权多项专利和软件著作，连续获得两届<b>“三好学生”</b>称号，曾任职于<b>学生会学术部</b>。
+我师从<b>李恩</b>和<b>谭民</b>研究员，研究有关<b>仿生冗余机械臂</b>的系统设计，智能控制、规划和感知，在<b>T-Mech</b>、<b>TII</b>等期刊发表<b>3篇SCI论文</b>，<b>IROS</b>等会议发表<b>2篇EI论文</b>，授权多项专利和软件著作，连续获得两届<b>“三好学生”</b>称号，曾任职于<b>学生会学术部</b>。
 ### 北京工业大学(BJUT)
 #### Image
 school1.png
@@ -43,6 +43,26 @@ school1.png
 ## Publication
 ### Research
 
+#### A Local Obstacle Avoidance and Global Planning Method for the Follow-the-Leader Motion of Coiled Hyper-Redundant Manipulators
+##### Image
+- paper_5.jpg
+##### Link
+
+##### Author
+<b>罗明睿</b>; 田雨农; 李恩; 陈铭浩; 谭民
+##### Date
+2023, Dec 16
+##### PubTitle
+IEEE Transactions on Industrial Informatics
+##### Index
+IF: <b>12.3/Q1(中科院1区TOP) SCI</b>
+##### Abstract
+The paper introduces the SFTL algorithm for confined-space tasks with CDHRMs. Utilizing reinforcement learning and dynamic optimization, SFTL achieves a 96% success rate in simulations and experiments, offering a robust planning framework for industrial CDHRM applications.
+##### Keywords
+- 避障路径规划
+- 深度强化学习
+##### Actions
+
 #### A Novel Coiled Cable-conduit-driven Hyper-redundant Manipulator for Remote Operating in Narrow Spaces
 ##### Image
 - paper_4.jpg
@@ -50,7 +70,7 @@ school1.png
 - IROS-2.gif
 - IROS-3.gif
 ##### Link
-https://ieee-iros.org/
+https://ieeexplore.ieee.org/document/10341359
 ##### Author
 <b>罗明睿</b>; 田雨农; 李恩; 陈铭浩; 康存锋; 杨国栋; 谭民
 
@@ -70,6 +90,10 @@ and flexibility. By imitating the structure and behavior of a constricting snake
 ##### Actions
 ###### VIDEO
 https://www.bilibili.com/video/BV1Wh4y1Z7Vp/
+###### PDF
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10341359
+###### CODE
+https://github.com/HILMR/C-CDHRM
 
 #### A Bioinspired Coiled Cable-Driven Manipulator: Mechatronic Design and Kinematics Planning with Multi-Constraints
 ##### Image

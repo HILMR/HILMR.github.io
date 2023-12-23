@@ -1,15 +1,12 @@
 # Mingrui's Homepage
 
 ## News
-### <span class="highlight">Currently applying for an academic visit project...</span>
+### The paper titled "A Local Obstacle Avoidance and Global Planning Method for the Follow-the-Leader Motion of Coiled Hyper-Redundant Manipulators" submitted to <span class="highlight">TII</span> was accepted.
 #### Date
-2023-9-1
+2023-12-16
 ### The Paper titled "A Constrained Path Following Method for Snake-like Manipulators via Controlled Winding Uncoiling Strategy" was submitted to <span class="highlight">ICRA2024</span>
 #### Date
 2023-9-9
-### The paper titled "A Local Obstacle Avoidance and Global Planning Method for the Follow-the-Leader Motion of Coiled Hyper-Redundant Manipulators" submitted to <span class="highlight">TII</span> is undergoing major revision
-#### Date
-2023-8-6
 ### Video presentation of research experience：<span class="highlight"><b><a href=https://www.bilibili.com/video/BV1Zh4y1Z7sr/>👉Watch videos</a></b></span>
 #### Date
 2023-7-12
@@ -40,7 +37,7 @@ school2.png
 #### Brief
 2020 - Now | Control Theory and Control Engineering | <b>Ph.D.</b> Student<a class="highlight" style="margin-left: 10px;">GPA:<b>3.85</b>/4.0</a>
 #### Detail
-I studied under researchers <b>Li En</b> and <b>Tan Min</b>, researching system design, intelligent control, planning, and perception of <b>bionic redundant manipulators</b>. I have published <b>2 SCI papers</b> in journals such as <b>T-Mech</b>, <b>2 EI papers</b> in conferences like <b>IROS</b>, <b>4 patents</b>, and <b>3 software copyrights</b>. I have won the “<b>Excellent Student</b>” award twice in a row and have served as a member of <b>the academic department of the student union</b>.
+I studied under researchers <b>Li En</b> and <b>Tan Min</b>, researching system design, intelligent control, planning, and perception of <b>bionic redundant manipulators</b>. I have published <b>3 SCI papers</b> in journals such as <b>T-Mech</b>, <b>2 EI papers</b> in conferences like <b>IROS</b>, <b>4 patents</b>, and <b>3 software copyrights</b>. I have won the “<b>Excellent Student</b>” award twice in a row and have served as a member of <b>the academic department of the student union</b>.
 
 ### Beijing University of Technology (BJUT)
 #### Image
@@ -53,6 +50,26 @@ During my school years, I have won various <b>scholarships</b> at the school, ci
 ## Publication
 ### Research
 
+#### A Local Obstacle Avoidance and Global Planning Method for the Follow-the-Leader Motion of Coiled Hyper-Redundant Manipulators
+##### Image
+- paper_5.jpg
+##### Link
+
+##### Author
+<b>Mingrui Luo</b>; Yunong Tian; En Li; Minghao Chen; Min Tan
+##### Date
+2023, Dec 16
+##### PubTitle
+IEEE Transactions on Industrial Informatics
+##### Index
+IF: <b>12.3/Q1(TOP)</b>
+##### Abstract
+The paper introduces the SFTL algorithm for confined-space tasks with CDHRMs. Utilizing reinforcement learning and dynamic optimization, SFTL achieves a 96% success rate in simulations and experiments, offering a robust planning framework for industrial CDHRM applications.
+##### Keywords
+- Path Planning
+- Reinforcement Learning
+##### Actions
+
 #### A Novel Coiled Cable-conduit-driven Hyper-redundant Manipulator for Remote Operating in Narrow Spaces
 ##### Image
 - paper_4.jpg
@@ -60,7 +77,7 @@ During my school years, I have won various <b>scholarships</b> at the school, ci
 - IROS-2.gif
 - IROS-3.gif
 ##### Link
-https://ieee-iros.org/
+https://ieeexplore.ieee.org/document/10341359
 ##### Author
 <b>Mingrui Luo</b>; Yunong Tian; En Li; Minghao Chen; Min Tan; et al.
 
@@ -80,6 +97,10 @@ and flexibility. By imitating the structure and behavior of a constricting snake
 ##### Actions
 ###### VIDEO
 https://www.bilibili.com/video/BV1Wh4y1Z7Vp/
+###### PDF
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10341359
+###### CODE
+https://github.com/HILMR/C-CDHRM
 
 #### A Bioinspired Coiled Cable-Driven Manipulator: Mechatronic Design and Kinematics Planning with Multi-Constraints
 ##### Image
