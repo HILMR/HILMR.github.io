@@ -10,7 +10,7 @@
 ### Video presentation of research experience：<span class="highlight"><b><a href=https://www.bilibili.com/video/BV1Zh4y1Z7sr/>👉Watch videos</a></b></span>
 #### Date
 2023-7-12
-
+ 
 ## Basic Information
 ### Name
 Mingrui Luo
