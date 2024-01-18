@@ -54,6 +54,7 @@ During my school years, I have won various <b>scholarships</b> at the school, ci
 ##### Image
 - paper_5.jpg
 ##### Link
+https://doi.org/10.1109/tii.2023.3346993
 
 ##### Author
 <b>Mingrui Luo</b>; Yunong Tian; En Li; Minghao Chen; Min Tan
@@ -69,6 +70,8 @@ The paper introduces the SFTL algorithm for confined-space tasks with CDHRMs. Ut
 - Path Planning
 - Reinforcement Learning
 ##### Actions
+###### PDF
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10403642
 
 #### A Novel Coiled Cable-conduit-driven Hyper-redundant Manipulator for Remote Operating in Narrow Spaces
 ##### Image

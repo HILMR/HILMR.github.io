@@ -47,6 +47,7 @@ school1.png
 ##### Image
 - paper_5.jpg
 ##### Link
+https://doi.org/10.1109/tii.2023.3346993
 
 ##### Author
 <b>罗明睿</b>; 田雨农; 李恩; 陈铭浩; 谭民
@@ -62,6 +63,8 @@ The paper introduces the SFTL algorithm for confined-space tasks with CDHRMs. Ut
 - 避障路径规划
 - 深度强化学习
 ##### Actions
+###### PDF
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10403642
 
 #### A Novel Coiled Cable-conduit-driven Hyper-redundant Manipulator for Remote Operating in Narrow Spaces
 ##### Image
