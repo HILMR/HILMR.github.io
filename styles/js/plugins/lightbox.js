@@ -237,9 +237,9 @@
     // Stretch overlay to fit the viewport
     Lightbox.prototype.sizeOverlay = function() {
       this.$overlay
-        .width($(window).width())
+        .width(1903)
         .height($(document).height());
-    };
+    };//$(window).width()
 
     // Animate the size of the lightbox to fit the image we are showing
     Lightbox.prototype.sizeContainer = function(imageWidth, imageHeight) {

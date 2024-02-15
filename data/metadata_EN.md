@@ -1,12 +1,12 @@
 # Mingrui's Homepage
 
 ## News
-### The paper titled "A Local Obstacle Avoidance and Global Planning Method for the Follow-the-Leader Motion of Coiled Hyper-Redundant Manipulators" submitted to <span class="highlight">TII</span> was accepted.
+### <span class="highlight">Visiting scholar</span> at the Hamline Centre, Imperial College London on flexible/soft surgical medical robots
 #### Date
-2023-12-16
-### The Paper titled "A Constrained Path Following Method for Snake-like Manipulators via Controlled Winding Uncoiling Strategy" was submitted to <span class="highlight">ICRA2024</span>
+2024-3-18
+### Recent research on motion planning of hyper-redundant manipulators has been accepted by <span class="highlight">TII</span> and <span class="highlight">ICRA2024</span>
 #### Date
-2023-9-9
+2024-1-29
 ### Video presentation of research experience：<span class="highlight"><b><a href=https://www.bilibili.com/video/BV1Zh4y1Z7sr/>👉Watch videos</a></b></span>
 #### Date
 2023-7-12
@@ -37,7 +37,7 @@ school2.png
 #### Brief
 2020 - Now | Control Theory and Control Engineering | <b>Ph.D.</b> Student<a class="highlight" style="margin-left: 10px;">GPA:<b>3.85</b>/4.0</a>
 #### Detail
-I studied under researchers <b>Li En</b> and <b>Tan Min</b>, researching system design, intelligent control, planning, and perception of <b>bionic redundant manipulators</b>. I have published <b>3 SCI papers</b> in journals such as <b>T-Mech</b>, <b>2 EI papers</b> in conferences like <b>IROS</b>, <b>4 patents</b>, and <b>3 software copyrights</b>. I have won the “<b>Excellent Student</b>” award twice in a row and have served as a member of <b>the academic department of the student union</b>.
+I studied under researchers <b>Li En</b> and <b>Tan Min</b>, researching system design, intelligent control, planning, and perception of <b>bionic redundant manipulators</b>. I have published <b>3 SCI papers</b> in journals such as <b>T-Mech, TII</b>, <b>3 EI papers</b> in conferences like <b>ICRA, IROS</b>, <b>4 patents</b>, and <b>3 software copyrights</b>. I have won the “<b>Excellent Student</b>” award twice in a row and have served as a member of <b>the academic department of the student union</b>.
 
 ### Beijing University of Technology (BJUT)
 #### Image
@@ -50,9 +50,29 @@ During my school years, I have won various <b>scholarships</b> at the school, ci
 ## Publication
 ### Research
 
+#### A Constrained Path Following Method for Snake-like Manipulators via Controlled Winding Uncoiling Strategy
+##### Image
+paper_6.jpg
+##### Link
+https://2024.ieee-icra.org/
+##### Author
+<b>Mingrui Luo</b>; Yunong Tian; Yinghua Cao; En Li; Min Tan; et al.
+##### Date
+2024, Jan 29
+##### PubTitle
+ICRA 2024
+##### Index
+IEEE Conference<b>(TOP) EI </b>Index
+##### Abstract
+This paper fully imitates the winding and uncoiling behavior of snakes and proposes a novel constrained path following method R-SCP for snake-like manipulators to achieve efficient and controllable redundant motion planning.
+##### Keywords
+- Path Following
+- Motion Planning
+##### Actions
+
 #### A Local Obstacle Avoidance and Global Planning Method for the Follow-the-Leader Motion of Coiled Hyper-Redundant Manipulators
 ##### Image
-- paper_5.jpg
+paper_5.jpg
 ##### Link
 https://doi.org/10.1109/tii.2023.3346993
 

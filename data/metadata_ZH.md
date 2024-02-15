@@ -1,7 +1,11 @@
 # 罗明睿——个人主页
 
 ## News
-### 团队作品展示《面向狭小空间作业任务的蜷缩式蛇形超冗余机械臂》：<span class="highlight"><b><a href=https://www.bilibili.com/video/BV1Zh4y1Z7sr/>👉观看视频</a></b></span>
+### 正在<span class="highlight">帝国理工学院</span> (Imperial College London) 的哈姆林中心 (The Hamlyn Centre)进行有关<span class="highlight">柔性/软体手术医疗机器人</span>的访学交流
+#### Date
+2024-3-18
+
+### 攻读博士期间的科研项目展示《面向狭小空间作业任务的蜷缩式蛇形超冗余机械臂》：<span class="highlight"><b><a href=https://www.bilibili.com/video/BV1Zh4y1Z7sr/>👉观看视频</a></b></span>
 #### Date
 2023-7-12
 
@@ -12,10 +16,10 @@
 博士在读
 ### Field
 - 机器人学/控制、规划和感知
-- 线缆驱动超冗余机械臂
-- 智能控制/路径规划/环境感知
-- 强化学习
-- 图像增强
+- 柔性/仿生机器人机电设计
+- 强化学习运动规划/控制
+- 弱光环境感知/多传感器融合
+- 线驱动超冗余蛇形机械臂
 ### Contact
 #### GITHUB
 [HILMR](https://github.com/HILMR)
@@ -31,21 +35,42 @@ school2.png
 #### Brief
 2020 - 至今 | 控制理论与控制工程 | <b>博士</b> 在读<a class="highlight" style="margin-left: 10px ">GPA:<b>3.85</b>/4.0</a>
 #### Detail
-我师从<b>李恩</b>和<b>谭民</b>研究员，研究有关<b>仿生冗余机械臂</b>的系统设计，智能控制、规划和感知，在<b>T-Mech</b>、<b>TII</b>等期刊发表<b>3篇SCI论文</b>，<b>IROS</b>等会议发表<b>2篇EI论文</b>，授权多项专利和软件著作，连续获得两届<b>“三好学生”</b>称号，曾任职于<b>学生会学术部</b>。
+我师从<b>谭民</b>和<b>李恩</b>研究员，研究有关<b>仿生冗余机械臂</b>的系统设计，智能控制、规划和感知，以第一作者在<b>T-Mech</b>、<b>TII</b>等顶级期刊发表<b>3篇SCI论文</b>，<b>ICRA</b>、<b>IROS</b>等机器人顶会发表<b>3篇EI论文</b>，授权多项国家发明专利和软件著作，连续获得两届<b>“三好学生”</b>称号，曾任职于<b>学生会学术部</b>。
 ### 北京工业大学(BJUT)
 #### Image
 school1.png
 #### Brief
 2016 - 2020 | 机械工程 (主修) 机器人工程 (辅修) | <b>工学</b> 学士<a class="highlight" style="margin-left: 10px;">GPA:<b>3.93</b>/4.0</a>
 #### Detail
-在校期间，我多次获得<b>校级、市级以及国家级的各类奖学金</b>，并在<b>多项竞赛中获奖</b>。主持或参与多项大学生创新项目，并<b>发表多篇发明专利和软件著作</b>。取得了<b>四、六级证书和计算机等级证明</b>。曾任职<b>科技协会主席和创新实验室学生负责人</b>。
+在校期间，我多次获得<b>校级、市级以及国家级的各类奖学金</b>，并在<b>多项竞赛中获奖</b>。主持或参与多项大学生创新项目，并授权<b>多项国家发明专利和软件著作</b>。取得了<b>四、六级证书和计算机等级证明</b>。曾任职<b>科技协会主席和创新实验室学生负责人</b>。
 
 ## Publication
 ### Research
 
+#### A Constrained Path Following Method for Snake-like Manipulators via Controlled Winding Uncoiling Strategy
+##### Image
+paper_6.jpg
+##### Link
+https://2024.ieee-icra.org/
+
+##### Author
+<b>罗明睿</b>; 田雨农; 曹营华; 陈铭浩; 张延峰; 李恩; 谭民
+##### Date
+2024, Jan 29
+##### PubTitle
+ICRA 2024
+##### Index
+A类(CAA) | B类(CCF) | <b>机器人顶会 EI</b>检索
+##### Abstract
+本论文充分模仿蛇的蜿蜒开卷行为，提出一种新型的面向蛇形操纵器的受限路径跟随方法R-SCP，以实现冗余运动规划的高效和可控。R-SCP可以高效且解析的确定跟随中的关节位置、碰撞区域和运动参数，从而使跟随中的剩余段严格位于基座和路径控制的无碰撞区，且能够根据限制平滑模型关联的控制参数。
+##### Keywords
+- 路径跟随
+- 运动平滑
+##### Actions
+
 #### A Local Obstacle Avoidance and Global Planning Method for the Follow-the-Leader Motion of Coiled Hyper-Redundant Manipulators
 ##### Image
-- paper_5.jpg
+paper_5.jpg
 ##### Link
 https://doi.org/10.1109/tii.2023.3346993
 
@@ -58,7 +83,7 @@ IEEE Transactions on Industrial Informatics
 ##### Index
 IF: <b>12.3/Q1(中科院1区TOP) SCI</b>
 ##### Abstract
-The paper introduces the SFTL algorithm for confined-space tasks with CDHRMs. Utilizing reinforcement learning and dynamic optimization, SFTL achieves a 96% success rate in simulations and experiments, offering a robust planning framework for industrial CDHRM applications.
+本文针对线驱动超冗余机械臂在受限空间避障路径规划的问题提出一种渐进式头部跟随算法SFTL,包括基于强化学习的局部规划器和基于观测树和可达性估计的全局优化器。SFTL可以在线的根据传感器反馈，生成可达目标且运动平滑、张力均衡的无碰撞路径，并渐进式执行，从而确保复杂情况下作业的准确和可靠。
 ##### Keywords
 - 避障路径规划
 - 深度强化学习
@@ -84,8 +109,7 @@ IROS 2023
 ##### Index
 A类(CAA) | C类(CCF) | <b>机器人顶会 EI</b>检索
 ##### Abstract
-In this paper, we propose a coiled cable-conduit-driven hyper-redundant manipulator (C-CDHRM) with great slenderness
-and flexibility. By imitating the structure and behavior of a constricting snake, it can be uncoiled sequentially from a coiled storage state, led by the head. In terms of control methods, we propose a multi-layer control system that can make remote operations more accurate and reliable.
+本论文提出了一种线缆-导管驱动的卷曲超冗余机械臂C-CDHRM，具有很大的细长度和灵活性。通过模仿收缩蛇的结构和行为，能够从便于储存的盘绕状态跟随头部依次展开。控制方法方面，本文提出了多层控制系统，可以使远程操作更准确和可靠。由C-CDHRM组成的移动集成系统，在操作精度和准度，跟随的安全性以及狭窄空间的可达性都表现出色，展现出卓越的应用前景。
 
 ##### Keywords
 - 超冗余机械臂
@@ -116,7 +140,8 @@ IEEE/ASME Transactions on Mechatronics
 ##### Index
 IF: <b>6.4/Q1(中科院1区TOP) SCI</b>检索
 ##### Abstract
-In this paper, a highly compact coiled CDHRM (C-CDHRM) that mimics the coiling behavior of snakes is designed, including 12 fully-constrained rigid bodies, 36 double-screw retractors, and a coiled feeding mechanism that can coil or uncoil according to task needs. The kinematic model and planning method we proposed enable the bioinspired coiled manipulator to exert excellent dexterity and maneuverability.
+本文设计了一种模仿蛇类盘绕运动的高紧凑性蜷缩式蛇形机械臂，包括12段全约束臂节、36个双丝杆驱动以及可根据任务需要蜷缩或展开的可卷曲进给。基于蜷缩式构型提出的多约束逆运动学求解算法MCKP，可以根据目标确定最少所需冗余度，具有更高的求解率、平滑角度分布和更少的运动量，展现出极佳的灵巧性和可操作性。
+
 ##### Keywords
 - 超冗余机械臂
 - 运动学建模和规划
@@ -141,7 +166,7 @@ Journal of Sensors
 ##### Index
 IF: <b>2.336/Q3 SCI</b>检索
 ##### Abstract
-In this paper, a pose estimation method is proposed with the fusion of vision sensors, inertial sensors, and encoders. The proposed method achieves better performances on estimation error and update frequency than the original extended Kalman filter (EKF) and unscented Kalman filter (UKF) algorithm, especially in complex environments.
+本文提出了一种融合视觉传感器、惯性传感器和编码器的位姿估计方法。与原来的扩展卡尔曼滤波器（EKF）和无迹卡尔曼滤波器（UKF）算法相比，本方法在估计误差和更新频率方面取得了更好的性能，尤其是在复杂环境中。
 ##### Keywords
 - 多传感器融合
 - 定位
@@ -165,7 +190,7 @@ https://ieeexplore.ieee.org/document/9326629/
 IEEE会议 A类(CAA) | <b>EI</b>检索
 
 ##### Abstract
-This paper proposes an active and adaptive image enhancement method, including the distributed light source model, the difference in brightness between frames, contrast limited adaptive histogram equalization, bilateral filter, and fuzzy inference parameter self-adjustment method. The method proposed in this paper can effectively enhance the images in the low-light and narrow environment.
+本文提出了一种主动自适应的图像增强方法，包括分布式光源模型、帧间亮度差、限制对比度的自适应直方图均衡、双边滤波器和模糊推理参数自调整方法。本文提出的方法可以有效地增强弱光和狭窄环境下的图像。
 ##### Keywords
 - 图像增强
 ##### Actions
