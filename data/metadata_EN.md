@@ -54,7 +54,7 @@ During my school years, I have won various <b>scholarships</b> at the school, ci
 ##### Image
 paper_6.jpg
 ##### Link
-https://2024.ieee-icra.org/
+https://events.infovaya.com/presentation?id=120962
 ##### Author
 <b>Mingrui Luo</b>; Yunong Tian; Yinghua Cao; En Li; Min Tan; et al.
 ##### Date
@@ -69,6 +69,12 @@ This paper fully imitates the winding and uncoiling behavior of snakes and propo
 - Path Following
 - Motion Planning
 ##### Actions
+###### PDF
+https://events.infovaya.com/uploads/documents/pdfviewer/3f/39/133279-0591.pdf
+###### VIDEO
+https://www.bilibili.com/video/BV1nA4m1A7Pt/
+###### CODE
+https://github.com/HILMR/C-CDHRM
 
 #### A Local Obstacle Avoidance and Global Planning Method for the Follow-the-Leader Motion of Coiled Hyper-Redundant Manipulators
 ##### Image
@@ -92,6 +98,8 @@ The paper introduces the SFTL algorithm for confined-space tasks with CDHRMs. Ut
 ##### Actions
 ###### PDF
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10403642
+###### VIDEO
+https://www.bilibili.com/video/BV1bJ4m1L76J/
 
 #### A Novel Coiled Cable-conduit-driven Hyper-redundant Manipulator for Remote Operating in Narrow Spaces
 ##### Image
@@ -118,10 +126,10 @@ and flexibility. By imitating the structure and behavior of a constricting snake
 - Manipulator
 - Motion Control
 ##### Actions
-###### VIDEO
-https://www.bilibili.com/video/BV1Wh4y1Z7Vp/
 ###### PDF
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10341359
+###### VIDEO
+https://www.bilibili.com/video/BV1Wh4y1Z7Vp/
 ###### CODE
 https://github.com/HILMR/C-CDHRM
 
@@ -446,6 +454,10 @@ Cunfeng Kang;<b>Mingrui Luo</b>;Zixiao Liu
 2017SR611308
 
 ## Reward
+
+### “<span class="highlight"><b>Excellent Student Model</b></span>” title of University of Chinese Academy of Sciences in 2024
+#### Date
+2024-5
 
 ### 2023 "Challenge Cup" Capital University Extracurricular Academic and Technological Works Competition “<span class="highlight"><b>First Prize</b></span>”
 #### Date

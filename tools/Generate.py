@@ -333,7 +333,7 @@ class PageGenerator():
                 imagecontent_h+=imagecontent_e
             
             experience_items+="""
-                <div class="education-box">
+                <div class="education-box" id="{6}">
                     <time class="education-date" datetime="{0}T{1}">
                         <span>{2} <strong class="text-upper">{3}</strong> - {4} <strong
                                 class="text-upper">{5}</strong></span>

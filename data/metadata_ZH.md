@@ -35,7 +35,7 @@ school2.png
 #### Brief
 2020 - 至今 | 控制理论与控制工程 | <b>博士</b> 在读<a class="highlight" style="margin-left: 10px ">GPA:<b>3.85</b>/4.0</a>
 #### Detail
-我师从<b>谭民</b>和<b>李恩</b>研究员，研究有关<b>仿生冗余机械臂</b>的系统设计，智能控制、规划和感知，以第一作者在<b>T-Mech</b>、<b>TII</b>等顶级期刊发表<b>3篇SCI论文</b>，<b>ICRA</b>、<b>IROS</b>等机器人顶会发表<b>3篇EI论文</b>，授权多项国家发明专利和软件著作，连续获得两届<b>“三好学生”</b>称号，曾任职于<b>学生会学术部</b>。
+我师从<b>谭民</b>和<b>李恩</b>研究员，研究有关<b>仿生冗余机械臂</b>的系统设计，智能控制、规划和感知，以第一作者在<b>T-Mech</b>、<b>TII</b>等顶级期刊发表<b>3篇SCI论文</b>，<b>ICRA</b>、<b>IROS</b>等机器人顶会发表<b>3篇EI论文</b>，授权多项国家发明专利和软件著作，多次获得<b>“三好学生”</b>、<b>“三好学生标兵”</b>，曾任职于<b>学生会学术部</b>。
 ### 北京工业大学(BJUT)
 #### Image
 school1.png
@@ -51,7 +51,7 @@ school1.png
 ##### Image
 paper_6.jpg
 ##### Link
-https://2024.ieee-icra.org/
+https://events.infovaya.com/presentation?id=120962
 
 ##### Author
 <b>罗明睿</b>; 田雨农; 曹营华; 陈铭浩; 张延峰; 李恩; 谭民
@@ -67,6 +67,12 @@ A类(CAA) | B类(CCF) | <b>机器人顶会 EI</b>检索
 - 路径跟随
 - 运动平滑
 ##### Actions
+###### PDF
+https://events.infovaya.com/uploads/documents/pdfviewer/3f/39/133279-0591.pdf
+###### VIDEO
+https://www.bilibili.com/video/BV1nA4m1A7Pt/
+###### CODE
+https://github.com/HILMR/C-CDHRM
 
 #### A Local Obstacle Avoidance and Global Planning Method for the Follow-the-Leader Motion of Coiled Hyper-Redundant Manipulators
 ##### Image
@@ -90,6 +96,8 @@ IF: <b>12.3/Q1(中科院1区TOP) SCI</b>
 ##### Actions
 ###### PDF
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10403642
+###### VIDEO
+https://www.bilibili.com/video/BV1bJ4m1L76J/
 
 #### A Novel Coiled Cable-conduit-driven Hyper-redundant Manipulator for Remote Operating in Narrow Spaces
 ##### Image
@@ -115,10 +123,10 @@ A类(CAA) | C类(CCF) | <b>机器人顶会 EI</b>检索
 - 超冗余机械臂
 - 运动控制
 ##### Actions
-###### VIDEO
-https://www.bilibili.com/video/BV1Wh4y1Z7Vp/
 ###### PDF
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10341359
+###### VIDEO
+https://www.bilibili.com/video/BV1Wh4y1Z7Vp/
 ###### CODE
 https://github.com/HILMR/C-CDHRM
 
@@ -448,6 +456,10 @@ https://patentimages.storage.googleapis.com/7f/82/3f/b8254ca59bebae/CN108635782B
 2017SR611308
 
 ## Reward
+
+### 中国科学院大学2024年度“<span class="highlight"><b>三好学生标兵</b></span>”称号 （学院仅10人）
+#### Date
+2024-5
 
 ### 2023年“挑战杯”首都大学生课外学术科技作品竞赛“<span class="highlight"><b>一等奖</b></span>”
 #### Date
