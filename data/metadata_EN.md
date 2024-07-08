@@ -48,11 +48,16 @@ school1.png
 During my school years, I have won various <b>scholarships</b> at the school, city, and national levels, and have won prizes in various <b>competitions</b>. I have hosted or participated in many college student <b>innovation projects</b> and published many <b>patents</b> and <b>software copyrights</b>. I have obtained certificates for <b>CET-4</b>, <b>CET-6</b>, and <b>computer level certification</b>. I have served as <b>the president of the Science and Technology Association</b> and the <b>student in charge of the Innovation Laboratory</b>.
 
 ## Publication
+### Index
+
 ### Research
 
 #### A Constrained Path Following Method for Snake-like Manipulators via Controlled Winding Uncoiling Strategy
 ##### Image
-paper_6.jpg
+- paper_6.jpg
+- ICRA-1.gif
+- ICRA-2.gif
+- ICRA-3.gif
 ##### Link
 https://events.infovaya.com/presentation?id=120962
 ##### Author
@@ -78,7 +83,10 @@ https://github.com/HILMR/C-CDHRM
 
 #### A Local Obstacle Avoidance and Global Planning Method for the Follow-the-Leader Motion of Coiled Hyper-Redundant Manipulators
 ##### Image
-paper_5.jpg
+- paper_5.jpg
+- TII-1.gif
+- TII-2.gif
+- TII-3.gif
 ##### Link
 https://doi.org/10.1109/tii.2023.3346993
 
@@ -549,6 +557,9 @@ https://www.bilibili.com/video/BV1Zh4y1Z7sr/
 #### ImageH
 - project1-4.gif
 - project1-5.gif
+- ICRA-1.gif
+- ICRA-2.gif
+- ICRA-3.gif
 
 ### Research of a Narrow-space Coating Robot for Application in Aviation Manufacturing
 #### FromDate

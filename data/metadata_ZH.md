@@ -45,11 +45,21 @@ school1.png
 在校期间，我多次获得<b>校级、市级以及国家级的各类奖学金</b>，并在<b>多项竞赛中获奖</b>。主持或参与多项大学生创新项目，并授权<b>多项国家发明专利和软件著作</b>。取得了<b>四、六级证书和计算机等级证明</b>。曾任职<b>科技协会主席和创新实验室学生负责人</b>。
 
 ## Publication
+
+### Index
+#### Research
+https://scholar.google.com/citations?user=22GWK18AAAAJ&sortby=pubdate
+#### Patent
+https://patents.glgoo.top/?inventor=罗明睿&assignee=中国科学院自动化研究所,北京工业大学,黑森智动&sort=new
+
 ### Research
 
 #### A Constrained Path Following Method for Snake-like Manipulators via Controlled Winding Uncoiling Strategy
 ##### Image
-paper_6.jpg
+- paper_6.jpg
+- ICRA-1.gif
+- ICRA-2.gif
+- ICRA-3.gif
 ##### Link
 https://events.infovaya.com/presentation?id=120962
 
@@ -76,7 +86,10 @@ https://github.com/HILMR/C-CDHRM
 
 #### A Local Obstacle Avoidance and Global Planning Method for the Follow-the-Leader Motion of Coiled Hyper-Redundant Manipulators
 ##### Image
-paper_5.jpg
+- paper_5.jpg
+- TII-1.gif
+- TII-2.gif
+- TII-3.gif
 ##### Link
 https://doi.org/10.1109/tii.2023.3346993
 
@@ -429,7 +442,7 @@ https://patentimages.storage.googleapis.com/7f/82/3f/b8254ca59bebae/CN108635782B
 李恩;<b>罗明睿</b>;等
 ##### Index
 2021SR0588949
-#### 基于stm32的步进电机精准控制系统
+#### 基于STM32的步进电机精准控制系统
 ##### Author
 康存锋;石春阳;<b>罗明睿</b>;等
 ##### Index
@@ -560,6 +573,9 @@ https://www.bilibili.com/video/BV1Zh4y1Z7sr/
 #### ImageH
 - project1-4.gif
 - project1-5.gif
+- ICRA-1.gif
+- ICRA-2.gif
+- ICRA-3.gif
 
 ### 应用于航空制造中狭窄腔室的涂胶作业机器人
 #### FromDate

@@ -169,7 +169,7 @@ class PageGenerator():
                                         <strong><span class="ace-icon ace-icon-bookmark" style="display:inline-block;"></span>&nbsp;&nbsp;{0}</strong>
                                         <span>{1}CN. Copyright No.<a class="highlight" style="margin-left: 10px;">{2}</a></span>
                                     </div>""".format(item,authorinf,content[item]['Index'])
-            else:
+            elif typ!='Index':
                 keywords=""
                 for subitems in content[item]['Keywords']:
                         keywords+="""
@@ -239,6 +239,21 @@ class PageGenerator():
             self.pagereplace(r'{PATENT_DIV}',publication_items)
         elif typ=='Software Copyright':
             self.pagereplace(r'{COPYRIGHT_DIV}',publication_items)
+        elif typ=='Index':
+            if 'Research' in content:
+                labeltext="""
+            <span class="highlight" style="font-size:0.8em"><a href={0}><b>查看全部论文</b></a></span>
+            """.format(content['Research'])
+                self.pagereplace(r'{RESEARCH_INDEX}',labeltext)
+            else:
+                self.pagereplace(r'{RESEARCH_INDEX}','')
+            if 'Patent' in content:
+                labeltext="""
+            <span class="highlight" style="font-size:0.8em"><a href={0}><b>查看全部专利</b></a></span>
+            """.format(content['Patent'])
+                self.pagereplace(r'{PATENT_INDEX}',labeltext)
+            else:
+                self.pagereplace(r'{PATENT_INDEX}','')
     
     def add_timeline(self,typ='Reward'):
         """Add reward section"""
@@ -368,6 +383,7 @@ class PageGenerator():
         self.add_publication('Research')
         self.add_publication('Patent')
         self.add_publication('Software Copyright')
+        self.add_publication('Index')
         self.add_timeline('Reward')
         self.add_timeline('News')
         self.add_experiences()
