@@ -1,9 +1,18 @@
 # 罗明睿——个人主页
 
 ## News
-### 正在<span class="highlight">帝国理工学院</span> (Imperial College London) 的哈姆林中心 (The Hamlyn Centre)进行有关<span class="highlight">柔性/软体手术医疗机器人</span>的访学交流
+
+### 在<span class="highlight"><b>ICRA 2024</b></span>上口头汇报《仿蛇柔性机械臂的受限路径跟随策略和避障运动规划方法》：<span class="highlight"><b><a href=https://events.infovaya.com/presentation?id=120962>👉线上展示</a></b></span>
+#### Date
+2024-5-16
+
+### 受国家资助在<span class="highlight">帝国理工学院</span> (Imperial College London) 的哈姆林中心 (The Hamlyn Centre)进行有关<span class="highlight">柔性/软体手术医疗机器人</span>的访学交流：<span class="highlight"><b><a href=#用于微创手术的气动可折叠软机械臂>👉了解项目</a></b></span>
 #### Date
 2024-3-18
+
+### 在<span class="highlight"><b>IROS 2023</b></span>上口头汇报《用于狭窄空间远程作业的线驱超冗余柔性机械臂》：<span class="highlight"><b><a href=https://events.infovaya.com/presentation?id=105002>👉线上展示</a></b></span>
+#### Date
+2023-10-2
 
 ### 攻读博士期间的科研项目展示《面向狭小空间作业任务的蜷缩式蛇形超冗余机械臂》：<span class="highlight"><b><a href=https://www.bilibili.com/video/BV1Zh4y1Z7sr/>👉观看视频</a></b></span>
 #### Date
@@ -24,7 +33,7 @@
 #### GITHUB
 [HILMR](https://github.com/HILMR)
 #### EMAIL
-hi_lmr@163.com
+luomingrui2020@ia.ac.cn
 ### CV
 ./data/罗明睿简历.pdf
 
@@ -61,7 +70,7 @@ https://patents.glgoo.top/?inventor=罗明睿&assignee=中国科学院自动化�
 - ICRA-2.gif
 - ICRA-3.gif
 ##### Link
-https://events.infovaya.com/presentation?id=120962
+https://ieeexplore.ieee.org/document/10610468
 
 ##### Author
 <b>罗明睿</b>; 田雨农; 曹营华; 陈铭浩; 张延峰; 李恩; 谭民
@@ -78,7 +87,7 @@ A类(CAA) | B类(CCF) | <b>机器人顶会 EI</b>检索
 - 运动平滑
 ##### Actions
 ###### PDF
-https://events.infovaya.com/uploads/documents/pdfviewer/3f/39/133279-0591.pdf
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10610468
 ###### VIDEO
 https://www.bilibili.com/video/BV1nA4m1A7Pt/
 ###### CODE
@@ -133,8 +142,9 @@ A类(CAA) | C类(CCF) | <b>机器人顶会 EI</b>检索
 本论文提出了一种线缆-导管驱动的卷曲超冗余机械臂C-CDHRM，具有很大的细长度和灵活性。通过模仿收缩蛇的结构和行为，能够从便于储存的盘绕状态跟随头部依次展开。控制方法方面，本文提出了多层控制系统，可以使远程操作更准确和可靠。由C-CDHRM组成的移动集成系统，在操作精度和准度，跟随的安全性以及狭窄空间的可达性都表现出色，展现出卓越的应用前景。
 
 ##### Keywords
-- 超冗余机械臂
+- 线驱冗余机械臂
 - 运动控制
+- 柔性传动建模
 ##### Actions
 ###### PDF
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10341359
@@ -164,8 +174,10 @@ IF: <b>6.4/Q1(中科院1区TOP) SCI</b>检索
 本文设计了一种模仿蛇类盘绕运动的高紧凑性蜷缩式蛇形机械臂，包括12段全约束臂节、36个双丝杆驱动以及可根据任务需要蜷缩或展开的可卷曲进给。基于蜷缩式构型提出的多约束逆运动学求解算法MCKP，可以根据目标确定最少所需冗余度，具有更高的求解率、平滑角度分布和更少的运动量，展现出极佳的灵巧性和可操作性。
 
 ##### Keywords
-- 超冗余机械臂
-- 运动学建模和规划
+- 线驱冗余机械臂
+- 冗余运动学建模
+- 多约束运动学规划
+
 ##### Actions
 ###### PDF
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10089203
@@ -190,7 +202,7 @@ IF: <b>2.336/Q3 SCI</b>检索
 本文提出了一种融合视觉传感器、惯性传感器和编码器的位姿估计方法。与原来的扩展卡尔曼滤波器（EKF）和无迹卡尔曼滤波器（UKF）算法相比，本方法在估计误差和更新频率方面取得了更好的性能，尤其是在复杂环境中。
 ##### Keywords
 - 多传感器融合
-- 定位
+- 末端位姿估计
 ##### Actions
 ###### PDF
 https://downloads.hindawi.com/journals/js/2021/5550850.pdf
@@ -549,6 +561,23 @@ award1.jpg
 award3.jpg
 
 ## Experience
+
+### 用于微创手术的气动可折叠软机械臂
+#### FromDate
+2024-03
+#### ToDate
+2024-09
+#### Project
+帝国理工学院 (Imperial College London) 哈姆林中心 全球健康创新研究所
+#### Title
+赞助研究员
+#### Detail
+- 受植物藤蔓生长启发，参与设计基于多层薄膜的气动软执行器和可折叠软连续体机器人，主要应用于结肠、喉部等微创手术；
+- 参与研究线驱并联操纵器的准确建模和安全控制问题，通过数据驱动的方法，克服长距离柔性牵引系统的不可靠因素。
+#### ImageH
+- project_IC.jpg
+- project_IC-M1.gif
+- project_IC-M2.gif
 
 ### 面向电力行业的作业机器人系统研究及应用
 #### FromDate

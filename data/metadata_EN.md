@@ -59,7 +59,7 @@ During my school years, I have won various <b>scholarships</b> at the school, ci
 - ICRA-2.gif
 - ICRA-3.gif
 ##### Link
-https://events.infovaya.com/presentation?id=120962
+https://ieeexplore.ieee.org/document/10610468
 ##### Author
 <b>Mingrui Luo</b>; Yunong Tian; Yinghua Cao; En Li; Min Tan; et al.
 ##### Date
@@ -75,7 +75,7 @@ This paper fully imitates the winding and uncoiling behavior of snakes and propo
 - Motion Planning
 ##### Actions
 ###### PDF
-https://events.infovaya.com/uploads/documents/pdfviewer/3f/39/133279-0591.pdf
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10610468
 ###### VIDEO
 https://www.bilibili.com/video/BV1nA4m1A7Pt/
 ###### CODE
